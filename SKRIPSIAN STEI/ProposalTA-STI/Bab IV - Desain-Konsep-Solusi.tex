@@ -1,0 +1,228 @@
+% ==========================================
+% BAB IV DESAIN KONSEP SOLUSI
+% ==========================================
+\chapter{DESAIN KONSEP SOLUSI}
+\label{chap:desain-konsep-solusi}
+
+Bab ini menyajikan desain konsep solusi yang diusulkan untuk mengatasi permasalahan pengadaan di PT Kilang Pertamina Internasional (PT KPI). Solusi dikembangkan berdasarkan hasil analisis pada Bab III menggunakan metodologi Six Sigma (DMAIC) dan mempertimbangkan kebutuhan integrasi sistem, efisiensi proses, serta peningkatan visibilitas end-to-end dalam proses pengadaan. Desain konsep solusi pada bab ini berfokus pada model konseptual pengadaan digital terintegrasi, yang menggambarkan bagaimana seluruh proses pengadaan mulai dari perencanaan, permintaan, evaluasi vendor, kontraktual, hingga monitoring diintegrasikan dalam satu platform digital. Ilustrasi konsep solusi ini dibandingkan dengan kondisi eksisting (before) untuk menunjukkan gap dan peningkatan yang akan dicapai pada kondisi usulan (after).
+
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=0.7\textwidth]{image/desain konsep solusi.png}
+	\caption{Flowchart Pengerjaan Desain Konsep Solusi}
+	\label{gambar:Flowchart-Pengerjaan-Solusi}
+\end{figure}
+
+\section{Gambaran Umum Sistem Usulan (To-Be)}
+
+Sistem pengadaan digital yang diusulkan untuk PT Kilang Pertamina Internasional dirancang sebagai platform terintegrasi yang menyatukan seluruh proses pengadaan barang dan jasa mulai dari tahap perencanaan kebutuhan hingga monitoring penyelesaian kontrak dan pengelolaan material. Sistem ini berfungsi sebagai single point of truth untuk seluruh aktivitas pengadaan di PT KPI serta menggantikan sistem-sistem lama yang sebelumnya berjalan secara terpisah di masing-masing RU.
+
+Secara keseluruhan, sistem usulan ini terdiri dari beberapa modul inti sesuai dengan Project Scope PT KPI, yaitu: PPL Online, DP3 Online, Monitoring Pengadaan, Contract Online, Custom Monitoring, serta Inventory and  Warehouse. Setiap modul saling terhubung melalui data pipeline dan workflow engine yang sama sehingga memungkinkan terjadinya otomatisasi proses, eliminasi duplikasi dokumen, peningkatan visibilitas end-to-end, serta penguatan governance proses pengadaan. Berikut adalah gambaran umum sistem To-Be berdasarkan modul-modulnya:
+
+\begin{enumerate}
+\item	PPL Online (Perencanaan dan Penyusunan RKAP)
+
+Modul PPL Online berfungsi sebagai dasar perencanaan kebutuhan tahunan di lingkungan PT KPI. Fitur Utama:
+
+a. Standardisasi penyusunan RKAP di seluruh RU.
+
+b. Monitoring status penyusunan RKAP secara real-time.
+
+c. Pengendalian mutu dokumen RKAP, termasuk validasi otomatis dan riwayat revisi.
+
+Peran dalam Sistem To-Be: Menjadi entry point kebutuhan pengadaan, yang akan terhubung langsung ke proses penyusunan DP3 dan perencanaan pengadaan lainnya.
+
+\item	DP3 Online (Dokumen Pendukung Pelaksanaan Pemilihan)
+
+DP3 adalah dokumen krusial sebagai dasar pelaksanaan tender/seleksi penyedia. Fitur Utama:
+
+a. Standardisasi format DP3 di seluruh unit kerja.
+
+b. Guideline penyusunan DP3 otomatis, termasuk kelengkapan wajib.
+
+c. Penyimpanan dokumen secara elektronik (digital repository).
+
+d. Sistem review dan approval berjenjang yang tercatat otomatis.
+
+Peran dalam Sistem To-Be: Menghilangkan perbedaan format antar-RU, meminimalkan kesalahan administrasi, serta meningkatkan akurasi dokumen sebagai dasar seleksi penyedia.
+
+\item	Monitoring Pengadaan (Tender and Non-Tender)
+
+Sebagai elemen kunci dalam memastikan transparansi dan akuntabilitas proses pengadaan, modul Monitoring Pengadaan dirancang untuk menyediakan pelacakan aktivitas secara real-time sehingga setiap tahapan pengajuan, review, hingga persetujuan dapat diawasi secara terpusat dan terstandardisasi dengan baik. Fitur Utama:
+
+a. Sentralisasi proses pengajuan pengadaan barang/jasa.
+
+b. Standardisasi proses pengajuan, review, dan approval pengadaan.
+
+c. Tracking status dokumen pengadaan secara end-to-end.
+
+d. Dashboard SLA, termasuk potensi bottleneck.
+
+Peran dalam Sistem To-Be: Memberikan visibilitas menyeluruh mulai dari pengajuan kebutuhan, proses tender, hingga monitoring penyedia. Proses ini sebelumnya tersebar di banyak aplikasi dan dokumen manual.
+
+\item	Contract Online (Pengelolaan Kontrak Jasa/Barang) 
+
+Sebagai fondasi utama dalam pengelolaan hubungan dengan penyedia jasa, modul Contract Online dikembangkan untuk menstandarkan proses pembuatan, peninjauan, dan persetujuan kontrak secara digital sehingga seluruh dokumen kontraktual dapat dikelola dengan lebih cepat, transparan, dan terdokumentasi dengan baik. Fitur Utama:
+
+a. Standardisasi pembuatan kontrak, termasuk template otomatis.
+
+b. Review dan approval digital lintas fungsi.
+
+c. Penyimpanan kontrak secara elektronik (e-contract archive).
+
+d. Monitoring SLA kontrak, termasuk peringatan jatuh tempo.
+
+Peran dalam Sistem To-Be: Mengurangi keterlambatan proses kontraktual, memastikan kepatuhan administrasi, dan mempermudah audit.
+
+\item	Custom Monitoring (Kepabeanan)
+
+Sebagai bagian dari proses pengadaan yang melibatkan material impor, modul Custom Monitoring dirancang untuk memastikan seluruh aktivitas kepabeanan dapat dikelola secara terstruktur dan terdokumentasi secara digital.
+
+a. Proses pembebasan material impor.
+
+b. Monitoring dokumen kepabeanan (PIB, PEB, B/L, Invoice).
+
+c. Digital archiving, sehingga inspeksi maupun audit lebih mudah.
+
+Peran dalam Sistem To-Be: Mengurangi keterlambatan proses impor yang sebelumnya banyak dilakukan secara manual dan tidak terintegrasi.
+
+\item	Inventory dan Warehouse
+
+Modul Inventory and Warehouse berfungsi sebagai sistem terpadu yang mengatur pencatatan, pemantauan, serta optimalisasi persediaan di seluruh RU PT KPI. Modul ini memastikan setiap pergerakan material tercatat secara akurat sehingga risiko kekurangan maupun kelebihan stok dapat diminimalkan. Selain itu, integrasi dengan proses pengadaan dan distribusi memungkinkan koordinasi yang lebih efisien antarunit operasional. Fitur Utama:
+
+a. Manajemen stok terpadu lintas RU.
+
+b. Standardisasi proses penerimaan, penyimpanan, dan distribusi barang.
+
+c. Peningkatan akurasi inventaris dengan integrasi ke SAP.
+
+d. Optimasi pengelolaan persediaan melalui data analytics.
+
+Peran dalam Sistem To-Be: Mengurangi kelebihan/kelebihan stok, mendukung just-in-time operation, dan meningkatkan efisiensi biaya penyimpanan.
+
+\end{enumerate}
+
+Aplikasi pengadaan digital bertujuan untuk merevolusi proses pengadaan di PT KPI, menghasilkan peningkatan efisiensi, penghematan biaya, dan transparansi. Penerapan pengadaan terpusat menjanjikan manfaat yang signifikan dalam hal efisiensi, penghematan biaya, dan peningkatan kontrol. Meskipun investasi awal dan upaya integrasi mungkin menimbulkan tantangan, keuntungan jangka panjang dan keuntungan strategis menunjukkan manfaat atas usaha PT KPI untuk melakukan transisi ke sistem pengadaan yang terpadu dan terpusat. Transformasi ini tidak hanya memperkuat tata kelola proses pengadaan, tetapi juga meningkatkan daya saing perusahaan dalam jangka panjang.
+
+Dengan sistem yang terotomasi dan terintegrasi, PT KPI juga dapat meningkatkan konsistensi kualitas layanan pengadaan di seluruh RU, sehingga tidak lagi terjadi perbedaan standar dan prosedur antarunit. Selain itu, kemampuan analitik yang lebih kuat memungkinkan perusahaan melakukan perencanaan kebutuhan yang lebih tepat serta mengidentifikasi potensi risiko sejak dini. Transformasi ini juga membuka peluang bagi PT KPI untuk mengadopsi inovasi lanjutan seperti kecerdasan buatan dalam evaluasi vendor atau prediksi kebutuhan material. Secara keseluruhan, penerapan aplikasi pengadaan digital menjadi langkah strategis untuk memperkuat daya saing perusahaan di era industri yang semakin terdigitalisasi.
+
+\section{Perbandingan Sistem Eksisting dan Sistem Usulan}
+
+Untuk memastikan bahwa desain konsep solusi yang diusulkan benar-benar menjawab kebutuhan PT Kilang Pertamina Internasional, perlu dilakukan analisis komparatif antara kondisi sistem eksisting dan rancangan Sistem pengadaan digital yang akan diterapkan. Berdasarkan hasil pendataan aplikasi pengadaan di seluruh RU, ditemukan bahwa proses pengadaan PT KPI masih didominasi oleh penggunaan 26 aplikasi yang tersebar, tidak saling terintegrasi, serta memiliki standar proses yang berbeda antar unit. Kondisi ini menimbulkan fragmentasi, biaya pemeliharaan yang tinggi, kesulitan pemantauan, serta risiko ketidakefisienan proses. Sebaliknya, sistem usulan dirancang sebagai platform tunggal yang terdiri dari modul-modul pengadaan digital yang saling terhubung secara end-to-end, sehingga mampu menghadirkan standardisasi, konsolidasi data, serta peningkatan efektivitas proses pengadaan. Perbandingan rinci antara sistem eksisting dan sistem usulan disajikan pada Tabel IV.1 berikut.
+
+\begin{table}[H]
+\centering
+\caption{Perbandingan Sistem Eksisting dan Sistem Usulan}
+\renewcommand{\arraystretch}{1.15}
+\setlength{\tabcolsep}{5pt}
+
+\begin{tabular}{|p{3cm}|p{5cm}|p{5cm}|}
+\hline
+\textbf{Aspek} & \textbf{Sistem Eksisting (As-Is)} & \textbf{Sistem Usulan (To-Be)} \\ \hline
+
+Jumlah Aplikasi &
+Terdapat 26 aplikasi terpisah yang digunakan di berbagai RU dan kantor pusat. Setiap RU memakai aplikasi berbeda sehingga tidak seragam. &
+Menggunakan 1 platform terpadu yang terdiri dari modul-modul terintegrasi: DP3 Online, Digimon, Contract Online, Monitoring, Inventory \& Warehouse, dan Analytics. \\ \hline
+
+Fragmentasi Sistem &
+Aplikasi tidak terintegrasi, berdiri sendiri, dan sering tumpang tindih fungsinya. Mengakibatkan proses lambat dan rawan kesalahan. &
+Sistem dirancang terintegrasi end-to-end mengikuti alur pengadaan barang \& jasa, meminimalkan redundansi dan inkonsistensi data. \\ \hline
+
+Biaya Pemeliharaan &
+Tinggi, karena banyak aplikasi harus dikelola per RU, termasuk server, tenaga IT, dan maintenance masing-masing aplikasi. &
+Biaya jauh lebih rendah karena konsolidasi aplikasi menjadi satu sistem pusat. Mengurangi biaya pemeliharaan, lisensi, dan update. \\ \hline
+
+Proses Pengadaan &
+Banyak proses masih manual, berulang, dan belum terdokumentasi secara konsisten. Proses review tidak seragam antar RU. &
+Seluruh proses pengadaan terotomasi, terdigitalisasi, memiliki audit trail, SLA, dan workflow standar untuk seluruh RU. \\ \hline
+
+Dokumentasi Penyimpanan Data &
+Dokumen pengadaan tersimpan di berbagai aplikasi berbeda, sering tidak sinkron, tidak ada satu sumber data utama. &
+Penyimpanan dokumen terpusat secara elektronik. Dokumen dapat dilacak di seluruh modul (DP3, kontrak, monitoring). \\ \hline
+
+Kepatuhan dan Audit &
+Aplikasi existing harus di-update setelah audit internal, sering tidak konsisten antar RU sehingga rawan temuan audit. &
+Sistem usulan mendukung kepatuhan standar Pertamina, otomatisasi review pengadaan, dan pencatatan proses untuk kepentingan audit. \\ \hline
+
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{(Lanjutan) Perbandingan Sistem Eksisting dan Sistem Usulan}
+\renewcommand{\arraystretch}{1.15}
+\setlength{\tabcolsep}{5pt}
+
+\begin{tabular}{|p{3cm}|p{5cm}|p{5cm}|}
+\hline
+\textbf{Aspek} & \textbf{Sistem Eksisting (As-Is)} & \textbf{Sistem Usulan (To-Be)} \\ \hline
+
+Visibilitas dan Monitoring &
+Monitoring pengadaan berbeda-beda per RU (banyak aplikasi khusus RU). Sulit mendapatkan visibilitas pusat. &
+Modul Monitoring Pengadaan memberikan visibilitas real-time ke seluruh unit dan pusat. \\ \hline
+
+Integrasi dengan Sistem Holding &
+Integrasi lemah; belum terhubung penuh ke SAP, iVendor, iPro, SmartGEP. &
+Sistem baru native terintegrasi dengan SAP, iVendor, dan sistem Holding lainnya. \\ \hline
+
+Efisiensi Operasional &
+Cycle time lama, proses approval lambat, dan banyak duplikasi pekerjaan atau input manual. &
+Proses lebih cepat melalui workflow otomatis, validasi sistem, dan pengurangan pekerjaan manual. \\ \hline
+
+Standarisasi Proses &
+Setiap RU memiliki standar proses pengadaan yang berbeda. &
+Sistem baru menyediakan standarisasi proses pengadaan perusahaan (DP3, kontrak, monitoring, inventory). \\ \hline
+
+Kualitas Data &
+Banyak entri manual menyebabkan inkonsistensi data dan error. &
+Data lebih akurat dan konsisten melalui input terotomasi, integrasi sistem, dan single source of truth. \\ \hline
+
+Skalabilitas Sistem &
+Sulit dikembangkan karena banyak aplikasi legacy dan spesifik RU. &
+Mudah dikembangkan karena arsitektur sistem terpusat dan modular. \\ \hline
+
+\end{tabular}
+\end{table}
+
+Berdasarkan hasil perbandingan, terlihat bahwa sistem eksisting memiliki kelemahan mendasar pada aspek fragmentasi proses, keberagaman aplikasi, dan rendahnya tingkat integrasi antar aktivitas pengadaan. Kondisi ini berimplikasi langsung terhadap lamanya waktu proses, tingginya potensi kesalahan input, serta kurangnya visibilitas pengadaan bagi manajemen. Sistem pengadaan digital yang diusulkan menawarkan perbaikan signifikan melalui platform terintegrasi yang menyatukan seluruh modul pengadaan, menyediakan audit trail yang transparan, dan memungkinkan otomatisasi proses lintas fungsi. 
+
+\section{Diagram Konsep Solusi}
+
+Diagram Konsep Solusi pada Gambar 4.2 menggambarkan rancangan alur sistem pengadaan digital yang terintegrasi, mulai dari registrasi vendor, pengelolaan master data, proses perencanaan pengadaan, hingga penerbitan dokumen pendukung seperti DP3 dan MSL. Konsep solusi ini disusun untuk menggambarkan bagaimana seluruh modul pada Sistem pengadaan digital PT KPI saling berinteraksi dan membentuk alur pengadaan yang end-to-end, sesuai dengan ruang lingkup modul-modul yang telah tercantum dalam dokumen resmi yang diberikan oleh PT KPI.
+
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=0.7\textwidth]{image/diagram konsep solusi.png}
+	\caption{Diagram Konsep Solusi}
+	\label{gambar:Diagram-Konsep-Solusi}
+\end{figure}
+
+Proses dimulai dari tahapan registrasi vendor, di mana penyedia barang dan jasa dapat melakukan pendaftaran melalui halaman Register Vendor dan melengkapi informasi perusahaan pada Register Page. Integrasi modul ini selaras dengan ruang lingkup Contract Online, yang bertujuan menstandarkan proses pembuatan kontrak dan mempermudah manajemen dokumen jasa secara elektronik. Selanjutnya, pengguna internal PT KPI melakukan login untuk mengakses sistem dan diarahkan menuju halaman Product Homepage, yang menyajikan daftar material atau item pengadaan. Fitur ini terhubung dengan Master Product dan Master Material, sehingga seluruh data barang tersaji secara konsisten dan akurat, mendukung prinsip optimalisasi inventaris yang menjadi bagian dari modul Inventory and Warehouse.
+
+Proses kemudian berlanjut pada pengelolaan suplai dan permintaan pengiriman melalui fitur Supply dan Detail Supply, yang menampilkan dokumen Nota Permintaan Pengiriman. Tahap ini merepresentasikan modul Monitoring Pengadaan, yang memungkinkan pelacakan status pengajuan, permintaan barang, serta dokumen pendukung secara terstruktur. Pada sisi administratif, seluruh master data meliputi area, vendor, material, dan produk dikelola melalui Page Management, yang memastikan bahwa semua unit di PT KPI bekerja dengan standar yang sama. 
+
+Pengelolaan yang terstruktur ini membantu menghilangkan masalah duplikasi data dan inkonsistensi informasi yang sebelumnya muncul akibat penggunaan 26 aplikasi terpisah di seluruh refinery unit. Setelah master data terintegrasi, pengguna dapat mengakses Procurement Plan List untuk menyusun rencana pengadaan sesuai kebutuhan unit kerja. Tahapan ini merupakan implementasi dari modul PPL Online, yang berfungsi menstandarkan penyusunan RKAP dan perencanaan pengadaan tahunan. Dari rencana tersebut, sistem mendukung pembuatan dokumen DP3 secara otomatis melalui fitur Generate DP3, yang berkaitan langsung dengan modul DP3 Online. Modul ini dirancang untuk memastikan proses review berjenjang, penyimpanan dokumen secara elektronik, serta kepatuhan terhadap standar mutu pengadaan PT KPI. 
+
+Setelah DP3 dihasilkan, sistem juga mendukung pembuatan Material Service List (MSL) sebagai daftar material atau jasa yang akan diproses pada tahap pemilihan penyedia atau penyusunan kontrak selanjutnya. Tahap ini kembali memperkuat integrasi dengan modul Contract Online, karena MSL digunakan sebagai referensi utama dalam pembuatan kontrak jasa.
+
+Secara keseluruhan, diagram ini menunjukkan bagaimana seluruh modul pengadaan digital mulai dari PPL Online, DP3 Online, Contract Online, Monitoring Pengadaan, Custom Monitoring, hingga Inventory and Warehouse terhubung dalam satu alur sistem yang komprehensif. Konsep solusi yang digambarkan tidak hanya mengatasi fragmentasi sistem eksisting, tetapi juga menghadirkan proses yang lebih efisien, transparan, dan mudah diawasi. Dengan integrasi penuh mulai dari registrasi vendor, pengelolaan data master, penyusunan rencana pengadaan, pembuatan DP3, hingga pembentukan MSL, PT KPI memperoleh rancangan sistem yang mampu mendukung transformasi digital pengadaan secara berkelanjutan.
+
+\section{Justifikasi Pemilihan Solusi}
+
+Pemilihan solusi integrasi Sistem pengadaan digital pada PT KPI dilakukan berdasarkan evaluasi menyeluruh terhadap permasalahan eksisting, kebutuhan organisasi, serta kesesuaian dengan metodologi Six Sigma melalui pendekatan DMAIC. Solusi ini dipandang sebagai pendekatan paling optimal karena mampu menjawab seluruh pain points utama yang ditemukan pada tahap analisis, terutama terkait fragmentasi proses, duplikasi aplikasi, tingginya risiko human error, serta lamanya waktu approval lintas fungsi. Selain itu, solusi ini memberikan fondasi yang kuat untuk standarisasi proses dan konsolidasi data di seluruh RU.
+
+Temuan pada fase measure menunjukkan bahwa terdapat 26 aplikasi yang tersebar di seluruh RU, dengan alur yang tidak terstandar dan tidak saling terhubung. Situasi ini juga menghambat proses konsolidasi data karena setiap unit bekerja dengan sistem dan format yang berbeda-beda. Kondisi ini menyebabkan alur kerja tidak efisien, data sulit ditelusuri, serta biaya pemeliharaan aplikasi menjadi lebih tinggi. Dengan mengimplementasikan sistem terintegrasi, seluruh fungsi pengadaan dapat dijalankan dalam satu rantai proses yang konsisten, sehingga mengurangi ketidakefisienan dan meningkatkan kualitas data secara signifikan.
+
+Dari sisi teknis, solusi ini memiliki kompatibilitas tinggi terhadap sistem induk holding, yaitu SAP dan iVendor, yang saat ini digunakan bersama oleh PT Pertamina (Persero). Keselarasan ini sangat penting karena pengadaan digital yang dikembangkan PT KPI tidak bertujuan menggantikan aplikasi milik holding, melainkan melengkapi area proses yang belum terakomodasi secara penuh. Dengan adanya integrasi, proses pertukaran data mulai dari master vendor, informasi kontrak, dokumen kepabeanan, hingga alur pengadaan dapat berjalan dengan lebih lancar, akurat, dan minim redundansi. Integrasi ini juga mendukung arsitektur enterprise PT KPI yang menuntut interoperability antar sistem, sehingga implementasi dapat dilakukan secara bertahap tanpa mengganggu operasional.
+
+Dari perspektif operasional dan finansial, konsolidasi aplikasi ke dalam satu platform digital memberikan manfaat efisiensi biaya jangka panjang. Pengurangan jumlah aplikasi berarti pengurangan biaya pemeliharaan, lisensi, infrastruktur, serta overhead koordinasi antar pengembang aplikasi. Selain itu, sistem terintegrasi mendukung pengendalian internal yang lebih kuat melalui mekanisme audit trail, standarisasi dokumen, pengurangan risiko duplikasi data, dan peningkatan transparansi proses. Hal ini sejalan dengan kebutuhan PT KPI dalam memperkuat governance, mengurangi potensi ketidaksesuaian proses, serta meningkatkan kualitas keputusan berbasis data.
+
+Jika ditinjau dari aspek kebutuhan pengguna, solusi integrasi ini telah memenuhi seluruh kebutuhan fungsional dan nonfungsional yang ditetapkan pada tahap define. Fitur-fitur seperti Procurement Plan List, Generate DP3, MSL, Monitoring Pengadaan, Master Data Management, dan Custom Monitoring memastikan setiap unit mulai dari perencana, pelaksana, hingga auditor dapat mengakses proses yang seragam dan terstruktur. Sementara itu, kebutuhan nonfungsional seperti keamanan data, ketersediaan sistem, skalabilitas, kemudahan penggunaan, serta modularitas dapat dipenuhi dengan desain arsitektur terpusat dan integratif.
+
+Secara strategis, solusi ini juga konsisten dengan tren transformasi digital global di bidang pengadaan. Laporan \textcite{accenture2022energy,deloitte2023cpo,bcg2022supplychain} menekankan bahwa organisasi kelas dunia bergerak menuju intelligent procurement, yaitu pengadaan berbasis otomatisasi, integrasi data, advanced analytics, dan end-to-end visibility. Desain sistem usulan PT KPI telah mengadopsi prinsip tersebut melalui integrasi proses, pemodelan data terstandar, kontrol real-time, serta kemampuan ekspansi ke modul analitik di masa depan.
+
+Justifikasi pemilihan solusi ini juga kuat ketika dikaitkan dengan kerangka DMAIC yang digunakan dalam penelitian. Pada tahap Define, masalah utama yang teridentifikasi adalah fragmentasi aplikasi dan tidak selarasnya alur proses pengadaan. Pada tahap Measure, ditemukan bukti kuantitatif berupa 26 aplikasi yang berjalan sendiri-sendiri, tingginya potensi kesalahan input manual, serta lamanya cycle time pada proses review dan approval. Selanjutnya, tahap Analyze menunjukkan bahwa akar penyebab utama terletak pada kurangnya integrasi sistem, ketidakkonsistenan master data, dan absennya sistem pemantauan end-to-end. Tahap Improve kemudian menghasilkan rancangan solusi berupa integrasi sistem pengadaan digital yang menggabungkan seluruh proses dalam satu platform terpadu. Terakhir, pada tahap Control, solusi menyediakan fitur pengendalian melalui dashboard monitoring, laporan automatis, dan log aktivitas untuk memastikan proses berjalan sesuai standar baru yang ditetapkan.
+
+Dengan demikian, solusi integrasi Sistem pengadaan digital bukan hanya mampu menyelesaikan permasalahan eksisting, tetapi juga memberikan landasan kuat bagi PT KPI untuk membangun proses pengadaan yang lebih efisien, transparan, dan adaptif terhadap tuntutan bisnis masa depan. Implementasi ini sekaligus memperkuat tata kelola pengadaan melalui peningkatan akurasi data dan pemantauan yang lebih ketat terhadap setiap aktivitas. Selain manfaat jangka pendek, solusi terintegrasi juga membuka peluang untuk pengembangan berkelanjutan seperti analitik prediktif dan otomatisasi lanjutan berbasis kecerdasan buatan. Dengan fondasi sistem yang lebih modern dan terkonsolidasi, PT KPI dapat mengoptimalkan proses pengadaan untuk mendukung strategi perusahaan dalam menghadapi dinamika industri energi yang semakin kompleks.

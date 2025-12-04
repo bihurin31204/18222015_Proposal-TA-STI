@@ -1,0 +1,475 @@
+% ============================================================================================
+% BAB III ANALISIS MASALAH
+% Pembagian subbab tidak rigid dan dapat bervariasi. Bab ini minimal berisi analisis kebutuhan
+% fungsional dan nonfungsional, analisis berbagai alternatif solusi yang dapat ditawarkan, dan
+% metode pemilihan solusi yang diusulkan.
+% ============================================================================================
+\chapter{ANALISIS MASALAH}
+
+Bab ini menjelaskan secara komprehensif metode pengumpulan dan analisis data yang digunakan, serta hasil analisis permasalahan yang berkaitan dengan implementasi Sistem Pengadaan Digital di PT KPI. Pada bagian awal, penelitian memaparkan teknik pengumpulan data melalui studi dokumen, wawancara, dan observasi proses untuk memperoleh gambaran menyeluruh mengenai kondisi eksisting pengadaan. Selanjutnya, hasil data tersebut dianalisis pada subbab Analisis Masalah yang mencakup identifikasi akar permasalahan, pemetaan aspek-aspek krusial, serta perumusan kebutuhan fungsional dan nonfungsional sistem. Analisis ini menjadi dasar bagi pemilihan solusi yang dijabarkan pada bagian berikutnya, di mana alternatif solusi dibandingkan dan dievaluasi untuk menentukan pendekatan yang paling sesuai dalam meningkatkan efektivitas, efisiensi, dan integrasi sistem pengadaan di PT KPI.
+
+\section{Teknik Pengumpulan dan Analisis Data}
+
+Pendekatan pengumpulan dan analisis data pada penelitian ini dilakukan secara kualitatif melalui triangulasi tiga sumber utama, yaitu studi dokumen, wawancara, dan observasi proses, guna memastikan pemahaman yang komprehensif mengenai implementasi Sistem Pengadaan Digital di PT KPI. Teknik ini digunakan untuk menggali kondisi eksisting proses pengadaan, pengalaman pengguna, serta tantangan organisasi secara mendalam sebagaimana direkomendasikan dalam metodologi penelitian kualitatif \autocite{creswell2014design,bowen2009document}. Triangulasi memungkinkan peneliti membandingkan temuan dari berbagai sumber untuk meningkatkan kredibilitas dan konsistensi data. Pendekatan ini juga membantu mengidentifikasi kesenjangan antara prosedur formal dan praktik aktual yang terjadi di lapangan. Dengan demikian, analisis yang dihasilkan dapat memberikan gambaran yang lebih akurat dan dapat dipertanggungjawabkan mengenai efektivitas penerapan sistem pengadaan digital.
+
+\subsection{Studi Dokumen}
+
+Studi dokumen dilakukan untuk memperoleh pemahaman mendalam terkait kondisi eksisting proses pengadaan di PT Kilang Pertamina Internasional (PT KPI), struktur organisasi, serta roadmap implementasi Sistem Pengadaan Digital. Teknik ini digunakan karena dokumen internal perusahaan menyediakan informasi historis dan faktual yang tidak dapat diperoleh melalui observasi singkat \autocite{bowen2009document}. Dokumen yang dianalisis dalam Tugas Akhir ini meliputi:
+
+\begin{enumerate}
+\item	Kajian Aplikasi Pengadaan Digital PT KPI 
+
+Dokumen ini berfungsi sebagai rujukan utama untuk memahami konteks, cakupan, dan arah strategis digitalisasi pengadaan di PT KPI, termasuk kondisi eksisting yang masih menggunakan 26 aplikasi terpisah, tujuan transformasi, manfaat yang ditargetkan, struktur modul, estimasi cost–benefit, roadmap implementasi empat fase, serta identifikasi risiko dan mitigasi yang direncanakan. Informasi ini sangat penting untuk memetakan latar belakang masalah, mengonfirmasi kebutuhan integrasi, dan memastikan bahwa analisis masalah penelitian selaras dengan inisiatif digitalisasi resmi perusahaan.
+
+\item	Flow Chart E-VMI
+
+Rangkaian flowchart E-VMI memberikan gambaran visual mengenai proses pengelolaan vendor-managed inventory di PT KPI, mulai dari alur permintaan, monitoring stok, proses verifikasi, hingga approval dalam sistem. Dokumen-dokumen ini menjadi dasar penting dalam mengidentifikasi potensi bottleneck, duplikasi langkah, serta titik integrasi yang perlu diperbaiki dalam sistem pengadaan digital.
+
+\item	Flowchart Expediting
+
+Dokumen flowchart Expediting memetakan proses percepatan pemenuhan material, termasuk alur komunikasi dengan vendor, monitoring pengiriman, pengecekan dokumen pengiriman, dan interaksi dengan fungsi logistik. Analisis terhadap dokumen ini membantu menemukan area yang masih bersifat manual, ketergantungan pada komunikasi non-terstruktur, serta peluang untuk otomatisasi tracking dalam sistem digital.
+
+\item	Flow Chart Inventory – Pengelolaan Stok
+
+Flowchart ini menjelaskan proses inti pengendalian persediaan, seperti permintaan material, verifikasi kebutuhan, updating stok, dan mekanisme penyimpanan di gudang. Dokumen ini penting untuk mengidentifikasi kebutuhan fungsional terkait integrasi modul Inventory dan Warehouse, terutama terkait akurasi data stok, visibilitas pergerakan material, dan standardisasi pencatatan.
+
+\item	Flowchart MSL – Insurance / MSL INCR
+
+Dokumen flowchart MSL menggambarkan alur pengelolaan Material Safety Level dan proses terkait asuransi (INCR), termasuk pengajuan, verifikasi, perhitungan, serta approval. Dokumen ini menunjukkan titik-titik proses yang masih memerlukan analisis manual dan dokumen terpisah, sehingga membantu perumusan kebutuhan digitalisasi agar perhitungan dan approval dapat dilakukan lebih cepat dan terstandar.
+
+\item	URS – User Requirement Specification 
+
+Dokumen URS ini berisi daftar kebutuhan fungsional pengguna terkait proses Procure to Pay, mencakup spesifikasi fitur, kebutuhan antarmuka, hak akses, integrasi data, serta output yang diharapkan. URS ini menjadi landasan dalam memahami ekspektasi pengguna secara teknis dan menjadi referensi utama dalam merumuskan kebutuhan fungsional dan nonfungsional sistem pengadaan digital.
+
+\item	URS – User Requirement Specification (MSL Insurance / SCE)
+
+Dokumen URS ini merinci kebutuhan pengguna untuk modul MSL Insurance, termasuk persyaratan input data, logika perhitungan, standar pelaporan, serta ketentuan integrasi dengan data persediaan dan risk management. Studi terhadap URS ini membantu mengidentifikasi kebutuhan spesifik terkait akurasi data risiko, compliance, dan mekanisme approval berjenjang.
+
+\item	Panduan Pengelolaan Logsheet WO
+
+Panduan ini menjelaskan standar operasional terkait pencatatan logsheet Work Order (WO), mulai dari pembuatan WO, verifikasi kegiatan, pencatatan material, hingga penyelesaian pekerjaan. Dokumen ini penting dalam mengidentifikasi proses administratif yang masih manual serta peluang integrasinya dengan modul pengadaan dan modul warehouse dalam aplikasi digital PT KPI.
+
+\item	Dokumen Internal Pengadaan
+
+Dokumen ini memuat analisis internal tambahan terkait tantangan, kebutuhan standardisasi, alur proses aktual, serta pemetaan risiko yang menjadi dasar pengembangan pengadaan digital. Informasi di dalamnya digunakan untuk memvalidasi masalah fragmentasi, kebutuhan integrasi, serta urgensi transformasi digital di PT KPI, sehingga memperkuat justifikasi penelitian.
+
+\item	Panduan Administrasi Pengelolaan Administrasi dan Penagihan
+
+Dokumen ini berisi panduan operasional terkait pengelolaan administrasi, meliputi pengelolaan folder administrasi, proses penagihan, serta mekanisme pembuatan dan pemantauan WO. Panduan ini menjelaskan alur pengecekan dokumen penagihan, verifikasi kontrak/SPK/PADI, pembuatan Berita Acara (BA) iVendor, pencatatan logsheet pembayaran, serta penyimpanan dokumen ke repository perusahaan. Selain itu, dokumen ini memuat prosedur pembuatan WO baik untuk layanan managed application maupun pekerjaan berbasis proyek, termasuk penggunaan template resmi dan pencatatan status WO pada logsheet. Dokumen ini digunakan dalam penelitian untuk memahami alur administratif, keterkaitan proses IT dengan pengadaan, serta titik permasalahan yang muncul pada proses manual atau semi-digital yang masih berlangsung.
+
+\item	Panduan Pengelolaan Pembayaran Service Acceptance dan Penagihan
+
+Dokumen ini berfungsi sebagai panduan teknis dalam proses pembuatan Service Acceptance (SA) di SAP, yang menjadi bagian penting dari siklus pembayaran vendor. Isi dokumen mencakup langkah-langkah penginputan SA mulai dari memasukkan nomor PO, menentukan lokasi biaya, pengisian tanggal penerimaan, pencantuman uraian pekerjaan, hingga penentuan otorisasi sesuai kontrak. Selain pembuatan SA, dokumen ini menjabarkan tahapan verifikasi penagihan, pengecekan kelengkapan dokumen, koordinasi dengan analis BITS, pembuatan BA iVendor, hingga proses finalisasi invoice. Dokumen ini juga mencakup pengelolaan logsheet pembayaran serta prosedur penyimpanan dokumen penagihan pada repository resmi perusahaan. Dalam penelitian, dokumen ini menjadi sumber utama untuk memetakan pembayaran vendor dan mengidentifikasi potensi inefisiensi atau risiko pada proses pengadaan digital.
+
+\end{enumerate}
+
+\subsection{Wawancara}
+
+Wawancara digunakan untuk menggali informasi langsung dari aktor yang terbat dalam proses pengadaan dan implementasi sistem digital di PT KPI. Teknik ini penting untuk memahami perspektif pengguna, tantangan operasional, serta kebutuhan fungsional yang tidak selalu tercatat dalam dokumen formal \autocite{creswell2014design}. Jenis wawancara yang digunakan adalah semi-terstruktur, agar peneliti memiliki pedoman pertanyaan namun tetap fleksibel dalam mengeksplorasi jawaban. Pendekatan ini memungkinkan peneliti memperoleh insight mendalam terkait alur kerja aktual, hambatan teknis, serta ekspektasi pengguna terhadap pengembangan sistem di tahap selanjutnya. Selain itu, wawancara juga berfungsi untuk memvalidasi temuan dari studi dokumen dan observasi, sehingga hasil analisis menjadi lebih akurat dan dapat dipertanggungjawabkan. Dengan demikian, wawancara memainkan peran penting dalam memastikan bahwa interpretasi peneliti benar-benar merefleksikan kondisi dan pengalaman aktor di lapangan.
+
+\begin{enumerate}
+\item	Profil narasumber
+
+Penelitian ini melibatkan beberapa narasumber dari PT KPI yang memiliki peran strategis dalam proses pengadaan dan pengembangan sistem digital. Narasumber pertama merupakan seorang Senior Analyst Business Application Solution, yang memiliki tanggung jawab dalam pengembangan dan integrasi aplikasi bisnis, serta memberikan arahan terkait arsitektur dan kebutuhan sistem pengadaan digital. Narasumber kedua berasal dari fungsi Human Capital – Bidang Recruitment, yang memberikan perspektif mengenai proses bisnis internal, alur koordinasi lintas fungsi, serta dinamika organisasi selama implementasi sistem baru. Narasumber ketiga adalah perwakilan dari Refinery Unit, yang berperan dalam operasional dan memastikan kesesuaian sistem dengan kebutuhan di lapangan. Selain itu, penelitian juga melibatkan tiga tenaga alih daya (TAD) pada Divisi IT, yang menjadi penanggung jawab operasional pengadaan barang dan jasa serta memiliki pengalaman langsung terkait tantangan teknis dan administratif dalam proses pengadaan.
+
+\item	Waktu dan pelaksanaan
+
+Wawancara dilaksanakan selama periode Juni hingga November 2025, dengan metode kombinasi antara online meeting melalui platform seperti Teams atau Zoom serta wawancara langsung di unit kerja terkait. Setiap sesi wawancara berlangsung selama kurang lebih 30–60 menit, disesuaikan dengan ketersediaan narasumber dan kompleksitas topik yang dibahas. Pendekatan ini memungkinkan peneliti memperoleh informasi yang lebih mendalam serta memvalidasi temuan melalui interaksi langsung maupun daring.
+
+\end{enumerate}
+
+\subsection{Observasi Proses}
+
+Observasi dilakukan untuk melihat secara langsung bagaimana proses pengadaan berlangsung serta bagaimana sistem digital digunakan dalam aktivitas operasional. Observasi relevan untuk memahami real behavior pengguna dan mendeteksi hambatan yang muncul atau tidak, baik dari dokumen maupun wawancara \autocite{sugiyono2019metode}. Melalui observasi, peneliti dapat mengidentifikasi perbedaan antara prosedur yang ditetapkan dan praktik aktual di lapangan. Teknik ini juga membantu menangkap dinamika interaksi antaraktor serta pola kerja yang mungkin tidak terungkap melalui metode lain. Selain itu, observasi memberikan konteks yang lebih kaya mengenai kondisi operasional dan faktor lingkungan yang memengaruhi efektivitas sistem. Dengan demikian, data hasil observasi berkontribusi penting dalam menghasilkan analisis yang lebih mendalam dan holistik mengenai implementasi pengadaan digital.
+
+\textbf{Lingkup Proses yang Diobservasi}
+
+\begin{enumerate}
+
+\item	Pembuatan DP3 Online, termasuk verifikasi kebutuhan dan pengisian dokumen digital.
+
+\item	Alur persetujuan pengadaan, mencakup reviewer, approver, dan interaksi sistem antar unit.
+
+\item	Monitoring pengadaan melalui Digimon, termasuk pemantauan progres, status kegiatan, dan konsistensi data.
+
+\item	Penyusunan dan persetujuan kontrak melalui Contract Online, termasuk review dokumen kontrak dan proses approval berjenjang.
+
+\item	Pengelolaan data barang/jasa pada modul Inventory dan Warehouse, meliputi pengecekan stok, penerimaan material, dan updating data.
+
+\item	Proses E-VMI, berdasarkan flowchart E-VMI, termasuk monitoring level stok vendor dan proses approval.
+
+\item	Proses Expediting, termasuk koordinasi pengiriman material dan verifikasi dokumen.
+
+\item	Pengelolaan MSL dan Insurance, sesuai flowchart MSL-INCR.
+
+\item	Pengelolaan Work Order (WO) berdasarkan Panduan Logsheet WO dan Panduan Admin BITS.
+
+\item	Proses pembuatan Service Acceptance (SA) dan penagihan dalam SAP, sesuai Panduan Verifikasi dan Pembayaran.
+
+\end{enumerate}
+
+
+
+\textbf{Output Observasi}
+
+Hasil observasi dicatat dalam bentuk observation notes yang berisi temuan proses, isu integrasi, ketidaksesuaian prosedur, serta perilaku pengguna. Catatan tersebut kemudian dibandingkan dan dikaitkan dengan hasil wawancara dan studi dokumen. Observasi ini juga berfungsi untuk memvalidasi apakah proses digital telah sesuai dengan desain pada URS, flowchart, dan prosedur internal, atau masih terdapat gap yang memerlukan perbaikan. Selain itu, observation notes membantu peneliti mengidentifikasi pola masalah yang berulang serta area proses yang paling sering memunculkan hambatan. Catatan ini juga mencatat respons spontan pengguna terhadap fitur tertentu, yang dapat memberikan sinyal mengenai tingkat usability sistem. Temuan dari observasi memungkinkan peneliti mengevaluasi tingkat kedisiplinan terhadap SOP yang berlaku. Selain itu, hasil observasi memberikan dasar empiris yang kuat untuk menyusun rekomendasi perbaikan berbasis bukti nyata dari aktivitas operasional.
+\section{Analisis Masalah}
+
+Subbab ini membahas analisis mendalam terkait permasalahan utama dalam tugas akhir ini, yaitu ketidakefektifan proses pengadaan di PT KPI sebelum penerapan Sistem Pengadaan Digital. Permasalahan ini muncul akibat penggunaan berbagai aplikasi yang terfragmentasi di setiap RU, proses manual yang masih dominan, duplikasi data, keterlambatan persetujuan, serta keterbatasan visibilitas end-to-end. Kondisi tersebut berdampak pada meningkatnya waktu siklus pengadaan, potensi kesalahan operasional, biaya pemeliharaan aplikasi yang tinggi, dan lemahnya kemampuan monitoring serta audit. Melalui analisis ini, dilakukan identifikasi terhadap akar permasalahan yang mempengaruhi efektivitas pengadaan dan menghambat kinerja rantai pasok perusahaan. Selanjutnya, analisis ini menguraikan kebutuhan mendasar dalam merumuskan solusi digital yang tepat, dengan mempertimbangkan aspek teknis dan non-teknis yang relevan. Hasil analisis ini menjadi dasar untuk menilai kelayakan solusi pengadaan digital serta mengevaluasi sejauh mana implementasinya dapat mengatasi permasalahan tersebut secara komprehensif.
+
+\subsection{Identifikasi Masalah Pengguna}
+
+Salah satu permasalahan utama dalam proses pengadaan di PT Kilang Pertamina Internasional (PT KPI) adalah tidak terintegrasinya sistem dan aplikasi pengadaan yang digunakan oleh berbagai Refinery Unit (RU). Kondisi ini menyebabkan proses pengadaan berjalan secara terfragmentasi, lambat, dan tidak efisien karena setiap unit menggunakan sistem yang berbeda-beda, sehingga menimbulkan duplikasi data, ketidakselarasan dokumen, dan keterbatasan visibilitas terhadap alur pengadaan secara menyeluruh. Problematika ini selaras dengan temuan yang menunjukkan bahwa sistem informasi yang tidak memadai menjadi hambatan besar dalam efektivitas rantai pasok serta mengurangi kemampuan organisasi dalam melakukan koordinasi lintas fungsi \autocite{fawcett2008scm}.
+
+Fragmentasi sistem juga berdampak pada lamanya waktu persetujuan, keterlambatan pemenuhan kebutuhan material, serta tingginya potensi kesalahan akibat proses manual. Hal ini berimplikasi pada meningkatnya biaya operasional dan risiko gangguan kontinuitas operasi kilang, yang sangat bergantung pada ketersediaan material dan jasa secara tepat waktu. Studi internasional menunjukkan bahwa organisasi dengan proses pengadaan yang tidak terdigitalisasi cenderung mengalami biaya pemeliharaan sistem yang tinggi, visibilitas rendah, serta proses yang kurang adaptif terhadap dinamika permintaan industri energi \autocite{accenture2022energy}. 
+
+Selain aspek teknis, persoalan non-teknis turut memperburuk efektivitas pengadaan, seperti literasi digital yang belum merata, resistensi pengguna dalam mengadopsi sistem baru, serta belum optimalnya manajemen perubahan organisasi. Literatur mengenai transformasi digital menegaskan bahwa keberhasilan implementasi teknologi sangat dipengaruhi oleh kesiapan SDM, budaya organisasi, dan dukungan kepemimpinan \autocite{appelbaum2012kotter}. 
+
+Dalam konteks pengadaan, dinamika ini dapat menghambat optimalisasi sistem digital meskipun teknologi yang digunakan telah memadai. Di sisi lain, kebutuhan perusahaan terhadap akurasi data, transparansi proses, serta kemampuan monitoring real-time semakin meningkat seiring kompleksitas operasi kilang dan tuntutan tata kelola yang lebih ketat. Berbagai kajian menyoroti bahwa Pengadaan Digital berperan penting dalam meningkatkan kecepatan proses, memperkuat kepatuhan, dan menyediakan data yang dapat ditelusuri sebagai dasar pengambilan keputusan \autocite{herold2022dynamic}. Ketergantungan industri migas pada suplai material yang presisi juga menuntut adanya sistem analitik yang mampu memprediksi kebutuhan dan mendeteksi potensi risiko rantai pasok secara lebih cepat dan akurat.
+
+Jika permasalahan ini tidak ditangani melalui transformasi pengadaan yang terintegrasi, PT KPI berpotensi menghadapi risiko operasional yang lebih tinggi, biaya pengadaan yang tidak efisien, serta menurunnya ketahanan rantai pasok. Selain itu, ketidakselarasan proses antar sistem juga dapat menghambat potensi pengembangan kemampuan analitik lanjutan seperti predictive sourcing dan monitoring kinerja pemasok yang berbasis data \autocite{deloitte2023cpo}. Oleh karena itu, diperlukan inisiatif Pengadaan Digital yang mampu menyatukan proses, meningkatkan efektivitas, serta memperkuat akuntabilitas dan pengawasan dalam seluruh siklus pengadaan.
+
+Transformasi sistem pengadaan menjadi terintegrasi merupakan langkah strategis untuk memperbaiki efektivitas operasional dan mendukung keberlanjutan bisnis perusahaan. Upaya ini menjadi fondasi penting dalam meningkatkan efisiensi biaya, mempercepat siklus proses, mengurangi risiko human error, serta mempersiapkan perusahaan menuju pemanfaatan teknologi lanjut seperti kecerdasan buatan dan analitik prediktif. Dengan demikian, modernisasi pengadaan melalui digitalisasi diperlukan untuk meningkatkan ketahanan operasi kilang serta daya saing PT KPI dalam industri migas yang semakin dinamis dan kompetitif.
+
+\subsection{Aspek Penting dari Permasalahan}
+
+Permasalahan utama dalam proses pengadaan di PT KPI tidak hanya bersifat teknis, tetapi juga mencakup aspek strategis yang berdampak pada efektivitas operasi, biaya perusahaan, dan tata kelola pengadaan. Salah satu isu fundamental adalah fragmentasi proses dan sistem yang digunakan oleh berbagai unit operasi, sehingga alur pengadaan tidak berjalan dalam satu rantai nilai yang utuh. Kondisi ini menyebabkan kurangnya visibilitas end-to-end, meningkatnya duplikasi aktivitas, serta lemahnya konsistensi data dan dokumen yang menjadi dasar pengambilan keputusan. Literatur menunjukkan bahwa ketidakterpaduan sistem pengadaan menjadi salah satu hambatan signifikan dalam meningkatkan efisiensi rantai pasok dan mengurangi redundansi operasional \autocite{fawcett2008scm}. Pada konteks PT KPI, fragmentasi ini berpotensi menghambat pemenuhan kebutuhan material secara tepat waktu, yang pada akhirnya dapat mempengaruhi kontinuitas operasi kilang. Selain itu, ketergantungan pada proses manual dan penggunaan berbagai aplikasi berbeda di masing-masing RU mengakibatkan waktu siklus pengadaan menjadi panjang, rentan kesalahan, serta tidak adaptif terhadap dinamika kebutuhan operasional.
+
+Berbagai laporan industri menegaskan bahwa proses pengadaan yang tidak terdigitalisasi cenderung menghasilkan biaya operasional yang tinggi, proses yang lamban, serta keterbatasan dalam melakukan pengawasan berbasis data \autocite{accenture2022energy,deloitte2023cpo}. Kondisi ini juga meningkatkan risiko ketidakpatuhan terhadap standar internal maupun regulasi, mengingat proses verifikasi, persetujuan, dan pencatatan dilakukan melalui sistem yang tidak terintegrasi dan memiliki standar yang bervariasi. Oleh karena itu, digitalisasi pengadaan menjadi langkah strategis untuk meningkatkan efisiensi, transparansi, dan kontrol di seluruh rantai proses.
+
+Aspek penting lainnya adalah rendahnya kualitas informasi akibat kurangnya integrasi data antar sistem. Dalam industri migas, keputusan pengadaan memerlukan data akurat mengenai stok, kebutuhan operasional, performa pemasok, dan progres kontrak. Ketika data tersebar di berbagai aplikasi dan tidak terhubung secara real-time, proses analisis menjadi terhambat dan risiko pengambilan keputusan yang tidak tepat meningkat. Studi mengenai Pengadaan Digital menekankan bahwa akses terhadap data yang terintegrasi menjadi elemen kunci dalam membangun proses yang transparan, efisien, dan berbasis bukti \autocite{herold2022dynamic}. Tanpa fondasi data yang kuat, perusahaan akan sulit mengadopsi praktik pengelolaan pengadaan modern seperti spend analysis dan monitoring risiko pemasok secara proaktif.
+
+Di sisi non-teknis, kesiapan sumber daya manusia dan resistensi terhadap perubahan juga menjadi tantangan signifikan. Implementasi sistem baru menuntut perubahan cara kerja, adaptasi terhadap teknologi, dan konsistensi dalam mengikuti prosedur digital. Literatur manajemen perubahan menegaskan bahwa transformasi digital sering kali gagal bukan karena teknologinya, tetapi karena kurangnya keselarasan organisasi, lemahnya komunikasi perubahan, dan minimnya keterlibatan karyawan dalam proses transformasi \autocite{appelbaum2012kotter}. Pada konteks PT KPI, kesenjangan literasi digital antar pengguna serta berbagai tingkat kesiapan organisasi berpotensi menghambat optimalisasi penggunaan sistem pengadaan digital jika tidak dikelola secara sistematis. 
+
+Keterbatasan lain yang perlu diperhatikan adalah potensi risiko dalam integrasi sistem dengan platform yang sudah ada seperti SAP dan iVendor. Integrasi yang tidak mulus dapat menimbulkan kesalahan migrasi data, ketidaksesuaian format, serta gangguan operasional selama masa transisi. Studi transformasi digital di sektor energi menunjukkan bahwa tantangan integrasi merupakan salah satu faktor yang paling sering menghambat keberhasilan implementasi sistem digital \autocite{alhajri2024gcc}. Hal ini menegaskan pentingnya perencanaan integrasi yang matang, pengujian sistem yang komprehensif, serta mekanisme mitigasi risiko yang terstruktur.
+
+Berdasarkan hasil studi dokumen, wawancara, dan observasi proses, penelitian ini mengidentifikasi bahwa permasalahan utama yang menjadi fokus tugas akhir bukan hanya terkait inefisiensi proses pengadaan, tetapi juga mencakup kurangnya integrasi antar sistem, ketidakselarasan alur kerja dengan kebutuhan operasional, serta ketergantungan pada proses manual yang menyebabkan lambatnya siklus pengadaan. Permasalahan tersebut selaras dengan isu yang banyak dibahas dalam literatur mengenai pengadaan digital, seperti fragmentasi sistem \autocite{bienhaus2018procurement4}, rendahnya visibilitas data \autocite{accenture2022energy}, risiko human error dan bottleneck proses \autocite{fawcett2008scm}, serta kesiapan organisasi dalam perubahan digital \autocite{appelbaum2012kotter}. Oleh karena itu, penelitian ini berfokus pada identifikasi gap proses, kebutuhan fungsional dan nonfungsional, serta evaluasi efektivitas implementasi awal Sistem Pengadaan Digital PT KPI.
+
+Jika berbagai aspek permasalahan tersebut tidak diatasi, PT KPI berpotensi menghadapi siklus ketidakefisienan yang berulang, meningkatnya risiko operasional, serta hilangnya peluang untuk memanfaatkan teknologi digital secara strategis. Berikut permasalahan utama yang menjadi fokus analisis dalam penelitian ini dirangkum pada Tabel III.1 Identifikasi Permasalahan Utama Sistem Pengadaan Digital.
+
+\begin{table}[H]
+\centering
+\caption{Identifikasi Permasalahan Utama Sistem Pengadaan Digital}
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{5pt}
+
+\begin{tabular}{|p{1cm}|p{3cm}|p{4cm}|p{4cm}|}
+\hline
+\textbf{ID} & \textbf{Permasalahan Utama} & \textbf{Deskripsi Singkat} & \textbf{Keterkaitan dengan Literatur} \\ \hline
+
+P1 & Fragmentasi sistem pengadaan &
+Terdapat banyak aplikasi terpisah di berbagai RU (DP3, Digimon, Contract Online, Inventory), menyebabkan duplikasi, data tidak konsisten, dan proses tidak end-to-end. &
+Fragmentasi sistem menghambat efisiensi dan integrasi proses pengadaan (Bienhaus \& Haddud, 2018; Hallikas dkk., 2021). \\ \hline
+
+P2 & Rendahnya visibilitas data \& monitoring &
+Kesulitan memantau progres pengadaan secara real-time dan belum adanya satu sumber kebenaran data (single source of truth). &
+Pengadaan Digital meningkatkan visibilitas dan pengendalian data (Accenture 2022; McKinsey 2023). \\ \hline
+
+P3 & Ketergantungan pada proses manual &
+Banyak langkah masih dilakukan secara manual (verifikasi, logshet, approval, expediting), memicu human error dan keterlambatan. &
+Proses manual meningkatkan risiko kesalahan dan menurunkan performa supply chain (Fawcett dkk., 2008; Croom \& Brandon-Jones 2007). \\ \hline
+
+P4 & Integrasi sistem yang belum optimal &
+Integrasi \textit{SAP–Vendor}–aplikasi internal belum sepenuhnya otomatis, sehingga alur digital belum mengalir mulus. &
+Integrasi sistem menjadi fondasi pengadaan digital (World Bank 2025; Accenture 2024). \\ \hline
+
+\end{tabular}
+\end{table}
+
+Berdasarkan hasil analisis kondisi eksisting dan studi dokumen, permasalahan awal yang terjadi pada proses pengadaan di PT KPI tercermin pada P1–P4. Keempat permasalahan ini merepresentasikan kondisi sebelum inisiasi Pengadaan Digital, yaitu adanya fragmentasi aplikasi, rendahnya visibilitas data, ketergantungan pada proses manual, serta integrasi sistem yang belum optimal. Namun, melalui pengembangan modul-modul Pengadaan Digital seperti DP3 Online, Digimon, Contract Online, dan integrasi dengan SAP–iVendor, sebagian besar aspek pada P1–P4 telah mulai mendapatkan solusi awal dan menunjukkan perbaikan meskipun belum sepenuhnya optimal. Meski demikian, evaluasi terhadap implementasi awal menemukan bahwa muncul permasalahan lanjutan yang baru teridentifikasi setelah proses digitalisasi berjalan, yaitu P5. 
+
+Permasalahan ketidaksesuaian kebutuhan pengguna dengan implementasi awal timbul karena beberapa fitur sistem masih belum sepenuhnya memenuhi kebutuhan aktual di lapangan, alur persetujuan masih panjang, dan beberapa proses belum sesuai URS. Kondisi ini merupakan dampak langsung dari peralihan sistem, di mana pematangan teknis dan penyesuaian fungsi masih berlangsung sehingga belum sepenuhnya mencapai target operasional.
+
+Selain empat permasalahan utama yang telah diidentifikasi sebelumnya (P1–P4), penelitian ini juga menemukan tiga permasalahan tambahan yang bersifat strategis dan berdampak pada keberhasilan transformasi pengadaan digital secara menyeluruh. Permasalahan pertama adalah kesiapan organisasi dan resistensi terhadap perubahan (P6), yang terlihat dari variasi tingkat pemahaman pengguna, keterbatasan pelatihan, serta adaptasi proses yang belum merata di seluruh RU. Faktor ini menunjukkan bahwa implementasi sistem baru tidak hanya bergantung pada teknologi, tetapi juga pada kesiapan budaya organisasi dan efektivitas manajemen perubahan.
+
+Permasalahan kedua adalah standarisasi proses yang belum optimal (P7). Meskipun upaya digitalisasi telah dilakukan di berbagai unit, masih terdapat perbedaan alur kerja antar-RU dan belum adanya SOP terintegrasi yang mengatur seluruh siklus pengadaan. Ketidakseimbangan ini berpotensi menimbulkan variasi kualitas proses, ketidakkonsistenan data, dan sulitnya melakukan monitoring terpusat.
+
+Permasalahan ketiga adalah risiko operasional dan administratif akibat proses yang belum sepenuhnya terintegrasi (P8). Risiko ini mencakup keterlambatan pembayaran, kesalahan pencatatan, duplikasi data, hingga ketidaktepatan informasi persediaan yang timbul dari proses manual atau sistem yang berjalan secara terpisah. Kondisi tersebut dapat memengaruhi kinerja operasional dan efektivitas pengendalian internal. Rincian lengkap mengenai ketiga permasalahan lanjutan tersebut dapat dilihat pada Tabel III.2 Identifikasi Permasalahan Lanjutan Sistem Pengadaan Digital.
+
+\begin{table}[H]
+\centering
+\caption{Identifikasi Permasalahan Lanjutan Sistem Pengadaan Digital}
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{5pt}
+
+\begin{tabular}{|p{1cm}|p{3cm}|p{4cm}|p{4cm}|}
+\hline
+\textbf{ID} & \textbf{Permasalahan Utama} & \textbf{Deskripsi Singkat} & \textbf{Keterkaitan dengan Literatur} \\ \hline
+
+P5 & Ketidaksesuaian kebutuhan pengguna dengan implementasi sistem &
+Beberapa proses tidak sesuai URS, alur persetujuan panjang, fitur belum sepenuhnya mendukung kebutuhan pengguna. &
+Kesesuaian kebutuhan pengguna adalah kunci keberhasilan sistem digital (Aboelmaged, 2010; Alemjdal dkk. 2023). \\ \hline
+
+P6 & Kesiapan organisasi \& resistensi perubahan &
+Variasi pemahaman pengguna, kurangnya pelatihan, serta adaptasi proses yang belum matang. &
+Perubahan digital sering gagal karena kurangnya change management (Kotter 2018; Appelbaum dkk., 2012). \\ \hline
+
+P7 & Standarisasi proses yang belum optimal &
+Perbedaan alur antar RU, belum adanya SOP terintegrasi untuk seluruh siklus pengadaan. &
+Standarisasi proses penting untuk efisiensi dan compliance (Gunasekaran \& Ngai 2008). \\ \hline
+
+P8 & Risiko operasional \& admin &
+Risiko keterlambatan pembayaran, kesalahan pencatatan, dan ketidaktepatan data persediaan akibat proses non-terintegrasi. &
+Risiko operasional meningkat tanpa digitalisasi \& kontrol proses (Droppe 2023; Zahra dkk. 2021). \\ \hline
+
+\end{tabular}
+\end{table}
+
+Dengan demikian, fokus penelitian ini diarahkan pada evaluasi dan penyempurnaan implementasi Pengadaan Digital, terutama pada permasalahan P5–P8 yang menjadi isu inti dalam tahap pengembangan sistem saat ini. Fokus ini sejalan dengan kebutuhan PT KPI untuk memastikan bahwa sistem yang telah dibangun tidak hanya berfungsi secara teknis, tetapi juga dapat diadopsi secara efektif oleh pengguna, selaras dengan proses bisnis, serta mampu meminimalkan risiko operasional di seluruh rantai pengadaan.
+
+\subsection{Kebutuhan Fungsional}
+
+Kebutuhan fungsional memastikan bahwa Aplikasi pengadaan digital mampu men-dukung seluruh alur proses pengadaan PT KPI secara end-to-end, mulai dari peren-canaan, pengajuan, evaluasi, kontraktual, hingga monitoring dan analitik. Hal ini selaras dengan struktur kebutuhan yang ditunjukkan dalam Tabel III.3, di mana setiap fungsi utama sistem tidak hanya mendukung eksekusi operasional, tetapi juga memastikan kepatuhan prosedural, peningkatan visibilitas, pengurangan duplikasi proses, serta kemampuan pelacakan dokumen dan aktivitas secara real-time. Selain itu, sistem diharapkan mampu menyediakan integrasi yang mulus dengan platform dan basis data internal yang telah digunakan sebelumnya. Fitur notifikasi dan alur persetujuan otomatis juga diperlukan untuk mempercepat proses dan meminimalkan intervensi manual. 
+
+\begin{table}[H]
+\centering
+\caption{Rincian Kebutuhan Fungsional}
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{5pt}
+
+\begin{tabular}{|p{1.2cm}|p{2cm}|p{7cm}|p{2cm}|}
+\hline
+\textbf{Kode} & \textbf{Kebutuhan Fungsional} & \textbf{Deskripsi} & \textbf{ID Terkait} \\ \hline
+
+KF-01 & Manajemen DP3 Online &
+Sistem harus menyediakan pembuatan, standardisasi, dan review berjenjang dokumen DP3 secara elektronik, termasuk pelacakan status dan penyimpanan arsip digital. &
+P3, P7 \\ \hline
+
+KF-02 & Monitoring Pengadaan (Digimon) &
+Sistem harus memusatkan seluruh proses pengajuan pengadaan, mencatat review \& approval, menampilkan status real-time, dan menyediakan fitur notifikasi otomatis. &
+P2, P3 \\ \hline
+
+KF-03 & Manajemen Kontrak &
+Sistem harus mendukung pembuatan, penugasan, review, dan approval kontrak secara digital, termasuk tracking SLA dan penyimpanan dokumen kontrak. &
+P3, P5, P7 \\ \hline
+
+KF-04 & Custom Monitoring \& Kepabeanan &
+Sistem harus mendukung proses pembebasan material impor dan penyimpanan dokumen kepabeanan secara terintegrasi. &
+P2, P8 \\ \hline
+
+\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+\centering
+\caption{(Lanjutan) Rincian Kebutuhan Fungsional}
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{5pt}
+
+\begin{tabular}{|p{1.2cm}|p{2cm}|p{7cm}|p{2cm}|}
+\hline
+\textbf{Kode} & \textbf{Kebutuhan Fungsional} & \textbf{Deskripsi} & \textbf{ID Terkait} \\ \hline
+
+KF-05 & Inventory \& Warehouse &
+Sistem harus menyediakan manajemen stok, akurasi inventaris, integrasi data gudang, dan optimasi pengadaan material berdasarkan kebutuhan RU. &
+P1, P4, P8 \\ \hline
+
+KF-06 & Analytics \& Reporting &
+Sistem harus menyediakan dashboard analitik, laporan otomatis, key performance indicators (KPI) pengadaan, serta kemampuan drilling data. &
+P2, P8 \\ \hline
+
+KF-07 & Integrasi dengan SAP &
+Sistem harus membaca dan mengirim data PR, PO, kontrak, material, serta transaksi persediaan ke SAP melalui API atau interface yang disediakan Holding. &
+P4, P5 \\ \hline
+
+KF-08 & Integrasi dengan iVendor &
+Sistem harus menyinkronkan data vendor, validasi dokumen, dan proses evaluasi pemasok dengan iVendor sesuai standar EIT Holding. &
+P4, P5 \\ \hline
+
+KF-09 & Manajemen User \& Hak Akses &
+Sistem harus mendukung role-based access control (RBAC) untuk memastikan akses FPP, user RU, Procurement Operation, dan manajemen. &
+P6 \\ \hline
+
+KF-10 & Audit Trail Digital &
+Sistem harus mencatat setiap aktivitas pengguna, perubahan dokumen, dan proses approval secara otomatis untuk kebutuhan audit. &
+P3, P8 \\ \hline
+
+KF-11 & Migrasi \& Konsolidasi Data &
+Sistem harus mampu memigrasikan data dari ≥26 aplikasi existing di RU secara aman dan terstruktur. &
+P1, P4, P7 \\ \hline
+
+KF-12 & Notifikasi Otomatis &
+Sistem harus memberikan pengingat otomatis atas SLA, approval tertunda, dan status proses pengadaan. &
+P2, P3, P8 \\ \hline
+
+\end{tabular}
+\end{table}
+
+
+\subsection{Kebutuhan Nonfungsional}
+
+Kebutuhan nonfungsional memastikan bahwa Aplikasi Pengadaan Digital memenuhi standar kualitas, keamanan, dan keandalan yang dibutuhkan PT KPI sebagai perusahaan energi berskala nasional. Selaras dengan struktur kebutuhan yang ditunjukkan dalam Tabel III.5, setiap kebutuhan nonfungsional berperan penting dalam mendukung keberlangsungan operasional di seluruh RU. 
+
+\begin{table}[H]
+\centering
+\caption{Rincian Kebutuhan Nonfungsional}
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{5pt}
+
+\begin{tabular}{|p{1.4cm}|p{3cm}|p{4cm}|p{4cm}|}
+\hline
+\textbf{Kode} & \textbf{Kebutuhan Non-Fungsional} & \textbf{Deskripsi} & \textbf{Indikator Terukur} \\ \hline
+
+KNF-01 & \textit{System Performance} &
+Sistem harus mampu memproses seluruh aktivitas pengadaan (create PR, approval, bidding, evaluasi, kontrak) tanpa keterlambatan. &
+\begin{itemize}[leftmargin=*]
+  \item Waktu respons maksimum $<3$ detik/transaksi.
+  \item Waktu pemuatan halaman $<5$ detik.
+  \item Mendukung minimal 5.000 transaksi/bulan.
+\end{itemize} \\ \hline
+
+KNF-02 & \textit{Scalability} &
+Sistem mampu mengakomodasi peningkatan pengguna dan volume transaksi seiring perluasan penggunaan di seluruh RU. &
+\begin{itemize}[leftmargin=*]
+  \item Kapasitas pengguna minimal 2.000 user aktif.
+  \item Sistem mampu menangani hingga 3× beban normal.
+\end{itemize} \\ \hline
+
+KNF-03 & \textit{Reliability} &
+Sistem harus beroperasi secara stabil untuk mendukung proses pengadaan yang bersifat kritikal. &
+\begin{itemize}[leftmargin=*]
+  \item Tingkat ketersediaan sistem $\geq 99.5\%$.
+  \item Toleransi downtime maksimal $<4$ jam/bulan.
+\end{itemize} \\ \hline
+
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{(Lanjutan) Rincian Kebutuhan Nonfungsional}
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{5pt}
+
+\begin{tabular}{|p{1.4cm}|p{3cm}|p{4cm}|p{4cm}|}
+\hline
+\textbf{Kode} & \textbf{Kebutuhan Non-Fungsional} & \textbf{Deskripsi} & \textbf{Indikator Terukur} \\ \hline
+
+KNF-04 & \textit{Information Security} &
+Menjamin keamanan data pengadaan, dokumen kontrak, vendor, serta integritas transaksi. &
+\begin{itemize}[leftmargin=*]
+  \item Multi-factor authentication (MFA).
+  \item Kepatuhan minimal standar ISO 27001.
+\end{itemize} \\ \hline
+
+KNF-05 & \textit{System Integration} &
+Sistem terintegrasi dengan SAP dan iVendor sebagai sistem inti pengadaan holding. &
+\begin{itemize}[leftmargin=*]
+  \item Sinkronisasi data real-time $<60$ detik.
+  \item Kompatibilitas melalui API/RESTful.
+  \item Tingkat keberhasilan integrasi $\geq 98\%$.
+\end{itemize} \\ \hline
+
+KNF-06 & \textit{Usability} &
+Sistem mudah dipahami, memiliki antarmuka intuitif, dan mendukung seluruh level pengguna. &
+\begin{itemize}[leftmargin=*]
+  \item Onboarding $\leq 2$ jam.
+  \item Task completion $\geq 90\%$ tanpa admin.
+\end{itemize} \\ \hline
+
+KNF-07 & \textit{Maintainability} &
+Mudah diperbaiki, dipelihara, dan diperbarui tanpa mengganggu operasional. &
+\begin{itemize}[leftmargin=*]
+  \item MTTR $<2$ jam.
+  \item Downtime update $<30$ menit.
+\end{itemize} \\ \hline
+
+KNF-08 & \textit{Portability} &
+Dapat digunakan di berbagai browser dan perangkat. &
+\begin{itemize}[leftmargin=*]
+  \item Kompatibel Chrome, Edge, Firefox, Safari.
+  \item Support desktop dan mobile.
+\end{itemize} \\ \hline
+
+\end{tabular}
+\end{table}
+
+Penetapan batas waktu respons $<3$--$5$ detik dan kapasitas transaksi tinggi 
+mengacu pada pedoman \textit{performance efficiency} dalam ISO/IEC 25010 serta 
+\textit{benchmarking} aplikasi enterprise seperti SAP yang merekomendasikan waktu 
+respons transaksi di bawah 5 detik (ISO 25010 2011; SAP 2020). Standar \textit{usability}, termasuk kebutuhan onboarding pengguna $<2$ jam dan tingkat 
+penyelesaian tugas $\geq 90\%$, merujuk pada prinsip kemudahan penggunaan yang 
+dikemukakan oleh Herold serta pedoman ISO 9241-11 terkait evaluasi efektivitas 
+interaksi pengguna  \autocite{herold2022dynamic}. Sementara itu, indikator \textit{reliability} $\geq 99{,}5\%$ dan toleransi \textit{downtime} 
+$<4$ jam/bulan disesuaikan dengan standar sistem kritikal yang harus selalu siap 
+mendukung proses operasional (O’Brien \& Marakas 2011; Armbrust dkk. 2010). Untuk integrasi sistem, sinkronisasi \textit{real-time} $<60$ detik serta keberhasilan 
+integrasi $\geq 98\%$ didasarkan pada literatur yang menekankan pentingnya integrasi 
+data kontinu dalam rantai pasok digital, khususnya pada sistem berbasis SAP dan 
+API/RESTful \autocite{gunasekaran2008hk,herold2022dynamic}. 
+
+Selain itu, kebutuhan \textit{maintainability} dengan MTTR $<2$ jam mengikuti standar 
+pemeliharaan perangkat lunak yang menuntut pemulihan cepat agar tidak mengganggu 
+operasi bisnis (Pressman 2010). Terakhir, indikator \textit{portability} yang mengharuskan sistem berjalan di berbagai 
+perangkat dan \textit{browser} sesuai dengan karakteristik portabilitas perangkat lunak 
+sebagaimana dijelaskan dalam ISO/IEC 25010 (ISO 25010 2011).
+
+% Menurut \textcite{laudon2020}, gambarkan terlebih dahulu model konseptual sistem yang ada saat ini. Model konseptual ini berisi berbagai komponen atau subsitem dan interaksi antarsubsistem tersebut. Setelah itu, berikan penjelasan tentang masalah yang ada pada sistem tersebut. Paragraf berikut berisi contoh penjabaran masalah sistem informasi fasilitas kesehatan untuk pasien \autocite{pressman2019}. 
+
+\section{Analisis Pemilihan Solusi}
+
+Dalam menghadapi kompleksitas proses pengadaan di PT Kilang Pertamina Internasional, penelitian ini berfokus pada analisis implementasi Sistem Pengadaan Digital, khususnya dalam aspek integrasi proses end-to-end. Fokus penelitian bukan pada merancang atau mengembangkan sistem baru, melainkan mengevaluasi bagaimana solusi digital yang telah diinisiasi oleh PT KPI dapat berjalan efektif untuk mengatasi fragmentasi proses, ketergantungan pada pekerjaan manual, serta rendahnya visibilitas dan konsistensi data antar unit. Evaluasi ini mencakup aspek kesiapan integrasi, kesesuaian proses bisnis, dan potensi perbaikan yang diperlukan agar implementasi sistem dapat mencapai tujuan efisiensi, transparansi, dan akurasi \autocite{deloitte2023cpo,droppe2023audit} . Selain itu, penelitian juga menilai sejauh mana kemampuan analitik dan monitoring real-time yang disediakan sistem dapat mendukung pengambilan keputusan operasional dan strategis \autocite{hallikas2021data}. 
+
+\subsection{Alternatif Solusi}
+
+Berdasarkan permasalahan yang teridentifikasi, penelitian ini menilai beberapa alternatif solusi yang relevan dengan konteks implementasi Sistem Pengadaan Digital. Namun, sesuai ruang lingkup penelitian, analisis lebih diarahkan pada solusi yang berhubungan langsung dengan efektivitas implementasi, bukan pengembangan sistem baru. Berikut adalah beberapa alternatif solusi yang dapat dipertimbangkan:
+
+\textbf{1. Integrasi Sistem Pengadaan End-to-End}
+
+Integrasi sistem merupakan solusi fundamental dalam mengatasi permasalahan fragmentasi aplikasi pengadaan yang selama ini berjalan berbeda di berbagai RU. Cara kerjanya dengan membangun arsitektur sistem yang memungkinkan seluruh proses pengadaan mulai dari perencanaan kebutuhan, permintaan pembelian, evaluasi vendor, penerbitan kontrak, hingga penerimaan barang berjalan secara terhubung melalui satu platform digital yang terintegrasi. Dengan pendekatan ini, kualitas data dapat terjaga secara konsisten sehingga proses pengambilan keputusan menjadi lebih cepat, akurat, dan transparan.
+
+Pada level teknis, integrasi dilakukan melalui API, middleware, atau web service yang memungkinkan sinkronisasi otomatis antara pengadaan digital dengan SAP (penganggaran, PR/PO, material) dan iVendor (data vendor). Dengan integrasi ini, data antarproses dapat mengalir otomatis tanpa reinput manual, menghilangkan redundansi, serta mempercepat proses lintas fungsi. Studi menunjukkan bahwa pendekatan ini memperkuat governance, meningkatkan visibilitas real-time, serta mengurangi error akibat perpindahan data manual \autocite{hallikas2021data}. Hal ini sekaligus memastikan konsistensi data di seluruh tahapan pengadaan. Selain itu, integrasi ini membantu menjaga akurasi informasi yang digunakan dalam pengambilan keputusan operasional maupun strategis.
+
+\textbf{2. Penerapan Data Analytics dalam Pengambilan Keputusan}
+
+Data analytics memungkinkan pengolahan data pengadaan untuk mendukung pengambilan keputusan berbasis bukti (evidence-based decision making). Cara kerjanya adalah dengan mengumpulkan data historis dari SAP, iVendor, DP3, Contract Online, dan Digimon, kemudian memprosesnya melalui data warehouse atau dashboard analitik. Sistem analitik dapat menampilkan tren pembelian, pola penggunaan material, performa pemasok, anomali anggaran, hingga estimasi kebutuhan berdasarkan pola musiman. Selain itu, analitik juga dapat digunakan untuk memetakan bottleneck proses dan menghitung SLA aktual. Literatur menunjukkan bahwa pemanfaatan big data analytics meningkatkan akurasi perencanaan, mitigasi risiko, dan efektivitas pemantauan proses operasional \autocite{bag2020bda}. Tantangan utamanya adalah kualitas data yang belum seragam serta kebutuhan kompetensi analitik pada pengguna. Untuk memaksimalkan manfaatnya, organisasi perlu membangun tata kelola data yang kuat agar proses analitik dapat berjalan konsisten dan menghasilkan insight yang dapat ditindaklanjuti.
+
+\textbf{3. Otomatisasi Proses melalui Robotic Process Automation (RPA)}
+
+RPA bekerja dengan mensimulasikan aktivitas pengguna dalam menjalankan tugas administratif yang berulang. Pada konteks PT KPI, cara kerjanya adalah dengan membuat bot yang mampu membaca dokumen pengadaan, memverifikasi data, melakukan cross-check antara dokumen dan sistem (misalnya antara Contract Online dan SAP), serta menjalankan persetujuan otomatis berdasarkan matrix kewenangan. Bot juga dapat melakukan penjadwalan laporan, mengirimkan reminder, atau mengeksekusi input data yang bersifat repetitif. Dengan otomatisasi ini, proses pengadaan menjadi lebih cepat, akurasi meningkat, dan beban kerja administratif menurun signifikan \autocite{accenture2022energy}. Namun, implementasi RPA membutuhkan pemetaan proses (process mapping) yang matang agar bot tidak gagal saat terjadi perubahan pada struktur sistem.
+
+\textbf{4. Penguatan Governance dan Compliance melalui Digital Tracking}
+
+Digital tracking adalah solusi yang memperkuat transparansi dan pengendalian internal melalui pencatatan otomatis terhadap seluruh aktivitas pengguna di dalam sistem. Cara kerjanya adalah dengan mencatat setiap tindakan seperti unggahan dokumen, perubahan nilai kontrak, revisi jadwal, hingga perpindahan status approval ke dalam audit log yang tidak dapat diubah. Sistem kemudian menyediakan dashboard khusus untuk manajemen dan auditor guna memantau kepatuhan prosedural. Pendekatan ini memudahkan audit internal dan eksternal, meminimalkan risiko fraud, serta memastikan bahwa seluruh proses tereksekusi sesuai SOP \autocite{droppe2023audit}. Tantangan muncul apabila pengguna tidak memasukkan data secara konsisten atau jika terdapat unit yang belum disiplin dalam penggunaan sistem.
+
+\textbf{5. Pemanfaatan AI untuk Klasifikasi Risiko dan Optimalisasi Sourcing}
+
+Artificial Intelligence (AI) menawarkan kemampuan analitik tingkat lanjut dengan mempelajari pola data besar untuk mendeteksi risiko dan memberikan rekomendasi keputusan. Cara kerjanya adalah dengan mengolah histori performa vendor, data harga, tingkat keterlambatan, kualitas pekerjaan, dan tren pasar untuk membentuk model prediksi. Model dapat menghasilkan skor risiko vendor, mengidentifikasi abnormal pattern (misalnya harga tiba-tiba naik drastis), hingga memprediksi kemungkinan keterlambatan proses pengadaan. Dalam konteks sourcing, AI juga dapat memberikan alternatif pemasok terbaik berdasarkan performa historis dan kriteria teknis tertentu \autocite{herold2022dynamic}. Meskipun potensinya besar, solusi ini membutuhkan kualitas data tinggi, serta integrasi dengan modul analitik existing.
+
+\subsection{Analisis Penentuan Solusi}
+
+Untuk menentukan solusi digital yang paling tepat dalam mendukung transformasi pengadaan di PT KPI, diperlukan analisis komparatif yang komprehensif terhadap berbagai alternatif yang tersedia. Setiap solusi memiliki karakteristik, keunggulan, serta keterbatasan yang berbeda, baik dari sisi efisiensi alur kerja, peningkatan visibilitas end-to-end, kemampuan eliminasi proses manual, maupun kesiapan integrasi dengan sistem induk seperti SAP, iVendor, dan aplikasi internal lainnya. Dengan mempertimbangkan berbagai aspek tersebut, Tabel III.7 berikut menyajikan ringkasan evaluasi terhadap ketujuh alternatif solusi pengadaan digital, sehingga menghasilkan dasar objektif dalam menentukan solusi terbaik yang akan diusulkan pada tahap desain sistem.
+
+\begin{table}[H]
+\centering
+\setlength{\tabcolsep}{6pt} % jarak antar kolom (standar seperti tabel sebelumnya)
+\renewcommand{\arraystretch}{1.1} % tinggi baris sedikit lega biar rapi
+
+\begin{tabular}{|p{4cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2.2cm}|}
+\hline
+\textbf{Metode} & \textbf{Efisiensi Proses} & \textbf{Visibilitas End-to-End} & \textbf{Pengurangan Duplikasi Data} & \textbf{Kesiapan Integrasi} \\ \hline
+
+Integrasi Sistem \textit{End-to-End} &
+\cmark & \cmark & \cmark & \cmark \\ \hline
+
+Data Analytics untuk Pengambilan Keputusan &
+\cmark & \cmark & \xmark & \cmark \\ \hline
+
+\textit{Robotic Process Automation (RPA)} &
+\cmark & \xmark & \cmark & \cmark \\ \hline
+
+Digital Tracking \& Audit Trail &
+\cmark & \cmark & \cmark & \xmark \\ \hline
+
+Artificial Intelligence untuk Risiko \& Sourcing &
+\cmark & \cmark & \xmark & \cmark \\ \hline
+
+\end{tabular}
+
+\caption{Perbandingan Alternatif Solusi}
+\label{tbl:alternatif_solutions}
+\end{table}
+
+Integrasi sistem pengadaan end-to-end dipilih sebagai solusi paling relevan dan komprehensif untuk menjawab tantangan pengadaan digital di PT Kilang Pertamina Internasional karena kemampuannya mengatasi fragmentasi aplikasi, duplikasi proses, dan keterbatasan visibilitas lintas tahapan. Dengan menghubungkan seluruh alur pengadaan mulai dari perencanaan kebutuhan, permintaan pembelian, e-bidding, evaluasi pemasok, kontraktual, hingga monitoring pelaksanaan solusi ini menyediakan arsitektur proses yang lebih konsisten, efisien, dan transparan. 
+
+Meskipun menuntut kesiapan infrastruktur digital dan perubahan tata kelola organisasi, manfaat jangka panjang dari integrasi pengadaan terbukti lebih besar dibandingkan pendekatan parsial lainnya. Studi transformasi digital menunjukkan bahwa integrasi menyeluruh tidak hanya meningkatkan efisiensi proses, tetapi juga menyediakan fondasi kuat bagi penerapan teknologi lanjutan seperti analitik data, automasi, dan manajemen risiko prediktif \autocite{accenture2022energy,cooper2024dtproc,droppe2023audit}. Dengan mempertimbangkan kebutuhan perusahaan untuk memperkuat visibilitas end-to-end, mengurangi duplikasi data, mendukung standar sistem holding, serta meningkatkan kualitas pengambilan keputusan, integrasi sistem pengadaan end-to-end menjadi solusi yang paling tepat dan berkelanjutan untuk mendukung transformasi pengadaan digital PT KPI secara holistik.

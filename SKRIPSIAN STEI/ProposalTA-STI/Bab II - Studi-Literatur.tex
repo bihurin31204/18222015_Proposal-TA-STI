@@ -1,0 +1,606 @@
+% ==========================================
+% BAB II STUDI LITERATUR
+% ==========================================
+\chapter{STUDI LITERATUR}
+\label{chap:studi-literatur}
+
+Bab ini menyajikan kajian literatur yang membahas implementasi Sistem Pengadaan Digital terintegrasi di PT KPI. Pembahasan mencakup konsep dasar pengadaan digital, meliputi definisi, tujuan, dan manfaatnya dalam meningkatkan efisiensi serta transparansi proses pengadaan. Selain itu, dibahas pula elemen dan teknologi pendukung seperti e-sourcing, e-contracting, procurement analytics, dan integrasi dengan platform lain seperti SAP dan iVendor. Kajian juga menyoroti aspek transformasi digital dalam organisasi, termasuk manajemen perubahan dan risiko yang memengaruhi keberhasilan implementasi sistem. Selanjutnya, ditinjau beberapa penelitian terdahulu untuk mengidentifikasi tren dan kesenjangan penelitian. Bab ini diakhiri dengan penyusunan kerangka teoritis yang mengaitkan variabel efektivitas, efisiensi, akurasi data, dan kepatuhan dalam penerapan Sistem Pengadaan Digital di PT KPI.
+
+\section{Pengadaan Digital}
+
+Perkembangan teknologi digital yang sangat pesat telah mengubah praktik pengadaan di berbagai industri, dengan sektor minyak dan gas menjadi salah satu bidang strategis yang tengah menghadapi transformasi tersebut. Sebagai industri yang sangat padat modal dan memiliki kompleksitas operasional tinggi, perusahaan minyak dan gas kini semakin banyak memanfaatkan strategi pengadaan digital untuk meningkatkan efisiensi, ketahanan operasional, serta penciptaan nilai strategis bagi organisasi \autocite{accenture2022energy,deloitte2023cpo}. Kebutuhan transformasi digital semakin mendesak seiring meningkatnya tuntutan transparansi, ketangkasan, efisiensi biaya, dan ketahanan rantai pasok di tengah volatilitas global, ketidakstabilan geopolitik, serta tekanan terkait isu iklim faktor yang sangat menonjol dalam industri minyak dan gas \autocite{bcg2022supplychain}. 
+
+\subsection{Definisi Pengadaan Digital}
+
+Pengadaan Digital merupakan pendekatan modern dalam proses pengadaan barang dan jasa yang memanfaatkan teknologi digital untuk mengotomatisasi, menyederhanakan, dan meningkatkan efektivitas keseluruhan proses pengadaan dari tahap perencanaan hingga pembayaran. Berbeda dengan proses pengadaan tradisional yang cenderung bersifat manual, dokumentatif, dan tersebar di berbagai unit, Pengadaan Digital memungkinkan integrasi menyeluruh melalui platform terpadu berbasis teknologi sehingga meningkatkan akurasi data, transparansi, serta kecepatan proses \autocite{althabatah2023industry4}. Dalam praktiknya, Pengadaan Digital mengintegrasikan berbagai teknologi seperti e-sourcing, e-catalogue, contract management system, analitik data, hingga artificial intelligence (AI) untuk mendukung otomasi proses dan memberikan visibilitas real-time terhadap seluruh alur pengadaan. Teknologi tersebut membantu organisasi mengurangi human error, menghindari duplikasi data, serta meningkatkan kepatuhan terhadap standar pengadaan dan regulasi \autocite{vaka2024procurement4}.
+
+Pengadaan Digital juga erat kaitannya dengan konsep “Procurement 4.0,” yaitu transformasi pengadaan yang mengadopsi prinsip Industry 4.0 melalui pemanfaatan big data, Internet of Things (IoT), cloud computing, machine learning, robotic process automation (RPA), dan blockchain untuk menciptakan proses pengadaan yang lebih cerdas dan responsif. Teknologi ini memberikan kemampuan untuk menganalisis pola pengadaan, memprediksi risiko, meningkatkan traceability, serta memperkuat kolaborasi dengan pemasok.
+
+\subsection{Komponen dan Teknologi Utama Pengadaan Digital}
+
+Pengadaan Digital terdiri atas berbagai komponen dan teknologi yang dirancang untuk mengintegrasikan proses pengadaan secara menyeluruh, mulai dari perencanaan kebutuhan hingga pembayaran kepada pemasok. Komponen-komponen ini bekerja secara terpadu untuk meminimalkan pekerjaan manual, mengurangi kesalahan, serta mendukung pengambilan keputusan dengan berbasis data. 
+
+\begin{figure}[H] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=0.7\textwidth]{image/ilustrasi pengadaan digital.png}
+	\caption{Transformasi Teknologi Pengadaan Digital \autocite{deloitte2023cpo}}
+	\label{gambar:Ilustrasi-Pengadaan-Digital}
+\end{figure}
+
+Literatur menyebutkan bahwa Pengadaan Digital umumnya mencakup fitur e-sourcing, e-tendering, contract management, vendor management, inventory monitoring, hingga spend analytics yang terhubung dalam satu platform terpadu \autocite{bienhaus2018procurement4}. Salah satu teknologi inti dalam Pengadaan Digital adalah e-sourcing, yaitu proses pemilihan pemasok secara elektronik yang memungkinkan pengumpulan dokumen, evaluasi, dan komunikasi dilakukan melalui sistem. Teknologi ini mendukung transparansi dan mempercepat proses penetapan pemenang tender. Selain itu, terdapat e-contracting atau contract management system yang menyimpan, mengelola, dan mengotomatiskan siklus kerja kontrak sehingga meminimalkan risiko kesalahan dokumen dan meningkatkan kepatuhan  prosedur internal \autocite{croom2007ukpublic}.
+
+Komponen penting lainnya adalah vendor management system yang mengelola data penyedia barang dan jasa, memastikan kualitas pemasok, serta memfasilitasi monitoring kinerja. Sistem ini menjadi fondasi dalam menciptakan hubungan pembeli–pemasok yang lebih strategis. Selanjutnya, teknologi inventory and warehouse management membantu perusahaan memastikan ketersediaan stok, mencegah overstocking dan stock-out, serta meningkatkan akurasi informasi gudang yang sangat krusial dalam industri migas yang beroperasi secara berkesinambungan. Dengan integrasi kedua komponen ini, proses perencanaan kebutuhan hingga pemenuhan material dapat berlangsung lebih cepat, terukur, dan bebas dari ketidakefisienan.
+
+Teknologi analitik juga menjadi pilar utama Pengadaan Digital. Dengan memanfaatkan data analytics, organisasi dapat memonitor pengeluaran, menganalisis pola pembelian, mengidentifikasi peluang penghematan, dan mendeteksi risiko secara lebih cepat. Studi menunjukkan bahwa pemanfaatan analitik dalam pengadaan mampu meningkatkan kualitas pengambilan keputusan dan mengurangi ketidakpastian dalam rantai pasok \autocite{hallikas2021data}.
+
+Pengadaan Digital juga semakin diperkuat oleh teknologi Industry 4.0 seperti artificial intelligence, robotic process automation (RPA), blockchain, dan Internet of Things (IoT). AI membantu memprediksi risiko pemasok, menilai performa pemasok, serta memberikan rekomendasi otomatis dalam proses sourcing. RPA berfungsi mengotomatisasi pekerjaan administratif rutin seperti verifikasi dokumen dan pengecekan kepatuhan, sehingga mengurangi beban kerja manual. Blockchain memperkuat keamanan data dan memastikan integritas dokumen, sementara IoT meningkatkan traceability barang sepanjang rantai pasok, terutama dalam industri minyak dan gas yang membutuhkan pelacakan peralatan secara presisi \autocite{althabatah2023industry4,vaka2024procurement4}.
+
+\subsection{Proses dan Mekanisme Pengadaan Digital (Source-to-Pay)}
+
+\begin{figure}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=0.7\textwidth]{image/source to pay.png}
+	\caption{Proses Pengadaan Digital (Source-to-Pay) \autocite{simfoni2025s2p}}
+	\label{gambar:Source-To-Pay}
+\end{figure}
+
+Proses Pengadaan Digital umumnya mengikuti alur source-to-pay, yaitu rangkaian kegiatan pengadaan yang dimulai dari identifikasi kebutuhan hingga pembayaran kepada pemasok. Dalam konteks digital, seluruh tahapan tersebut diintegrasikan ke dalam satu platform terpadu untuk memastikan proses yang lebih cepat, akurat, transparan, dan mudah ditelusuri. Literatur menyebutkan bahwa digitalisasi pada setiap tahap source-to-pay berperan penting dalam mengurangi beban administratif, meminimalkan human error, serta meningkatkan efektivitas kolaborasi antara pemangku kepentingan internal maupun eksternal \autocite{gunasekaran2008hk,hallikas2021data}.
+
+Tahap pertama dalam mekanisme source-to-pay adalah spend analysis dan identifikasi kebutuhan. Pada tahap ini, teknologi analitik membantu organisasi mengevaluasi pola pengeluaran, mengidentifikasi peluang penghematan, dan menetapkan strategi pembelian yang lebih terinformasi. Tahap berikutnya adalah supplier sourcing, yaitu proses pencarian, seleksi, dan evaluasi pemasok. Platform e-sourcing memungkinkan tahapan ini berlangsung secara digital melalui pengumpulan dokumen, evaluasi teknis dan komersial, serta proses tender yang lebih terstruktur dan transparan \autocite{bienhaus2018procurement4}.
+
+Setelah pemasok terpilih, proses berlanjut ke e-contracting atau manajemen kontrak. Sistem digital memungkinkan penyusunan, peninjauan, persetujuan, serta penyimpanan kontrak dilakukan secara elektronik. Teknologi ini meningkatkan kepatuhan terhadap standar, mengurangi risiko kehilangan dokumen, serta mempermudah audit melalui adanya rekam jejak digital \autocite{croom2007ukpublic}. Dalam industri minyak dan gas, di mana kontrak berskala besar dan berjangka panjang sangat umum, fungsi ini menjadi krusial dalam memastikan integritas data dan efisiensi kerja. Tahap selanjutnya adalah procure-to-order, yakni pembuatan purchase request, purchase order, dan verifikasi barang/jasa. Digitalisasi alur ini mempersingkat waktu karena seluruh dokumen dapat diproses secara otomatis dan terintegrasi dengan sistem inventori dan vendor management. 
+
+Teknologi IoT juga dapat dimanfaatkan untuk memantau penggunaan peralatan, memastikan ketersediaan stok, serta mengurangi risiko kekurangan komponen penting \autocite{droppe2023audit}. Proses dilanjutkan dengan goods receipt dan invoice management. Sistem digital memastikan bahwa penerimaan barang atau penyelesaian pekerjaan dapat diverifikasi secara real-time. Sementara itu, e-invoicing dan three-way matching (kecocokan PO, GR, dan invoice) memungkinkan validasi pembayaran berlangsung otomatis sehingga mengurangi kesalahan dan mempercepat siklus pembayaran kepada pemasok. Teknologi RPA dapat mengotomatisasi pemeriksaan dokumen dan mempercepat proses verifikasi administratif \autocite{herold2022dynamic}.
+
+Tahap terakhir adalah payment processing, di mana seluruh dokumen yang telah diverifikasi dan disetujui diproses untuk pembayaran. Integrasi dengan sistem keuangan memastikan keakuratan transaksi, mempercepat pencatatan, serta meningkatkan kepatuhan terhadap kebijakan internal dan regulasi eksternal. Secara keseluruhan, digitalisasi pada setiap tahap source-to-pay mengubah pengadaan dari sekadar fungsi administratif menjadi aktivitas strategis yang menghasilkan nilai bagi perusahaan. Proses yang terintegrasi, terdokumentasi dengan baik, dan dapat ditelusuri secara real-time memungkinkan organisasi meningkatkan efektivitas operasional, memperkuat hubungan dengan pemasok, serta mengurangi risiko dalam rantai pasok yang semakin kompleks.
+
+\subsection{Kelebihan dan Keterbatasan Pengadaan Digital}
+
+Pengadaan Digital menawarkan berbagai kelebihan yang mampu meningkatkan efektivitas proses pengadaan, namun di sisi lain masih terdapat sejumlah keterbatasan yang perlu diperhatikan dalam implementasinya. Pemahaman terhadap kedua aspek ini penting untuk memastikan keberhasilan transformasi digital dalam fungsi pengadaan, terutama pada industri minyak dan gas yang memiliki kompleksitas operasional tinggi.
+
+1. \textbf{Kelebihan Pengadaan Digital}
+
+Salah satu keunggulan utama Pengadaan Digital adalah kemampuannya meningkatkan efisiensi proses melalui otomasi berbagai aktivitas administratif seperti permintaan pembelian, verifikasi dokumen, persetujuan, dan pelacakan status pengadaan. Otomasi ini mengurangi beban kerja manual, meminimalkan potensi kesalahan input, serta mempercepat waktu siklus pengadaan secara keseluruhan \autocite{gunasekaran2008hk}. Selain itu, Pengadaan Digital meningkatkan transparansi dan akuntabilitas. Sistem digital menyediakan rekam jejak lengkap pada setiap tahap proses, sehingga memudahkan monitoring, audit, serta pengawasan kepatuhan terhadap standar dan kebijakan pengadaan. Peningkatan transparansi ini juga mampu mengurangi risiko kecurangan serta memperkuat tata kelola organisasi, sebagaimana ditunjukkan pada studi internasional mengenai transformasi pengadaan di sektor publik dan energi \autocite{worldbank2025opencontracting}. Keunggulan lainnya adalah peningkatan kualitas pengambilan keputusan melalui pemanfaatan data analytics. Teknologi analitik memungkinkan organisasi melakukan spend analysis, menilai performa pemasok, memprediksi risiko, serta mengidentifikasi peluang penghematan. 
+
+Studi menunjukkan bahwa penggunaan data yang lebih matang dapat memperkuat ketahanan rantai pasok dan meningkatkan nilai strategis fungsi pengadaan (Hallikas dkk. 2021). Pengadaan Digital juga memperkuat hubungan dengan pemasok melalui integrasi data vendor, evaluasi kinerja yang lebih terstruktur, serta komunikasi yang lebih cepat dan akurat. Dalam konteks Procurement 4.0, teknologi seperti AI, blockchain, RPA, dan IoT mendorong proses pengadaan yang lebih responsif, aman, dan adaptif terhadap perubahan pasar (Herold 2022; Althabatah 2023). Selain itu, pemanfaatan teknologi analitik memungkinkan organisasi melakukan prediksi kebutuhan secara lebih akurat sehingga keputusan pembelian dapat dioptimalkan. Transformasi ini juga membantu perusahaan mencapai efisiensi biaya jangka panjang melalui otomatisasi dan peningkatan visibilitas end-to-end dalam proses pengadaan.
+
+2. \textbf{Keterbatasan Pengadaan Digital}
+
+Di balik berbagai kelebihannya, Pengadaan Digital juga memiliki keterbatasan yang perlu diantisipasi. Salah satu tantangan utama adalah kesiapan sumber daya manusia dalam mengadopsi sistem baru. Resistensi pengguna, kurangnya literasi digital, serta kebiasaan bekerja dengan metode lama sering kali menjadi hambatan signifikan dalam keberhasilan implementasi \autocite{appelbaum2012kotter}. Selain itu, integrasi sistem digital dengan aplikasi atau platform yang sudah ada dapat menjadi proses yang kompleks. Banyak organisasi mengalami kesulitan dalam menyatukan data, mengonversi format dokumen, atau menghubungkan sistem pengadaan dengan sistem keuangan dan operasional yang sudah lama digunakan. Ketidaksiapan infrastruktur juga dapat menyebabkan gangguan operasional di tahap awal transformasi \autocite{bag2020bda}.  Pengadaan Digital juga rentan terhadap risiko teknis seperti kesalahan migrasi data, keamanan informasi, serta ketergantungan tinggi pada perangkat digital. Ketergantungan ini dapat menimbulkan risiko baru ketika terjadi gangguan sistem, serangan siber, atau kegagalan jaringan yang dapat menghambat proses pengadaan secara keseluruhan.
+
+\section{Pengadaan Barang dan Jasa di Industri Migas}
+
+Pengadaan barang dan jasa pada industri minyak dan gas memiliki karakteristik yang berbeda dibandingkan sektor lainnya karena sifat operasionalnya yang kompleks, berisiko tinggi, dan memerlukan kepastian pasokan secara berkelanjutan. 
+
+\subsection{Definisi dan Karakteristik Pengadaan di Industri Migas}
+
+Pengadaan dalam industri migas tidak hanya berkaitan dengan pembelian barang dan jasa, tetapi juga mencakup perencanaan kebutuhan, pemilihan pemasok yang kompeten, kepatuhan terhadap regulasi keselamatan, serta pengendalian risiko rantai pasok untuk memastikan operasi dapat berjalan tanpa gangguan \autocite{ricardianto2022scor}. Karakteristik utama pengadaan migas meliputi tingginya nilai kontrak, spesifikasi teknis yang detail, kebutuhan akan pemasok yang memiliki sertifikasi khusus, serta durasi kontrak yang relatif panjang. 
+
+Selain itu, kegiatan pengadaan harus mampu mendukung kegiatan kritikal seperti pemeliharaan kilang, penggantian peralatan penting, dan manajemen aset operasi. Hal ini menjadikan fungsi pengadaan sangat strategis dalam menjaga keberlanjutan operasi, efisiensi biaya, dan kepatuhan terhadap standar keselamatan serta regulasi industri.
+
+\subsection{Tantangan Pengadaan di Industri Migas}
+
+Industri minyak dan gas menghadapi berbagai tantangan dalam proses pengadaan yang disebabkan oleh:
+
+\begin{enumerate}
+\item	Kompleksitas rantai pasok
+
+Rantai pasok migas melibatkan banyak pemasok, regulasi keselamatan, serta kebutuhan peralatan dan jasa yang sangat bervariasi. Tantangan ini diperkuat oleh volatilitas pasar global dan ketidakpastian geopolitik yang memengaruhi ketersediaan barang \autocite{bcg2022supplychain}.
+
+\item	Kebutuhan akan keandalan tinggi
+
+Keterlambatan pasokan dapat berdampak langsung pada operasional kilang. Karena itu, pengadaan harus memastikan barang dan jasa tersedia tepat waktu dan sesuai spesifikasi teknis \autocite{ricardianto2022scor}.
+
+\item	Fragmentasi data dan aplikasi
+
+Studi internasional menyoroti bahwa sistem informasi yang tidak terintegrasi menjadi hambatan utama dalam meningkatkan efisiensi pengadaan, karena menyebabkan duplikasi data, kesalahan dokumen, dan rendahnya visibilitas lintas unit \autocite{fawcett2008scm}.
+
+\item	Regulasi dan kepatuhan yang ketat
+
+Industri migas diwajibkan mematuhi standar keselamatan, HSE, dan tata kelola operasional. Proses pengadaan harus terdokumentasi dengan baik dan dapat diaudit secara menyeluruh \autocite{adnoc2020sustain}.
+
+\item	Biaya operasional yang tinggi
+
+Ketidakefisienan proses, lamanya waktu persetujuan, dan penggunaan sistem manual dapat memperbesar biaya operasional dan menurunkan efektivitas rantai pasok.
+
+\end{enumerate}
+
+\section{Sistem Pengadaan Digital dalam Industri Migas}
+
+Transformasi digital dalam pengadaan telah menjadi prioritas strategis bagi perusahaan minyak dan gas di seluruh dunia, terutama menghadapi volatilitas harga energi, perubahan regulasi, dan kebutuhan untuk meningkatkan efisiensi operasional. Perusahaan-perusahaan besar seperti ADNOC, Saudi Aramco, Equinor, dan ExxonMobil telah mengadopsi berbagai platform digital yang mengintegrasikan proses pengadaan mulai dari perencanaan kebutuhan hingga pembayaran. Implementasi ini bertujuan mempercepat siklus pengadaan, meningkatkan akurasi data, dan memperkuat transparansi \autocite{adnoc2020sustain,accenture2022energy}.
+
+\subsection{Studi Implementasi Pengadaan Digital di Industri Migas Global}
+
+Studi kasus menunjukkan bahwa adopsi Pengadaan Digital mampu menghasilkan penghematan biaya yang signifikan, meningkatkan kualitas evaluasi pemasok, serta menyediakan data pengadaan yang dapat dianalisis secara real-time. Di kawasan Timur Tengah, perusahaan minyak nasional seperti ADNOC dan Saudi Aramco menjadi pelopor transformasi digital dengan mengembangkan platform yang memanfaatkan AI, analitik prediktif, dan otomasi dokumen untuk mempercepat proses sourcing dan kontraktual \autocite{schoenherr2008auction}.
+
+Selain itu, inisiatif Pengadaan Digital global banyak difokuskan pada peningkatan integrasi sistem, konsistensi data lintas unit operasi, serta pemanfaatan teknologi cloud untuk memperluas akses dan mengurangi biaya pemeliharaan aplikasi. Pendekatan ini sejalan dengan tren industri yang menempatkan digitalisasi sebagai kunci daya saing dan ketahanan rantai pasok menghadapi dinamika pasar energi dunia \autocite{deloitte2023cpo,mckinsey2023digitization}.
+
+\subsection{Pengadaan Digital dan Procurement 4.0}
+
+Transformasi digital dalam pengadaan erat kaitannya dengan konsep Procurement 4.0, yaitu pendekatan modern yang mengadopsi prinsip Industry 4.0 untuk menciptakan proses pengadaan yang cerdas, prediktif, dan berbasis data. Procurement 4.0 mengintegrasikan teknologi seperti artificial intelligence (AI), Internet of Things (IoT), robotic process automation (RPA), big data analytics, cloud computing, dan blockchain untuk meningkatkan efisiensi serta kualitas keputusan dalam pengadaan \autocite{herold2022dynamic}. AI memungkinkan analisis performa pemasok, peramalan risiko, serta rekomendasi otomatis dalam pemilihan pemasok. IoT mendukung pemantauan peralatan dan material secara real-time, meningkatkan akurasi stok gudang, dan mengurangi risiko keterlambatan. RPA mempercepat pekerjaan administratif seperti verifikasi dokumen, pengecekan kepatuhan, dan pencocokan invoice. Blockchain memperkuat keamanan data dan integritas dokumen kontrak.
+
+Sementara itu, sistem berbasis cloud memperluas akses sistem pengadaan, memungkinkan kolaborasi lintas lokasi, serta menurunkan biaya infrastruktur TI. Dengan demikian, Procurement 4.0 tidak hanya mengotomatiskan proses, tetapi juga memberikan kapabilitas prediktif dan analitik yang mampu meningkatkan ketahanan rantai pasok perusahaan migas yang sangat bergantung pada keakuratan data dan kecepatan respons operasional.
+
+\subsection{Peran Teknologi dalam Transformasi Pengadaan}
+
+Transformasi digital dalam pengadaan tidak dapat dilepaskan dari kemajuan teknologi Industry 4.0 yang menghadirkan cara kerja yang lebih cerdas, terintegrasi, dan berbasis data. Perkembangan teknologi seperti Artificial Intelligence (AI), Internet of Things (IoT), Robotic Process Automation (RPA), Big Data Analytics, dan Cloud Computing memungkinkan organisasi mengotomatisasi proses rutin, mengurangi potensi kesalahan manual, serta mempercepat aliran informasi di seluruh rantai pengadaan. Integrasi teknologi ini tidak hanya meningkatkan efisiensi operasional, tetapi juga memperkuat transparansi, akurasi pengambilan keputusan, dan kemampuan prediktif dalam mengelola permintaan maupun risiko.
+
+Dalam industri minyak dan gas yang dikenal dengan struktur rantai pasok yang kompleks, tingkat risiko tinggi, serta tuntutan ketepatan operasional pemanfaatan teknologi Industry 4.0 menjadi semakin krusial. AI dan analytics dapat digunakan untuk memprediksi kebutuhan material secara lebih presisi, IoT mendukung pemantauan peralatan dan persediaan secara real-time, sementara RPA mempercepat pemrosesan dokumen dan alur administrasi yang sebelumnya memakan waktu. Cloud Computing memberikan fleksibilitas akses lintas lokasi dan unit kerja, sedangkan Big Data Analytics memungkinkan evaluasi pemasok, analisis performa kontrak, serta deteksi gangguan dalam rantai pasok dengan lebih cepat dan akurat.
+
+Selain itu, integrasi antar-teknologi ini menciptakan ekosistem pengadaan digital yang saling terhubung, di mana setiap aktivitas mulai dari identifikasi kebutuhan hingga pengawasan pascakonstruksi dapat dipantau, dianalisis, dan dioptimalkan secara simultan. Pemanfaatan data secara real-time memungkinkan organisasi melakukan penyesuaian cepat terhadap fluktuasi pasar dan dinamika operasional, sementara otomasi berbasis AI dan RPA meningkatkan konsistensi kualitas proses tanpa menambah beban kerja manual. Dengan demikian, teknologi Industry 4.0 tidak hanya menjadi alat pendukung, tetapi berubah menjadi fondasi strategis yang mendorong transformasi menyeluruh dalam praktik pengadaan modern.
+
+Berbagai studi memperlihatkan bahwa kombinasi teknologi-teknologi tersebut mampu meningkatkan daya saing organisasi, memperkuat ketahanan rantai pasok, serta mendukung pengambilan keputusan strategis yang lebih responsif dan berbasis bukti \autocite{herold2022dynamic,althabatah2023industry4}. Sebagai gambaran lebih rinci, kontribusi tiap teknologi terhadap proses pengadaan dijelaskan pada Tabel II.1 Peran Teknologi Industry 4.0 dalam Pengadaan Digital.
+
+\begin{table}[H]
+\begin{tabular}{ | p{3cm} | p{5cm} | p{5cm} | }
+\hline
+\textbf{Teknologi} 
+& \textbf{Peran Utama dalam Pengadaan} 
+& \textbf{Manfaat Utama} \\
+\hline
+
+Artificial Intelligence (AI) 
+& Menganalisis pola pengadaan, mengevaluasi pemasok, memprediksi risiko, dan memberikan rekomendasi otomatis untuk sourcing.
+& Pengambilan keputusan lebih cepat dan akurat; deteksi risiko lebih dini; peningkatan kualitas evaluasi pemasok.\autocite{herold2022dynamic} \\
+\hline
+
+Internet of Things (IoT) 
+& Memantau kondisi barang, peralatan, dan stok gudang secara real-time melalui sensor.
+& Visibilitas inventori meningkat; mencegah stock-out/overstock; meningkatkan keandalan operasional. \autocite{adjei2023innovation} \\
+\hline
+
+Robotic Process Automation (RPA) 
+& Mengotomatisasi aktivitas administratif seperti pengecekan dokumen, verifikasi invoice, dan pencatatan status pesanan.
+& Mengurangi human error; mempercepat proses; menurunkan beban kerja manual. \autocite{althabatah2023industry4} \\
+\hline
+
+Big Data Analytics 
+& Mengolah data pengadaan untuk spend analysis, penilaian performa pemasok, dan prediksi kebutuhan.
+& Efisiensi biaya meningkat; keputusan strategis lebih baik; ketahanan rantai pasok lebih baik. \autocite{hallikas2021data} \\
+\hline
+
+Cloud Computing 
+& Menyediakan platform terpusat yang dapat diakses lintas unit dan lokasi, mendukung integrasi sistem pengadaan.
+& Skalabilitas tinggi; biaya infrastruktur lebih rendah; kolaborasi lebih mudah. \autocite{accenture2022energy} \\
+\hline
+
+\end{tabular}
+\caption{Peran Teknologi Industry 4.0 dalam Pengadaan Digital}
+\label{tbl:teknologi_pengadaan}
+\end{table}
+
+Dalam industri dengan kompleksitas tinggi seperti migas, keberhasilan implementasi sistem pengadaan digital tidak hanya berdampak pada efektivitas biaya, tetapi juga memperkuat tata kelola, mitigasi risiko, serta keberlanjutan operasional.
+
+\section{Six Sigma dan Pendekatan DMAIC}
+
+Six Sigma merupakan suatu pendekatan manajemen kualitas berbasis data yang dikembangkan untuk mengurangi variasi proses, meminimalkan cacat, dan meningkatkan efektivitas operasional secara sistematis. Literatur menegaskan bahwa keberhasilan implementasi Six Sigma bergantung pada komitmen manajemen, pendekatan berbasis bukti, serta struktur metodologis yang terstandarisasi seperti DMAIC yang terbukti efektif dalam berbagai industri \autocite{antony2002sixsigma,ajmera2017sixsigma,antony2009india}. Pendekatan ini kini banyak digunakan sebagai strategi peningkatan proses, termasuk dalam konteks analisis dan optimalisasi sistem bisnis modern.
+
+\subsection{Sejarah Six Sigma}
+
+Perkembangan Six Sigma bermula ketika sebuah perusahaan Jepang mengambil alih pabrik Motorola yang memproduksi perangkat elektronik Quasar pada tahun 1970-an. Selama masa pengelolaan tersebut, perusahaan Jepang mampu melakukan peningkatan signifikan terhadap efisiensi dan efektivitas proses produksi, yang berhasil menurunkan tingkat cacat hingga mencapai 1/20 dari jumlah sebelumnya melalui pemanfaatan sumber daya secara paralel. Keberhasilan ini menjadi landasan bagi Motorola untuk mengembangkan kerangka kualitas terstruktur yang kemudian dikenal sebagai Six Sigma pada pertengahan 1980-an. Pendekatan ini mendapat pengakuan luas ketika Motorola meraih Malcolm Baldrige National Quality Award pada tahun 1988. Sejarah perkembangan Six Sigma ini konsisten dengan pembahasan dalam literatur yang menekankan bahwa pendekatan ini lahir dari kebutuhan untuk mengontrol variasi proses dan meningkatkan kinerja secara sistematis \autocite{antony2002sixsigma}. Selain itu, penelitian lainnya menunjukkan bahwa keberhasilan awal Six Sigma didukung oleh komitmen kuat dari manajemen puncak serta budaya perusahaan yang berbasis data \autocite{ajmera2017sixsigma}.
+
+\subsection{Gambaran Umum Six Sigma}
+
+Six Sigma merupakan suatu pendekatan manajemen kualitas yang memadukan prinsip-prinsip statistik, teknik pengendalian mutu, dan filosofi perbaikan berkelanjutan. Tujuan utama Six Sigma tidak hanya berfokus pada peningkatan kualitas melalui pengurangan cacat, tetapi juga meminimalkan biaya operasional, meningkatkan kinerja proses, serta memperkuat kepuasan pelanggan dan moral karyawan. Pendekatan ini menggunakan ukuran kinerja berbasis defects per million opportunities (DPMO), di mana tingkat 6 Sigma dianggap sebagai standar ideal yang merepresentasikan hanya sekitar 3,4 cacat per satu juta peluang sebuah capaian yang menggambarkan performa proses mendekati sempurna \autocite{pyzdek2003sixsigma}. Sebagaimana ditunjukkan pada Tabel II.2 mengenai Tingkat Sigma, semakin tinggi level sigma yang dicapai suatu proses, semakin kecil jumlah cacat yang dihasilkan dan semakin tinggi pula persentase yield-nya \autocite{pyzdek2003sixsigma}.
+
+\begin{table}[H]
+\centering
+\caption{Tingkat Sigma \autocite{pyzdek2003sixsigma}}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Tingkat Sigma} & \textbf{Cacat per Satu Juta} & \textbf{Hasil (Yield)} \\ \hline
+6 & 3{,}4   & 99{,}99966\% \\ \hline
+5 & 230     & 99{,}977\% \\ \hline
+4 & 6{,}210 & 99{,}33\%  \\ \hline
+3 & 66{,}800 & 93{,}32\% \\ \hline
+2 & 308{,}000 & 68{,}15\% \\ \hline
+1 & 690{,}000 & 30{,}85\% \\ \hline
+\end{tabular}
+\end{table}
+
+Penerapan Six Sigma menuntut organisasi untuk melakukan dekomposisi proses secara menyeluruh, mengidentifikasi setiap langkah yang memberikan nilai tambah maupun tidak memberikan nilai tambah, dan kemudian menganalisis penyebab variasi menggunakan prinsip statistik. Proses perbaikan dalam Six Sigma dilakukan secara sistematis melalui kerangka metodologi seperti DMAIC, yang telah terbukti mampu meningkatkan efisiensi dan efektivitas proses lintas industri, termasuk manufaktur dan layanan \autocite{antony2002sixsigma}. 
+
+Studi empiris memperlihatkan bahwa Six Sigma berperan signifikan dalam menurunkan tingkat cacat, meningkatkan throughput, serta memperkuat budaya pengambilan keputusan berbasis data di berbagai organisasi \autocite{ajmera2017sixsigma}. Untuk dapat beroperasi pada level 6 Sigma, metodologi ini menuntut upaya berkelanjutan agar organisasi mampu berproduksi secara stabil dan menghasilkan output yang dapat diprediksi. Six Sigma mengidentifikasi dan menganalisis setiap langkah secara mendalam untuk menemukan cara–cara yang dapat meningkatkan efisiensi dan efektivitas, memperbaiki kualitas secara keseluruhan, dan pada akhirnya meningkatkan profit perusahaan. Selain memberikan manfaat operasional, implementasi Six Sigma juga berkontribusi pada peningkatan budaya organisasi. Karyawan didorong untuk lebih proaktif dalam mengidentifikasi masalah, melakukan pengukuran secara objektif, serta merancang solusi yang teruji sehingga proses perbaikan dapat dipertanggungjawabkan secara ilmiah. Pendekatan yang sistematis ini menjadikan Six Sigma tidak hanya sebagai metodologi peningkatan kualitas, tetapi juga sebagai kerangka manajemen yang memperkuat disiplin, akuntabilitas, dan orientasi terhadap hasil. Serangkaian aktivitas penyempurnaan ini dilakukan oleh beberapa personel khusus yang dikenal sebagai Green Belt, Black Belt, dan Master Black Belt dalam Six Sigma. Masing-masing tingkatan memiliki tanggung jawab spesifik dalam menganalisis data, memimpin proyek perbaikan, hingga merumuskan strategi kualitas pada level organisasi \autocite{pyzdek2003sixsigma}.
+
+\begin{enumerate}
+\item	Green Belt
+
+Pemimpin proyek dalam Six Sigma bertanggung jawab untuk membentuk, memfasilitasi, dan mengelola tim sepanjang proses, mulai dari perencanaan hingga penyelesaian. Seorang Green Belt harus memiliki pengetahuan luas atau pengalaman dalam manajemen proyek, manajemen kualitas, alat pengendalian mutu, pemecahan masalah, dan analisis data deskriptif.
+
+\item	Black Belt
+
+Individu dengan kompetensi teknis tinggi dan dihormati oleh rekan kerja, biasanya berasal dari berbagai disiplin ilmu. Seorang Black Belt idealnya menguasai berbagai alat teknis dan terlibat secara aktif dalam proses perubahan serta pengembangan organisasi.
+
+\item	Master Black Belt
+
+Pemimpin teknis utama dalam proyek, yang harus menguasai seluruh pengetahuan yang dimiliki oleh Black Belt serta tambahan keterampilan yang memiliki pengaruh besar terhadap keberhasilan implementasi Six Sigma. Master Black Belt bekerja bersama Green Belt dalam menerapkan metode yang benar, bahkan dalam situasi yang tidak biasa.
+
+\end{enumerate}
+
+\subsection{Metodologi Six Sigma}
+
+Salah satu metodologi utama yang digunakan dalam kerangka Six Sigma, sebagaimana dijelaskan dalam buku \textcite{defeo2004juran} “JURAN Institute Six Sigma Breakthrough and Beyond”, adalah DMAIC, yang merupakan akronim dari Define – Measure – Analyze – Improve – Control. Metodologi ini digunakan terutama untuk meningkatkan proses bisnis yang sudah berjalan melalui pendekatan terstruktur dan berbasis data. Gambaran umum mengenai tahapan DMAIC dapat dilihat pada Tabel II.3, yang diadaptasi dari penjelasan Thomas Pyzdek dalam bukunya “The Six Sigma Handbook”. Pendekatan ini tidak hanya memberikan alur sistematis untuk mengidentifikasi dan menyelesaikan masalah, tetapi juga memastikan bahwa peningkatan yang dilakukan dapat dipertahankan dalam jangka panjang. DMAIC memungkinkan organisasi untuk menilai efektivitas proses secara menyeluruh melalui pengukuran yang objektif dan analisis statistik yang kuat. Dengan demikian, metodologi ini menjadi fondasi penting dalam upaya peningkatan kualitas yang konsisten dan berkelanjutan.
+
+\begin{table}[H]
+\centering
+\caption{Ikhtisar DMAIC (Pyzdek 2003)}
+\begin{tabular}{|p{2.2cm}|p{10.8cm}|}
+\hline
+\textbf{Tahap} & \textbf{Deskripsi} \\ \hline
+
+\textit{Define} &
+Menetapkan tujuan aktivitas perbaikan. Tujuan yang paling penting berasal dari pelanggan. Pada level strategis, tujuan dapat berupa peningkatan loyalitas pelanggan, ROI yang lebih tinggi, pangsa pasar yang lebih besar, atau peningkatan kepuasan karyawan. Pada level operasional, tujuan dapat berupa peningkatan throughput produksi. Pada level proyek, tujuan dapat berupa pengurangan tingkat cacat dan peningkatan output untuk proses tertentu. Tujuan harus dikumpulkan melalui komunikasi langsung dengan pelanggan, pemangku kepentingan, dan karyawan.
+\\ \hline
+
+\textit{Measure} &
+Mengukur sistem yang ada. Menetapkan metrik yang valid dan andal untuk membantu memantau kemajuan terhadap tujuan yang ditetapkan sebelumnya.
+\\ \hline
+
+\textit{Analyze} &
+Menganalisis sistem untuk mengidentifikasi cara menghilangkan kesenjangan antara kinerja saat ini dan kinerja yang diinginkan. Dimulai dengan menentukan baseline saat ini. Gunakan analisis eksploratori dan analisis deskriptif untuk memahami data. Gunakan alat statistik untuk memandu analisis.
+\\ \hline
+
+\textit{Improve} &
+Meningkatkan sistem. Berkreasi dalam menemukan cara melakukan sesuatu dengan lebih baik, lebih cepat, atau lebih murah. Gunakan manajemen proyek dan berbagai alat perencanaan serta manajemen untuk menerapkan pendekatan baru. Gunakan metode statistik untuk memvalidasi peningkatan.
+\\ \hline
+
+\textit{Control} &
+Mengendalikan sistem baru. Melembagakan sistem yang telah ditingkatkan dengan memodifikasi kebijakan dan insentif, prosedur, instruksi kerja, sistem manajemen lain, MRP, anggaran, pengawasan, dan sebagainya. Dapat menggunakan standar seperti ISO 9000 untuk memastikan dokumentasi benar. Gunakan alat statistik untuk memantau stabilitas sistem baru.
+\\ \hline
+
+\end{tabular}
+\end{table}
+
+Kombinasi pendekatan yang terstruktur dan berbasis data memastikan bahwa perbaikan yang dilakukan tidak hanya menyelesaikan masalah jangka pendek, tetapi juga mendorong stabilitas proses dalam jangka panjang. Dengan demikian, DMAIC menjadi landasan penting bagi organisasi yang ingin mencapai kualitas operasional yang konsisten dan berkelanjutan.
+
+\section{Penelitian Terdahulu dan Gap Penelitian}
+
+Kajian penelitian terdahulu menunjukkan bahwa Pengadaan Digital telah menjadi fokus penting dalam upaya meningkatkan efisiensi, transparansi, serta ketahanan rantai pasok di berbagai sektor, termasuk minyak dan gas. Berbagai studi empiris dan laporan industri telah membahas peran teknologi digital, faktor pendorong dan penghambat implementasi, serta manfaat strategis yang diperoleh organisasi setelah beralih dari sistem manual menuju sistem digital terintegrasi.
+
+Penelitian yang dilakukan oleh \textcite{bienhaus2018procurement4} Bienhaus dan Haddud berjudul “Procurement 4.0: Factors Influencing the Digitisation of Procurement and Supply Chains” merupakan salah satu studi awal yang secara komprehensif membahas bagaimana konsep Procurement 4.0 membentuk ulang fungsi pengadaan dalam era digital. Fokus utama penelitian ini mengidentifikasi faktor-faktor yang memengaruhi digitalisasi pengadaan, termasuk tantangan, peluang, serta kapabilitas organisasi yang diperlukan untuk berhasil mengimplementasikan Procurement 4.0. Metode penelitian yang digunakan berupa studi literatur mengenai perkembangan teknologi Industry 4.0 serta survei dan wawancara terhadap para profesional pengadaan dari berbagai industri. Hasil penelitian menunjukkan bahwa digitalisasi pengadaan memberikan berbagai manfaat strategis, seperti peningkatan efisiensi operasional, kualitas data, kecepatan pengambilan keputusan, serta kemampuan prediksi melalui analitik canggih. Teknologi seperti otomatisasi proses, integrasi data, sensor IoT, dan aplikasi berbasis cloud terbukti mempercepat alur kerja pengadaan dan memperkuat koordinasi dengan pemasok. Penelitian ini juga mengidentifikasi bahwa kemampuan adaptif organisasi, kesiapan teknologi, serta kompetensi SDM menjadi faktor kunci keberhasilan digitalisasi. Sebaliknya, hambatan yang ditemukan mencakup resistensi pengguna, kurangnya standardisasi proses, integrasi sistem lama yang kompleks, dan biaya investasi awal. Kelebihan utama penelitian ini adalah pendekatannya yang komprehensif dalam memetakan faktor internal dan eksternal yang memengaruhi digitalisasi pengadaan.
+
+Penelitian yang dilakukan oleh \textcite{hallikas2021data} berjudul “Digitalizing Procurement: The Impact of Data Analytics on Supply Chain Performance” merupakan salah satu studi empiris yang memberikan kontribusi penting dalam memahami bagaimana digitalisasi, khususnya melalui pemanfaatan data analytics, dapat meningkatkan kinerja pengadaan dan rantai pasok secara keseluruhan. Penelitian ini berangkat dari premis bahwa perusahaan modern semakin bergantung pada data dalam proses pengambilan keputusan, sehingga kemampuan untuk mengumpulkan, mengolah, dan memanfaatkan data dalam pengadaan menjadi faktor strategis. Dalam konteks ini, penelitian Hallikas dkk. menelaah pengaruh nyata penggunaan data analytics terhadap efektivitas dan responsivitas rantai pasok. Metode yang digunakan dalam penelitian ini adalah survei kuantitatif yang melibatkan berbagai perusahaan di sektor manufaktur dan logistik. Survei tersebut mengukur tingkat adopsi Pengadaan Digital, penggunaan data analytics, serta dampaknya terhadap indikator kinerja rantai pasok seperti biaya, kecepatan, integrasi proses, dan kualitas informasi. Data yang terkumpul kemudian dianalisis dengan menggunakan model statistik struktural (SEM) untuk menguji hubungan antar variabel dan validitas temuan. Hasil penelitian menunjukkan bahwa adopsi Pengadaan Digital dan data analytics secara signifikan meningkatkan kinerja rantai pasok perusahaan. Perusahaan dengan tingkat digitalisasi tinggi mengalami peningkatan efisiensi proses pengadaan, pengurangan cycle time, visibilitas yang lebih baik terhadap kegiatan pembelian, serta perbaikan akurasi dalam perencanaan permintaan. Selain itu, kemampuan integrasi antar fungsi meningkat secara substansial karena data yang sebelumnya tersebar pada sistem-sistem berbeda kini terpusat dalam platform digital. Temuan ini menggarisbawahi bahwa data analytics bukan hanya alat pendukung, tetapi merupakan enabler strategis yang memungkinkan transformasi pengadaan secara menyeluruh. Kelebihan utama penelitian ini terletak pada pendekatannya yang kuat secara metodologis melalui analisis kuantitatif berbasis SEM, sehingga memberikan bukti empiris untuk hubungan kausal antara digitalisasi dan kinerja rantai pasok.
+
+Penelitian berjudul “Impact of e-Procurement: Experiences from Implementation in the UK Public Sector” oleh \textcite{croom2007ukpublic} merupakan salah satu studi klasik yang banyak dijadikan referensi dalam memahami dampak implementasi e-procurement terhadap proses pengadaan dalam organisasi besar \autocite{croom2007ukpublic,angeles2007b2b}. Penelitian ini bertujuan mengevaluasi bagaimana penerapan e-procurement mengubah dinamika proses pengadaan di sektor publik, termasuk pengaruhnya terhadap efisiensi, transparansi, struktur organisasi, serta hubungan dengan pemasok. Studi ini menjadi penting karena sektor publik memiliki kompleksitas proses yang mirip dengan BUMN besar, seperti proses pengawasan ketat, kebutuhan dokumentasi formal, dan rentang aktivitas pengadaan yang luas. Metode penelitian yang digunakan adalah pendekatan studi kasus mendalam pada beberapa entitas sektor publik di Inggris. Penulis menganalisis dokumentasi pengadaan, melakukan wawancara dengan pejabat pengadaan, serta mengevaluasi sistem e-procurement yang digunakan oleh instansi tersebut. Dengan metode ini, penelitian berhasil memetakan perubahan operasional dan organisasi yang terjadi sebelum dan sesudah implementasi e-procurement. Hasil penelitian menunjukkan bahwa penerapan e-procurement membawa sejumlah manfaat yang signifikan. Pertama, terjadi percepatan proses administrasi pengadaan melalui otomatisasi alur kerja yang sebelumnya sangat manual dan birokratis. Kedua, e-procurement meningkatkan transparansi, karena setiap dokumen dan aktivitas tercatat secara digital sehingga mempermudah audit trail. Ketiga, penggunaan platform digital memungkinkan konsolidasi data pengadaan, sehingga manajemen dapat melakukan analisis kinerja dan pengendalian biaya secara lebih efektif. Keempat, hubungan dengan pemasok menjadi lebih sistematis melalui katalog elektronik dan notifikasi digital yang meningkatkan kecepatan komunikasi dan akurasi informasi. Namun demikian, penelitian ini juga menyoroti sejumlah tantangan dalam implementasi e-procurement. Salah satu hambatan terbesar adalah resistensi pengguna terhadap perubahan, terutama pada organisasi yang telah lama menggunakan prosedur manual.
+
+Penelitian berjudul “Dynamic Capabilities for pengadaan digital Transformation: A Systematic Literature Review” oleh \textcite{herold2022dynamic} merupakan salah satu studi akademik paling komprehensif yang membahas transformasi digital dalam pengadaan dari perspektif dynamic capabilities \autocite{herold2022dynamic}. Penelitian ini penting karena berfokus pada kemampuan organisasi dalam menghadapi perubahan teknologi dan menyesuaikan proses bisnis secara berkelanjutan, sesuatu yang sangat relevan dalam implementasi Pengadaan Digital berskala besar. Melalui pendekatan literatur sistematis, studi ini menyusun pemahaman konseptual mengenai apa yang dibutuhkan organisasi agar transformasi digital dapat berjalan efektif, bertahan lama, dan menghasilkan dampak strategis. Metode yang digunakan adalah systematic literature review terhadap ratusan publikasi ilmiah terkait Pengadaan Digital, Industry 4.0, sistem e-procurement, serta transformasi digital dalam rantai pasok. Penulis menggunakan protokol seleksi yang ketat untuk menilai kualitas metodologis penelitian-penelitian sebelumnya, kemudian mensintesis temuan untuk membangun struktur konseptual mengenai kapabilitas organisasi. Metode ini memastikan bahwa hasil penelitian tidak hanya bersumber dari satu konteks industri, tetapi merupakan gambaran komprehensif dari berbagai sektor, menjadikannya dasar teoretis yang sangat kuat. Hasil penelitian menemukan bahwa keberhasilan transformasi digital pengadaan sangat dipengaruhi oleh tiga kelompok dynamic capabilities: Sensing capabilities, yaitu kemampuan organisasi mendeteksi peluang digital, memahami kebutuhan pengguna, dan memetakan proses yang perlu dioptimalkan. Seizing capabilities, yaitu kemampuan memobilisasi sumber daya, merancang proses digital baru, dan memilih teknologi yang tepat. Reconfiguring capabilities, yaitu kemampuan melakukan restrukturisasi organisasi, menyelaraskan proses lintas fungsi, serta mengelola perubahan secara berkelanjutan. Kelebihan penelitian ini adalah kedalaman analisisnya, karena menggabungkan temuan dari berbagai sektor dan metode penelitian. Dengan demikian, model dynamic capabilities yang disusun memiliki cakupan yang luas dan memiliki landasan teoretis yang kuat. 
+
+Laporan berjudul “Powered for Change: The Essential Role of Procurement in Energy Transition” yang diterbitkan oleh \textcite{accenture2022energy} menjadi salah satu rujukan industri yang sangat relevan dalam membahas bagaimana Pengadaan Digital berperan strategis dalam sektor energi, termasuk minyak dan gas \autocite{accenture2022energy}. Accenture menegaskan bahwa perusahaan energi kini menghadapi tantangan besar berupa kebutuhan dekarbonisasi, kompleksitas rantai pasok global, volatilitas pasar, dan tekanan efisiensi biaya. Untuk menjawab tantangan tersebut, perusahaan harus membangun digital core yang kuat melalui pemanfaatan cloud, analitik terintegrasi, dan kecerdasan buatan (AI). Laporan ini menganalisis berbagai studi kasus Pengadaan Digital pada perusahaan energi, menilai bagaimana teknologi mampu meningkatkan produktivitas, memperkuat governance, dan mempercepat proses pengadaan. Metodologi penelitian Accenture didasarkan pada analisis lintas perusahaan energi global, wawancara eksekutif, serta studi benchmarking transformasi digital yang sedang diterapkan oleh pemimpin industri. Hasil penelitian menunjukkan bahwa Pengadaan Digital menjadi fondasi penting bagi perusahaan migas dalam meningkatkan ketahanan dan nilai strategis. Dengan membangun digital core yang memanfaatkan cloud, data, dan AI, perusahaan dapat mengoptimalkan pengelolaan pengeluaran, meminimalkan duplikasi proses, serta mengurangi biaya operasional melalui otomatisasi dan standardisasi. Accenture juga menyoroti bahwa perusahaan energi yang berhasil melakukan digitalisasi pengadaan mampu mencapai real-time visibility terhadap aktivitas pembelian, meningkatkan akurasi perencanaan kebutuhan, serta mengurangi risiko operasional melalui pemantauan data yang terintegrasi. Kelebihan utama laporan ini adalah konteks sektoralnya yang sangat relevan dengan industri migas. Penelitian ini tidak hanya memberikan gambaran teknis mengenai Pengadaan Digital, tetapi juga menjelaskan bagaimana teknologi digital mendukung pencapaian target dekarbonisasi dan keberlanjutan. Selain itu, laporan ini memberikan contoh nyata penerapan Pengadaan Digital pada perusahaan energi global, sehingga sangat membantu dalam memahami bagaimana transformasi digital dilakukan pada organisasi besar dengan struktur kompleks. 
+
+\begin{landscape}
+\footnotesize
+\renewcommand{\arraystretch}{1.1}
+
+\begin{longtable}{| p{2cm} | p{5cm} | p{4cm} | p{4cm} | p{4cm} | p{4cm} |}
+\caption{Perbandingan Penelitian Serupa} \\
+\hline
+\textbf{Penelitian} &
+\textbf{Deskripsi Singkat} &
+\textbf{Kelebihan} &
+\textbf{Kekurangan} &
+\textbf{Hal yang Ditangani} &
+\textbf{Hal yang Relevan terhadap TA} \\ \hline
+\endfirsthead
+\endhead
+
+Bienhaus \& Haddud (2018) &
+Mengidentifikasi faktor-faktor yang memengaruhi digitalisasi pengadaan dalam era Procurement 4.0, termasuk kesiapan organisasi, teknologi, dan perubahan proses. &
+Analisis komprehensif; memetakan faktor pendorong \& penghambat digital procurement. &
+Fokus responden pada manufaktur Eropa; belum menyoroti konteks migas yang kompleks. &
+Tantangan dan peluang digitalisasi pengadaan. &
+Dasar teoretis keberhasilan implementasi Digital Procurement di PT KPI. \\ \hline
+
+Hallikas (2021) &
+Meneliti pengaruh data analytics terhadap efektivitas digital procurement dan peningkatan kinerja rantai pasok melalui survei kuantitatif dan SEM. &
+Bukti empiris kuat; hubungan langsung digital procurement → efisiensi rantai pasok. &
+Fokus manufaktur; kurang bahas integrasi sistem kompleks seperti BUMN migas. &
+Pengaruh analitik \& integrasi data. &
+Mendukung argumen pentingnya integrasi data \& visibilitas real-time PT KPI. \\ \hline
+
+Croom \& Brandon-Jones (2007) &
+Studi kasus e-procurement sektor publik UK dan dampaknya terhadap efisiensi, transparansi, serta pengendalian biaya. &
+Analisis mendalam; relevan untuk organisasi besar; tekankan integrasi proses. &
+Konteks sektor publik; teknologi e-proc generasi awal. &
+Perubahan proses akibat e-procurement. &
+Relevan untuk kondisi PT KPI sebelum digitalisasi. \\ \hline
+
+Herold (2022) &
+SLR transformasi digital procurement dengan teori dynamic capabilities (sensing, seizing, reconfiguring). &
+Kerangka teoritis kuat; literatur luas. &
+Tidak uji implementasi langsung industri migas; hanya data sekunder. &
+Kapabilitas organisasi untuk transformasi digital. &
+Analisis kesiapan internal PT KPI. \\ \hline
+
+Accenture (2022) &
+Studi digital procurement sektor energi: efisiensi, ketahanan rantai pasok, dan biaya melalui digital core (cloud, data, AI). &
+Sangat relevan energi/migas; insight strategis berbasis praktik nyata. &
+Kurang detail metodologis; konteks global perlu adaptasi Indonesia. &
+Implementasi digital procurement pada perusahaan energi global. &
+Pembanding implementasi Digital Procurement PT KPI. \\ \hline
+
+\end{longtable}
+\end{landscape}
+
+% Contoh gambar dapat dilihat pada Gambar \ref{gambar:jaringan}. Gambar dan judulnya diposisikan di tengah. Nomor gambar tidak diakhiri tanda titik. Gambar tersebut dibuat menggunakan aplikasi draw.io dan disimpan ke format PNG setelah dengan zoom setting pada angka 300\%. Ukuran gambar yang ditampilkan dapat diatur dengan mengubah nilai \textit{width} dalam sintaks \textit{includegraphics}.
+
+
+% \begin{figure}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+% 	\centering
+%   \captionsetup{justification=centering}
+%     	\includegraphics[width=0.7\textwidth]{image/gambar1.png}
+% 	\caption{Contoh gambar jaringan}
+% 	\label{gambar:jaringan}
+% \end{figure}
+
+% Gambar umumnya tidak jelas atau kabur jika gambar tersebut:
+% \begin{enumerate}[a.]
+%   \item diperoleh dari hasil cropping pada suatu halaman buku atau situs web;
+%   \item hasil pembesaran gambar yang gambar aslinya sebenarnya berukuran kecil; atau
+%   \item disimpan dalam resolusi kecil
+% \end{enumerate}
+% Ketidakjelasan gambar ini dapat dilihat pada garis-garis diagram yang tidak tegas dan tulisan-tulisan dalam gambar yang tampak kabur dan kurang jelas terbaca.
+
+% Untuk mendapatkan gambar yang tidak kabur (\textit{blur}), langkah-langkah berikut dapat digunakan:
+% \begin{enumerate}[(a)]
+% \item Gambar yang didapat di suatu pustaka atau referensi sebaiknya digambar ulang, misalnya menggunakan PowerPoint, Canva, Figma, draw.io, atau yang lainnya.
+% \item Jika diagram atau ilustrasi digambar menggunakan draw.io, saat gambar disimpan ke format PNG atau JPG (\textit{export as}), lakukan \textit{zoom} ke minimal 300\% (\textit{the default value is} 100\%). 
+% \item Jika diagram digambar dengan menggunakan PowerPoint, gambar dapat langsung di-\textit{copy-paste} ke Word.
+% \end{enumerate}
+
+% \subsection{Tabel}
+% Tabel ada dua jenis, yaitu tabel yang bisa termuat dalam satu halaman dan tabel yang sangat panjang sehingga tidak muat dalam satu halaman.
+% \subsubsection{Tabel yang Muat dalam Satu Halaman}
+% Contoh tabel dapat dilihat pada Tabel \ref{tbl:harga1} dan \ref{tbl:harga2}. Tabel dan judulnya dibuat rata kiri dan judul tabel diletakkan di atas tabel. Usahakan tabel dapat ditulis dalam satu halaman, tidak terpotong ke halaman berikutnya.
+
+% \begin{table}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+%   \begin{tabular}{ | p{2cm} | p{2cm} | p{3cm} |}
+% 	\hline
+% 	Nama 	& Satuan 		& Harga \\
+% 	\hline
+% 	Buku 	& Exemplar	& 25000 \\
+% 	Komputer	& Unit		& 2500000 \\
+% 	Pensil	& Buah		& 118900 \\
+% 	\hline
+% 	\end{tabular}
+% \caption{Tabel harga bahan pokok}
+% \label{tbl:harga1}
+% \end{table}
+
+
+
+% \begin{table}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+% 	\begin{tabular}{ | l | c | r | }
+% 	\hline
+% 	Nama 	& Satuan 		& Harga \\
+% 	\hline
+% 	Buku 	& Exemplar	& 25000 \\
+% 	Komputer	& Unit		& 2500000 \\
+% 	Pensil	& Buah		& 118900 \\
+% 	\hline
+% 	\end{tabular}
+% \caption{Tabel harga bahan sekunder}
+% \label{tbl:harga2}
+% \end{table}
+
+% % -- Example of importing table from external file --
+% \subsubsection{Mengimpor Tabel dari Berkas Eksternal}
+
+% Tabel \ref{tbl:harga3} diimpor dari berkas eksternal \textit{table/tabel1.tex} menggunakan perintah \textit{input}. 
+% Dengan demikian, jika tabel tersebut perlu diubah, cukup mengubah pada berkas eksternal tersebut tanpa perlu mengubah pada berkas utama ini.
+
+% \input table/tabel1.tex
+
+
+% % -- Example of long table --
+% \subsubsection{Tabel yang Sangat Panjang}
+% Jika tabel terlalu panjang sehingga tidak muat dalam satu halaman, gunakan paket 
+% \textit{longtable} untuk membuat tabel yang dapat terpotong ke halaman berikutnya, 
+% seperti pada Tabel \ref{tbl:longtable1}.
+
+% \begin{longtable}{@{\extracolsep{\fill}} l c r r}
+% \caption{Comprehensive Data Table Example}\label{tbl:longtable1} \\
+% \toprule
+% \textbf{ID} & \textbf{Name} & \textbf{Score} & \textbf{Rank} \\
+% \midrule
+% \endfirsthead
+
+% \caption{Comprehensive Data Table Example (lanjutan)} \\
+% \toprule
+% \textbf{ID} & \textbf{Name} & \textbf{Score} & \textbf{Rank} \\
+% \midrule
+% \endhead
+
+% \midrule
+% \multicolumn{4}{r}{\textit{Bersambung ke halaman berikutnya}} \\
+% %\bottomrule
+% \endfoot
+
+% \bottomrule
+% \endlastfoot
+
+% % === Table Data ===
+% 1 & Alice Smith & 89 & 5 \\
+% 2 & Bob Johnson & 93 & 3 \\
+% 3 & Carol Davis & 95 & 2 \\
+% 4 & Daniel Wilson & 88 & 6 \\
+% 5 & Eve Thompson & 97 & 1 \\
+% 6 & Frank Brown & 85 & 7 \\
+% 7 & Grace Lee & 91 & 4 \\
+% 8 & Henry Miller & 80 & 9 \\
+% 9 & Irene Garcia & 83 & 8 \\
+% 10 & Jack Robinson & 78 & 10 \\
+% % Repeat with more rows to make it long
+% 11 & Kevin Harris & 76 & 11 \\
+% 12 & Laura Martin & 75 & 12 \\
+% 13 & Michael Clark & 74 & 13 \\
+% 14 & Natalie Lewis & 73 & 14 \\
+% 15 & Olivia Walker & 72 & 15 \\
+% 16 & Peter Hall & 71 & 16 \\
+% 17 & Quinn Allen & 70 & 17 \\
+% 18 & Rachel Young & 69 & 18 \\
+% 19 & Samuel King & 68 & 19 \\
+% 20 & Tina Wright & 67 & 20 \\
+% 21 & Uma Scott & 66 & 21 \\
+% 22 & Victor Green & 65 & 22 \\
+% 23 & Wendy Adams & 64 & 23 \\
+% 24 & Xavier Nelson & 63 & 24 \\
+% 25 & Yolanda Carter & 62 & 25 \\
+% 26 & Zachary Perez & 61 & 26 \\
+% 27 & Amelia Baker & 60 & 27 \\
+% 28 & Benjamin Rivera & 59 & 28 \\
+% 29 & Charlotte Rogers & 58 & 29 \\
+% 30 & David Murphy & 57 & 30 \\
+% 31 & Ethan Cooper & 56 & 31 \\
+% 32 & Fiona Reed & 55 & 32 \\
+% 33 & George Bailey & 54 & 33 \\
+% 34 & Hannah Cox & 53 & 34 \\
+% 35 & Isaac Howard & 52 & 35 \\
+% 36 & Julia Ward & 51 & 36 \\
+% 37 & Kyle Flores & 50 & 37 \\
+% 38 & Lily Bell & 49 & 38 \\
+% 39 & Mason Sanders & 48 & 39 \\
+% 40 & Nora Patterson & 47 & 40 \\
+% 41 & Owen Ramirez & 46 & 41 \\
+% 42 & Penelope Torres & 45 & 42 \\
+% 43 & Quentin Foster & 44 & 43 \\
+% 44 & Rebecca Gonzales & 43 & 44 \\
+% 45 & Sebastian Bryant & 42 & 45 \\
+% 46 & Taylor Alexander & 41 & 46 \\
+% 47 & Ursula Russell & 40 & 47 \\
+% 48 & Vincent Griffin & 39 & 48 \\
+% 49 & William Diaz & 38 & 49 \\
+% 50 & Zoe Simmons & 37 & 50 \\
+% % (You can easily extend this list to hundreds of rows)
+% \end{longtable}
+
+% \subsubsection{Beberapa Contoh Penulisan Rumus atau Persamaan Matematika Menggunakan LaTeX Termasuk Penomorannya}
+% Contoh rumus matematika dapat ditulis seperti pada Persamaan \ref{eq:contoh1} di bawah ini. 
+% Penomoran persamaan diletakkan di sebelah kanan, dan rumus ditulis dalam mode \textit{display math}.
+% \begin{equation}
+% E = mc^2
+% \label{eq:contoh1}
+% \end{equation}
+
+% Contoh lain penulisan rumus matematika yang lebih kompleks dapat ditulis seperti pada Persamaan \ref{eq:rumus2}.
+
+% \begin{align}
+% f(x) &= ax^2 + bx + c \\
+% f'(x) &= \frac{d}{dx}(ax^2 + bx + c) \notag \\ % tidak menampilkan nomor pada baris ini
+%       &= 2ax + b \label{eq:rumus2}
+% \end{align}
+
+% Jika rumus terlalu panjang untuk ditulis dalam satu baris, gunakan lingkungan \textit{multline} seperti pada Persamaan \ref{eq:rumus3} di bawah ini.
+% \begin{multline} 
+% y = a_0 + a_1x + a_2x^2 + a_3x^3 + a_4x^4 + a_5x^5 + a_6x^6 + a_7x^7 \\
+%     + a_8x^8 + a_9x^9 + a_{10}x^{10} \label{eq:rumus3}
+% \end{multline}
+
+% Jika ada penurunan rumus yang terdiri dari beberapa baris, namun tidak memerlukan penomoran pada setiap baris, gunakan lingkungan \textit{align*}, misalnya:
+
+% \begin{align*} 
+% S &= \sum_{i=1}^{n} i^2 \\
+%   &= 1^2 + 2^2 + 3^2 + \cdots + n^2 \\
+%   &= \frac{n(n + 1)(2n + 1)}{6}
+% \intertext{Contoh lainnya adalah rumus untuk mencari nilai rata-rata fungsi $f(x)$ pada interval $[p, q]$:}
+% \bar{f} &= \frac{1}{q - p} \int_{p}^{q} f(x) \, dx \\
+%         &= \frac{1}{q - p} \int_{p}^{q} (ax^2 + bx + c) \, dx \\
+%         &= \frac{1}{q - p} \left[ \frac{a}{3}x^3 + \frac{b}{2}x^2 + cx \right]_p^q \\
+%         &= \frac{a(q^3 - p^3)}{3(q - p)} + \frac{b(q^2 - p^2)}{2(q - p)} + c \label{eq:rumus4}
+% \end{align*}
+
+
+
+% \subsection{Algoritma, Pseudocode, atau Kode}
+% Contoh penulisan algoritma atau pseudocode dapat ditulis seperti pada Kode \ref{alg:contoh1} di bawah ini. 
+% Gunakan paket \textit{listings} untuk menulis source code dalam bahasa pemrograman tertentu, seperti pada Kode \ref{lst:contoh1}. 
+
+
+% % -- Example of pseudocode and source code listing --
+% % -- Gunakan minipage agar listing tidak terpotong ke halaman berikutnya --
+% \begin{minipage}{\textwidth} 
+% \begin{lstlisting}[frame=lines, captionpos=t, caption={Contoh pseudocode}, label={alg:contoh1}]
+% ALGORITHM HelloWorld
+%    PRINT "Hello, World!"
+% END ALGORITHM
+% \end{lstlisting}
+% \end{minipage}
+
+% \begin{minipage}{\textwidth}
+% \begin{lstlisting}[language=Python, frame=single, caption={Contoh source code Python}, captionpos=t, label={lst:contoh1}]
+% def hello_world():
+%     print("Hello, World!")       
+% hello_world()
+% \end{lstlisting}
+% \end{minipage}
+
+
+% \section{Beberapa Kesalahan Penulisan yang Sering Terjadi}
+% \subsection{Penggunaan Kata "di mana" atau "dimana"}
+% Banyak yang menuliskan kata "di mana" atau "dimana" sebagai pengganti kata "which" dalam bahasa Inggris. 
+% Padahal, penggunaan kata "di mana" atau "dimana" tidak tepat dalam konteks tersebut. Demikian juga untuk kata serupa, misalnya "yang mana".
+% Kata "di mana" atau "dimana" ini harus diganti dengan kata lain, seperti "dengan", "tempat", "yang", dan sebagainya tergantung kalimatnya.
+% Penjelasan lengkap dapat dilihat pada \autocite{BPBI}.
+
+% \subsection{Penggunaan Kata "sedangkan" dan "sehingga"}
+
+% \begin{table}[t]
+%   \begin{tabular}{|c|l|l|}
+%   \hline
+%   Kata & Salah & Benar \\ \hline
+%   sedangkan & \begin{tabular}[c]{@{}c@{}}Sedangkan sistem lama masih\\ digunakan oleh banyak pengguna.\end{tabular} & \begin{tabular}[c]{@{}c@{}}Sistem lama masih digunakan\\ oleh banyak pengguna,\\ sedangkan sistem baru belum siap.\end{tabular} \\ \hline
+%   sehingga & \begin{tabular}[c]{@{}c@{}}Sehingga sistem lama masih\\ digunakan oleh banyak pengguna.\end{tabular} & \begin{tabular}[c]{@{}c@{}}Sistem lama masih digunakan\\ oleh banyak pengguna sehingga\\ sistem baru belum siap.\end{tabular} \\ \hline
+%   \end{tabular}
+%   \caption{Contoh penggunaan kata "sedangkan" dan "sehingga"}
+%   \label{tbl:sedangkan_sehingga}
+% \end{table}
+
+% Kata "sedangkan" dan "sehingga" adalah kata hubung atau konjungsi. 
+% Konjungsi adalah kata atau ungkapan yang menghubungkan satuan bahasa 
+% (kata, frasa, klausa, dan kalimat). 
+% Konjungsi dapat dibagi menjadi konjungsi intrakalimat dan antarkalimat.  
+% Kata "sedangkan" menghubungkan dua klausa yang bersifat kontrasif, 
+% sedangkan "sehingga" menghubungkan dua klausa yang bersifat kausal. 
+% Dalam ragam formal, kata hubung “sedangkan” dan “sehingga” hanya dapat digunakan 
+% sebagai konjungsi intrakalimat sehingga kedua konjungsi itu \textbf{tidak dapat diletakkan pada awal kalimat}.
+% Selain itu, penggunaan kata "sedangkan" harus didahului oleh koma (,), sedangkan kata "sehingga" tidak perlu didahului oleh koma (,).
+% Contoh penggunaan yang benar dan salah dapat dilihat pada Tabel \ref{tbl:sedangkan_sehingga}.
+
+
+% \subsection{Penggunaan Istilah yang Tidak Baku}
+% Ada beberapa istilah yang sering digunakan dalam pembicaraan sehari-hari, tetapi tidak baku dalam penulisan ilmiah.
+% Beberapa istilah tersebut antara lain:
+% \begin{enumerate}
+%   \item analisa $\rightarrow$ analisis
+%   \item eksisting atau existing $\rightarrow$ yang ada atau saat ini
+%   \item bisnis proses $\rightarrow$ proses bisnis
+%   \item user $\rightarrow$ pengguna
+%   \item system $\rightarrow$ sistem
+%   \item database $\rightarrow$ basis data
+%   \item aktifitas $\rightarrow$ aktivitas
+%   \item efektifitas $\rightarrow$ efektivitas
+%   \item sosial media $\rightarrow$ media sosial
+% \end{enumerate}
+
+% \subsection{Pemisah Desimal dan Ribuan}
+% Tanda pemisah desimal dalam bahasa Indonesia adalah tanda koma, contoh:
+% \begin{enumerate}
+%   \item (Salah) Akurasi naik menjadi 50.6\% 
+%   \item (Benar) Akurasi naik menjadi 50,6\% 
+% \end{enumerate}
+
+% \subsection{Daftar atau \textit{List}}
+% Ada beberapa aturan penulisan daftar atau \textit{list} yang perlu diperhatikan, antara lain:
+% \begin{enumerate}[a)]
+% \item Jika memungkinkan, hindari penggunaan “bullet points” atau sejenisnya. Sebaiknya, gunakan angka (1, 2, 3, ...) atau huruf (a, b, c, …). Dengan demikian, pembaca dapat dengan mudah melihat jumlah \textit{item} atau \textit{list}. 
+% \item Jika dalam daftar hanya ada satu item, tidak perlu menggunakan nomor urut.
+% \item Penjelasan atau deskripsi suatu item sebaiknya menyatu dengan judul item tersebut, tidak berbeda halaman. Contoh yang salah: judul item ada di halaman 10, namun deskripsinya di halaman 11. Sebaiknya pindahkan judul tersebut ke halaman 11.
+% \item Jika penjelasan atau deskripsi suatu item cukup panjang, misalnya lebih dari 1 halaman atau terdiri atas beberapa paragraf, sebaiknya setiap item tersebut dijadikan judul subbab, kecuali jika level subbab sudah mencapai level 4. 
+% \end{enumerate}
+
+% \subsection{Penggunaan Kata "masing-masing" dan "setiap"}
+% Kata “masing-masing” digunakan di belakang kata yang diterangkan, misalnya 
+% "Setiap proses menggunakan algoritma masing-masing". Kata “tiap-tiap” atau “setiap”
+% ditempatkan di depan kata yang diterangkan, misalnya
+% "Setiap proses menggunakan algoritma tertentu".

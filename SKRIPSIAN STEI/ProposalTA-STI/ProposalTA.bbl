@@ -1,0 +1,1810 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global/global}
+    \entry{aboelmaged2010}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af940df5864f92020834978e6f3b9db0}{%
+           family={Aboelmaged},
+           familyi={A\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{af940df5864f92020834978e6f3b9db0}
+      \strng{fullhash}{af940df5864f92020834978e6f3b9db0}
+      \strng{fullhashraw}{af940df5864f92020834978e6f3b9db0}
+      \strng{bibnamehash}{af940df5864f92020834978e6f3b9db0}
+      \strng{authorbibnamehash}{af940df5864f92020834978e6f3b9db0}
+      \strng{authornamehash}{af940df5864f92020834978e6f3b9db0}
+      \strng{authorfullhash}{af940df5864f92020834978e6f3b9db0}
+      \strng{authorfullhashraw}{af940df5864f92020834978e6f3b9db0}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Industrial Management \& Data Systems}
+      \field{number}{3}
+      \field{title}{Predicting e-procurement adoption in a developing country: An empirical integration of Technology Acceptance Model and Theory of Planned Behaviour}
+      \field{volume}{110}
+      \field{year}{2010}
+      \true{nocite}
+      \field{pages}{392\bibrangedash 414}
+      \range{pages}{23}
+    \endentry
+    \entry{adnoc2020sustain}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8e6692852f0bcaadaff53ff031a15dee}{%
+           family={{Abu Dhabi National Oil Company}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {ADNOC}%
+      }
+      \strng{namehash}{8e6692852f0bcaadaff53ff031a15dee}
+      \strng{fullhash}{8e6692852f0bcaadaff53ff031a15dee}
+      \strng{fullhashraw}{8e6692852f0bcaadaff53ff031a15dee}
+      \strng{bibnamehash}{8e6692852f0bcaadaff53ff031a15dee}
+      \strng{authorbibnamehash}{8e6692852f0bcaadaff53ff031a15dee}
+      \strng{authornamehash}{8e6692852f0bcaadaff53ff031a15dee}
+      \strng{authorfullhash}{8e6692852f0bcaadaff53ff031a15dee}
+      \strng{authorfullhashraw}{8e6692852f0bcaadaff53ff031a15dee}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sustainability Report 2020}
+      \field{type}{techreport}
+      \field{year}{2020}
+    \endentry
+    \entry{accenture2024cost}{report}{}{}
+      \list{institution}{1}{%
+        {Accenture}%
+      }
+      \list{organization}{1}{%
+        {Accenture}%
+      }
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Transformational cost reduction: Beyond mere cutbacks}
+      \field{type}{techreport}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{accenture2022energy}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1d55af1659424cf94d869e2580a11bf8}{%
+           family={{Accenture}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Accenture}%
+      }
+      \strng{namehash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{fullhash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{fullhashraw}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{bibnamehash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{authorbibnamehash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{authornamehash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{authorfullhash}{1d55af1659424cf94d869e2580a11bf8}
+      \strng{authorfullhashraw}{1d55af1659424cf94d869e2580a11bf8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Powered for Change: The Essential Role of Procurement in Energy Transition}
+      \field{type}{techreport}
+      \field{year}{2022}
+    \endentry
+    \entry{adjei2023innovation}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=16c2e6c415d6fcfb9461c83d07e25e66}{%
+           family={Adjei{-}Bamfo},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f23ca549b426072dd396c48a9288780c}{%
+           family={Djajadikerta},
+           familyi={D\bibinitperiod},
+           given={H.\bibnamedelimi G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0708ab7caa8c0a79b0acbb379781c4e4}{%
+           family={Jie},
+           familyi={J\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae81917eddf554d36360561770c8b6d8}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8557940e610d04abb70cab73161c514d}{%
+           family={Mavi},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eb0d1155532a966a08d0dd98a2fe4807}
+      \strng{fullhash}{6b04d0beb552e5d1384e2ab46edd3392}
+      \strng{fullhashraw}{6b04d0beb552e5d1384e2ab46edd3392}
+      \strng{bibnamehash}{6b04d0beb552e5d1384e2ab46edd3392}
+      \strng{authorbibnamehash}{6b04d0beb552e5d1384e2ab46edd3392}
+      \strng{authornamehash}{eb0d1155532a966a08d0dd98a2fe4807}
+      \strng{authorfullhash}{6b04d0beb552e5d1384e2ab46edd3392}
+      \strng{authorfullhashraw}{6b04d0beb552e5d1384e2ab46edd3392}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{---}
+      \field{title}{Supply chain innovation: A framework of public procurement as a demand-side innovation driver}
+      \field{year}{2023}
+    \endentry
+    \entry{ajmera2017sixsigma}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=57b2221fb36fadc867965ab092386d06}{%
+           family={Ajmera},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=782fee9a0255449d383dc806eae7ac81}{%
+           family={Umarani},
+           familyi={U\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36e402623694533b228d2935763d78bd}{%
+           family={Valaase},
+           familyi={V\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bec6785cb683fd9535b228ac78497a38}
+      \strng{fullhash}{bec6785cb683fd9535b228ac78497a38}
+      \strng{fullhashraw}{bec6785cb683fd9535b228ac78497a38}
+      \strng{bibnamehash}{bec6785cb683fd9535b228ac78497a38}
+      \strng{authorbibnamehash}{bec6785cb683fd9535b228ac78497a38}
+      \strng{authornamehash}{bec6785cb683fd9535b228ac78497a38}
+      \strng{authorfullhash}{bec6785cb683fd9535b228ac78497a38}
+      \strng{authorfullhashraw}{bec6785cb683fd9535b228ac78497a38}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{International Research Journal of Engineering and Technology (IRJET)}
+      \field{number}{7}
+      \field{title}{Lean Six Sigma implementation in textile industry}
+      \field{volume}{4}
+      \field{year}{2017}
+      \field{pages}{1670\bibrangedash 1675}
+      \range{pages}{6}
+    \endentry
+    \entry{alhajri2024gcc}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=e83b702267797ac08d8bb1274b67f78a}{%
+           family={Al{-}Hajri},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d517f01bf0b2646d8b18f94cab549b8d}{%
+           family={Abdella},
+           familyi={A\bibinitperiod},
+           given={G.\bibnamedelimi M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76668fda16638161bca0712837e43e46}{%
+           family={Al{-}Yafei},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b5360fc0b0bbb1e33e88660645e5353}{%
+           family={Aseel},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e52d480926e1d74a872164c647cd01c}{%
+           family={Hamouda},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{94db41a31683eb4d315b1d5c32b3e763}
+      \strng{fullhash}{ef3dd37224263171c982c9dd4a2b489f}
+      \strng{fullhashraw}{ef3dd37224263171c982c9dd4a2b489f}
+      \strng{bibnamehash}{ef3dd37224263171c982c9dd4a2b489f}
+      \strng{authorbibnamehash}{ef3dd37224263171c982c9dd4a2b489f}
+      \strng{authornamehash}{94db41a31683eb4d315b1d5c32b3e763}
+      \strng{authorfullhash}{ef3dd37224263171c982c9dd4a2b489f}
+      \strng{authorfullhashraw}{ef3dd37224263171c982c9dd4a2b489f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Sustainability}
+      \field{number}{15}
+      \field{title}{A systematic literature review of the digital transformation in the Arabian Gulf’s oil and gas sector}
+      \field{volume}{16}
+      \field{year}{2024}
+      \field{pages}{6601}
+      \range{pages}{1}
+    \endentry
+    \entry{alabdali2022digital}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=504730d45e7a8a12ea913eb56f77ed54}{%
+           family={Alabdali},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd3e650dcbdd3547bba3aa1feb60d63}{%
+           family={Salam},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e5a5c36607753a6c4a05ae679d33f0f1}
+      \strng{fullhash}{e5a5c36607753a6c4a05ae679d33f0f1}
+      \strng{fullhashraw}{e5a5c36607753a6c4a05ae679d33f0f1}
+      \strng{bibnamehash}{e5a5c36607753a6c4a05ae679d33f0f1}
+      \strng{authorbibnamehash}{e5a5c36607753a6c4a05ae679d33f0f1}
+      \strng{authornamehash}{e5a5c36607753a6c4a05ae679d33f0f1}
+      \strng{authorfullhash}{e5a5c36607753a6c4a05ae679d33f0f1}
+      \strng{authorfullhashraw}{e5a5c36607753a6c4a05ae679d33f0f1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Sustainability}
+      \field{number}{19}
+      \field{title}{The impact of digital transformation on supply chain procurement for competitive advantage: An empirical study}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{12269}
+      \range{pages}{1}
+    \endentry
+    \entry{almajali2023eproc}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=975085640bff7c6bd24b575c77d1ab68}{%
+           family={Almajali},
+           familyi={A\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2e8eecbfab55a51e8440307adbd5658}{%
+           family={Majali},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee7fad5fb06caa69ce6a87f61eb42295}{%
+           family={Masadeh},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=967d5cf04654f1565eade7d8db8acfc7}{%
+           family={Al{-}Bashayreh},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=655460d1385b00690b968e23629cb098}{%
+           family={Altamimi},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d2d62adda3edc07157fbdedc374a8de}
+      \strng{fullhash}{f046191803fce6cf9c4256e96b203631}
+      \strng{fullhashraw}{f046191803fce6cf9c4256e96b203631}
+      \strng{bibnamehash}{f046191803fce6cf9c4256e96b203631}
+      \strng{authorbibnamehash}{f046191803fce6cf9c4256e96b203631}
+      \strng{authornamehash}{5d2d62adda3edc07157fbdedc374a8de}
+      \strng{authorfullhash}{f046191803fce6cf9c4256e96b203631}
+      \strng{authorfullhashraw}{f046191803fce6cf9c4256e96b203631}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Consumer Marketing}
+      \field{number}{6}
+      \field{title}{Antecedents of acceptance model for e-procurement in Jordanian public shareholding firms}
+      \field{volume}{40}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{663\bibrangedash 684}
+      \range{pages}{22}
+    \endentry
+    \entry{althabatah2023industry4}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da893528f4d56b9515bcdd891cfc7dd7}{%
+           family={Althabatah},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da893528f4d56b9515bcdd891cfc7dd7}
+      \strng{fullhash}{da893528f4d56b9515bcdd891cfc7dd7}
+      \strng{fullhashraw}{da893528f4d56b9515bcdd891cfc7dd7}
+      \strng{bibnamehash}{da893528f4d56b9515bcdd891cfc7dd7}
+      \strng{authorbibnamehash}{da893528f4d56b9515bcdd891cfc7dd7}
+      \strng{authornamehash}{da893528f4d56b9515bcdd891cfc7dd7}
+      \strng{authorfullhash}{da893528f4d56b9515bcdd891cfc7dd7}
+      \strng{authorfullhashraw}{da893528f4d56b9515bcdd891cfc7dd7}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Logistics}
+      \field{number}{3}
+      \field{title}{Transformative procurement trends: Integrating Industry 4.0}
+      \field{volume}{7}
+      \field{year}{2023}
+      \field{pages}{63}
+      \range{pages}{1}
+    \endentry
+    \entry{angeles2007b2b}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1348f40a786bf5ecbaecef084fb08d1d}{%
+           family={Angeles},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c2600923aec6161f6fbaec7cfdde2ef}{%
+           family={Nath},
+           familyi={N\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1942569ce31f29d0dfa3a3754e2bbe9c}
+      \strng{fullhash}{1942569ce31f29d0dfa3a3754e2bbe9c}
+      \strng{fullhashraw}{1942569ce31f29d0dfa3a3754e2bbe9c}
+      \strng{bibnamehash}{1942569ce31f29d0dfa3a3754e2bbe9c}
+      \strng{authorbibnamehash}{1942569ce31f29d0dfa3a3754e2bbe9c}
+      \strng{authornamehash}{1942569ce31f29d0dfa3a3754e2bbe9c}
+      \strng{authorfullhash}{1942569ce31f29d0dfa3a3754e2bbe9c}
+      \strng{authorfullhashraw}{1942569ce31f29d0dfa3a3754e2bbe9c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Supply Chain Management}
+      \field{number}{2}
+      \field{title}{Business-to-business e-procurement: Success factors and challenges to implementation}
+      \field{volume}{12}
+      \field{year}{2007}
+      \field{pages}{104\bibrangedash 115}
+      \range{pages}{12}
+    \endentry
+    \entry{antony2002sixsigma}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=967730aef59015ec77c7d15b4262583d}{%
+           family={Antony},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cedc2efadb97a85cb01a73c5efb28fba}{%
+           family={Banuelas},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d8d5cef26867cc3b0f780be60b550fc}
+      \strng{fullhash}{5d8d5cef26867cc3b0f780be60b550fc}
+      \strng{fullhashraw}{5d8d5cef26867cc3b0f780be60b550fc}
+      \strng{bibnamehash}{5d8d5cef26867cc3b0f780be60b550fc}
+      \strng{authorbibnamehash}{5d8d5cef26867cc3b0f780be60b550fc}
+      \strng{authornamehash}{5d8d5cef26867cc3b0f780be60b550fc}
+      \strng{authorfullhash}{5d8d5cef26867cc3b0f780be60b550fc}
+      \strng{authorfullhashraw}{5d8d5cef26867cc3b0f780be60b550fc}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Measuring Business Excellence}
+      \field{number}{4}
+      \field{title}{Key ingredients for the effective implementation of Six Sigma program}
+      \field{volume}{6}
+      \field{year}{2002}
+      \field{pages}{20\bibrangedash 27}
+      \range{pages}{8}
+    \endentry
+    \entry{antony2009india}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=967730aef59015ec77c7d15b4262583d}{%
+           family={Antony},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3c5d9891a550ac68caf8ace640841bb}{%
+           family={Desai},
+           familyi={D\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f1c42f41aae394b76e216a3a9b428806}
+      \strng{fullhash}{f1c42f41aae394b76e216a3a9b428806}
+      \strng{fullhashraw}{f1c42f41aae394b76e216a3a9b428806}
+      \strng{bibnamehash}{f1c42f41aae394b76e216a3a9b428806}
+      \strng{authorbibnamehash}{f1c42f41aae394b76e216a3a9b428806}
+      \strng{authornamehash}{f1c42f41aae394b76e216a3a9b428806}
+      \strng{authorfullhash}{f1c42f41aae394b76e216a3a9b428806}
+      \strng{authorfullhashraw}{f1c42f41aae394b76e216a3a9b428806}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Benchmarking: An International Journal}
+      \field{number}{1}
+      \field{title}{Assessing the status of Six Sigma implementation in the Indian industry}
+      \field{volume}{16}
+      \field{year}{2009}
+      \field{pages}{116\bibrangedash 133}
+      \range{pages}{18}
+    \endentry
+    \entry{appelbaum2012kotter}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5c5e6e76ae1cd0af234b0c4b21a6a8b0}{%
+           family={Appelbaum},
+           familyi={A\bibinitperiod},
+           given={S.\bibnamedelimi H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60297b145caa73f4a111ebcaf2dfde06}{%
+           family={Habashy},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46c782017d96b910e4ea9cf1a6a851a5}{%
+           family={Malo},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d80c46e313570bbc78a33a01ab6ef5fc}{%
+           family={Shafiq},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f9f8d120383abe5bbc71f879b22a5f46}
+      \strng{fullhash}{651e99da853ffd502e5012f4abb81d1f}
+      \strng{fullhashraw}{651e99da853ffd502e5012f4abb81d1f}
+      \strng{bibnamehash}{651e99da853ffd502e5012f4abb81d1f}
+      \strng{authorbibnamehash}{651e99da853ffd502e5012f4abb81d1f}
+      \strng{authornamehash}{f9f8d120383abe5bbc71f879b22a5f46}
+      \strng{authorfullhash}{651e99da853ffd502e5012f4abb81d1f}
+      \strng{authorfullhashraw}{651e99da853ffd502e5012f4abb81d1f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Management Development}
+      \field{number}{8}
+      \field{title}{Back to the future: Revisiting Kotter’s 1996 change model}
+      \field{volume}{31}
+      \field{year}{2012}
+      \field{pages}{764\bibrangedash 782}
+      \range{pages}{19}
+    \endentry
+    \entry{azadegan2010benchmark}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1c269f6216b38ef293549b4b6c90f7b5}{%
+           family={Azadegan},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b49ad3a3d4352ef9b67bc69740268407}{%
+           family={Teich},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fc20ee84a2002cf37689740df78f7774}
+      \strng{fullhash}{fc20ee84a2002cf37689740df78f7774}
+      \strng{fullhashraw}{fc20ee84a2002cf37689740df78f7774}
+      \strng{bibnamehash}{fc20ee84a2002cf37689740df78f7774}
+      \strng{authorbibnamehash}{fc20ee84a2002cf37689740df78f7774}
+      \strng{authornamehash}{fc20ee84a2002cf37689740df78f7774}
+      \strng{authorfullhash}{fc20ee84a2002cf37689740df78f7774}
+      \strng{authorfullhashraw}{fc20ee84a2002cf37689740df78f7774}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Benchmarking: An International Journal}
+      \field{number}{4}
+      \field{title}{Effective benchmarking of innovation adoptions: A theoretical framework for e-procurement technologies}
+      \field{volume}{17}
+      \field{year}{2010}
+      \field{pages}{472\bibrangedash 490}
+      \range{pages}{19}
+    \endentry
+    \entry{bag2020bda}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ebd627f36325f64e84e214ce3da5fc91}{%
+           family={Bag},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c09b633a71045c5b120f2d8c9bbb9de2}{%
+           family={Pretorius},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi H.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1774a1f1ad14dc83fbedb7ce144b2603}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00649ecc71ba1edf5c21948ef76f5241}{%
+           family={Dwivedi},
+           familyi={D\bibinitperiod},
+           given={Y.\bibnamedelimi K.},
+           giveni={Y\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7f568e73fb9efc9006f4a36e6f007a1c}
+      \strng{fullhash}{9dca7f575a26d454f3a216db590ca87c}
+      \strng{fullhashraw}{9dca7f575a26d454f3a216db590ca87c}
+      \strng{bibnamehash}{9dca7f575a26d454f3a216db590ca87c}
+      \strng{authorbibnamehash}{9dca7f575a26d454f3a216db590ca87c}
+      \strng{authornamehash}{7f568e73fb9efc9006f4a36e6f007a1c}
+      \strng{authorfullhash}{9dca7f575a26d454f3a216db590ca87c}
+      \strng{authorfullhashraw}{9dca7f575a26d454f3a216db590ca87c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Technological Forecasting and Social Change}
+      \field{title}{Role of institutional pressures and resources in the adoption of big data analytics-powered AI for enhancing sustainable supply chain performance}
+      \field{volume}{163}
+      \field{year}{2020}
+      \field{pages}{120420}
+      \range{pages}{1}
+    \endentry
+    \entry{bagozzi2007tam}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=34ea3055288536f1757b0319aec23870}{%
+           family={Bagozzi},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34ea3055288536f1757b0319aec23870}
+      \strng{fullhash}{34ea3055288536f1757b0319aec23870}
+      \strng{fullhashraw}{34ea3055288536f1757b0319aec23870}
+      \strng{bibnamehash}{34ea3055288536f1757b0319aec23870}
+      \strng{authorbibnamehash}{34ea3055288536f1757b0319aec23870}
+      \strng{authornamehash}{34ea3055288536f1757b0319aec23870}
+      \strng{authorfullhash}{34ea3055288536f1757b0319aec23870}
+      \strng{authorfullhashraw}{34ea3055288536f1757b0319aec23870}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of the Association for Information Systems}
+      \field{number}{4}
+      \field{title}{The legacy of the Technology Acceptance Model and a proposal for a paradigm shift}
+      \field{volume}{8}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{244\bibrangedash 254}
+      \range{pages}{11}
+    \endentry
+    \entry{bienhaus2018procurement4}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c3f6ad2ac5718b1a15787925a02e6e0e}{%
+           family={Bienhaus},
+           familyi={B\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9407ab7bee06e0f891995b3e3bc6e5e6}{%
+           family={Haddud},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b142704b745dca66e1301795fb1e047e}
+      \strng{fullhash}{b142704b745dca66e1301795fb1e047e}
+      \strng{fullhashraw}{b142704b745dca66e1301795fb1e047e}
+      \strng{bibnamehash}{b142704b745dca66e1301795fb1e047e}
+      \strng{authorbibnamehash}{b142704b745dca66e1301795fb1e047e}
+      \strng{authornamehash}{b142704b745dca66e1301795fb1e047e}
+      \strng{authorfullhash}{b142704b745dca66e1301795fb1e047e}
+      \strng{authorfullhashraw}{b142704b745dca66e1301795fb1e047e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Business Process Management Journal}
+      \field{number}{4}
+      \field{title}{Procurement 4.0: Factors influencing the digitisation of procurement and supply chains}
+      \field{volume}{24}
+      \field{year}{2018}
+      \field{pages}{965\bibrangedash 984}
+      \range{pages}{20}
+    \endentry
+    \entry{bcg2022supplychain}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3e2cfbd2f2461bae7dcbc515d263e44a}{%
+           family={{Boston Consulting Group}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {BCG}%
+      }
+      \strng{namehash}{3e2cfbd2f2461bae7dcbc515d263e44a}
+      \strng{fullhash}{3e2cfbd2f2461bae7dcbc515d263e44a}
+      \strng{fullhashraw}{3e2cfbd2f2461bae7dcbc515d263e44a}
+      \strng{bibnamehash}{3e2cfbd2f2461bae7dcbc515d263e44a}
+      \strng{authorbibnamehash}{3e2cfbd2f2461bae7dcbc515d263e44a}
+      \strng{authornamehash}{3e2cfbd2f2461bae7dcbc515d263e44a}
+      \strng{authorfullhash}{3e2cfbd2f2461bae7dcbc515d263e44a}
+      \strng{authorfullhashraw}{3e2cfbd2f2461bae7dcbc515d263e44a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global Supply Chain Report}
+      \field{type}{techreport}
+      \field{year}{2022}
+    \endentry
+    \entry{bowen2009document}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=969cf8b3998bee80d0308ce781bfc542}{%
+           family={Bowen},
+           familyi={B\bibinitperiod},
+           given={Glenn\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{969cf8b3998bee80d0308ce781bfc542}
+      \strng{fullhash}{969cf8b3998bee80d0308ce781bfc542}
+      \strng{fullhashraw}{969cf8b3998bee80d0308ce781bfc542}
+      \strng{bibnamehash}{969cf8b3998bee80d0308ce781bfc542}
+      \strng{authorbibnamehash}{969cf8b3998bee80d0308ce781bfc542}
+      \strng{authornamehash}{969cf8b3998bee80d0308ce781bfc542}
+      \strng{authorfullhash}{969cf8b3998bee80d0308ce781bfc542}
+      \strng{authorfullhashraw}{969cf8b3998bee80d0308ce781bfc542}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Qualitative Research Journal}
+      \field{number}{2}
+      \field{title}{Document analysis as a qualitative research method}
+      \field{volume}{9}
+      \field{year}{2009}
+      \field{pages}{27\bibrangedash 40}
+      \range{pages}{14}
+    \endentry
+    \entry{celestin2021pengadaan}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4b50ddf3f046ff7e12aff85660fb24fc}{%
+           family={Celestin},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4b50ddf3f046ff7e12aff85660fb24fc}
+      \strng{fullhash}{4b50ddf3f046ff7e12aff85660fb24fc}
+      \strng{fullhashraw}{4b50ddf3f046ff7e12aff85660fb24fc}
+      \strng{bibnamehash}{4b50ddf3f046ff7e12aff85660fb24fc}
+      \strng{authorbibnamehash}{4b50ddf3f046ff7e12aff85660fb24fc}
+      \strng{authornamehash}{4b50ddf3f046ff7e12aff85660fb24fc}
+      \strng{authorfullhash}{4b50ddf3f046ff7e12aff85660fb24fc}
+      \strng{authorfullhashraw}{4b50ddf3f046ff7e12aff85660fb24fc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{ResearchGate}
+      \field{title}{The impact of pengadaan digital on transparency, efficiency, and fraud prevention}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{cooper2024dtproc}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ea40a747e7a44f7c4807b3dafb9bb8dd}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ea40a747e7a44f7c4807b3dafb9bb8dd}
+      \strng{fullhash}{ea40a747e7a44f7c4807b3dafb9bb8dd}
+      \strng{fullhashraw}{ea40a747e7a44f7c4807b3dafb9bb8dd}
+      \strng{bibnamehash}{ea40a747e7a44f7c4807b3dafb9bb8dd}
+      \strng{authorbibnamehash}{ea40a747e7a44f7c4807b3dafb9bb8dd}
+      \strng{authornamehash}{ea40a747e7a44f7c4807b3dafb9bb8dd}
+      \strng{authorfullhash}{ea40a747e7a44f7c4807b3dafb9bb8dd}
+      \strng{authorfullhashraw}{ea40a747e7a44f7c4807b3dafb9bb8dd}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Preprints.org}
+      \field{title}{Exploring the role of digital transformation in procurement}
+      \field{year}{2024}
+    \endentry
+    \entry{creswell2014design}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=59fc4628efd7a7bbfbc63c887c449ae2}{%
+           family={Creswell},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications}%
+      }
+      \strng{namehash}{59fc4628efd7a7bbfbc63c887c449ae2}
+      \strng{fullhash}{59fc4628efd7a7bbfbc63c887c449ae2}
+      \strng{fullhashraw}{59fc4628efd7a7bbfbc63c887c449ae2}
+      \strng{bibnamehash}{59fc4628efd7a7bbfbc63c887c449ae2}
+      \strng{authorbibnamehash}{59fc4628efd7a7bbfbc63c887c449ae2}
+      \strng{authornamehash}{59fc4628efd7a7bbfbc63c887c449ae2}
+      \strng{authorfullhash}{59fc4628efd7a7bbfbc63c887c449ae2}
+      \strng{authorfullhashraw}{59fc4628efd7a7bbfbc63c887c449ae2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4th}
+      \field{title}{Research Design: Qualitative, quantitative, and mixed methods approaches}
+      \field{year}{2014}
+    \endentry
+    \entry{croom2007ukpublic}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bcb66f1b77213bb3b3f4de319ebeffd9}{%
+           family={Croom},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=701df9454aea253695722789b8cf9203}{%
+           family={Brandon{-}Jones},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b6a965e500d1659bd13d3b9671c4376}
+      \strng{fullhash}{1b6a965e500d1659bd13d3b9671c4376}
+      \strng{fullhashraw}{1b6a965e500d1659bd13d3b9671c4376}
+      \strng{bibnamehash}{1b6a965e500d1659bd13d3b9671c4376}
+      \strng{authorbibnamehash}{1b6a965e500d1659bd13d3b9671c4376}
+      \strng{authornamehash}{1b6a965e500d1659bd13d3b9671c4376}
+      \strng{authorfullhash}{1b6a965e500d1659bd13d3b9671c4376}
+      \strng{authorfullhashraw}{1b6a965e500d1659bd13d3b9671c4376}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Purchasing and Supply Management}
+      \field{number}{4}
+      \field{title}{Impact of e-procurement: Experiences from implementation in the UK public sector}
+      \field{volume}{13}
+      \field{year}{2007}
+    \endentry
+    \entry{davis1989tam}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dcb59a9c9bf67cc1c74d13fb3a9f33a7}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Fred\bibnamedelima D.},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dcb59a9c9bf67cc1c74d13fb3a9f33a7}
+      \strng{fullhash}{dcb59a9c9bf67cc1c74d13fb3a9f33a7}
+      \strng{fullhashraw}{dcb59a9c9bf67cc1c74d13fb3a9f33a7}
+      \strng{bibnamehash}{dcb59a9c9bf67cc1c74d13fb3a9f33a7}
+      \strng{authorbibnamehash}{dcb59a9c9bf67cc1c74d13fb3a9f33a7}
+      \strng{authornamehash}{dcb59a9c9bf67cc1c74d13fb3a9f33a7}
+      \strng{authorfullhash}{dcb59a9c9bf67cc1c74d13fb3a9f33a7}
+      \strng{authorfullhashraw}{dcb59a9c9bf67cc1c74d13fb3a9f33a7}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{MIS Quarterly}
+      \field{number}{3}
+      \field{title}{Perceived usefulness, perceived ease of use, and user acceptance of information technology}
+      \field{volume}{13}
+      \field{year}{1989}
+      \field{pages}{319\bibrangedash 340}
+      \range{pages}{22}
+    \endentry
+    \entry{defeo2004juran}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1757bc66d9361b3cc3e28105ce5b4791}{%
+           family={De\bibnamedelima Feo},
+           familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7107b5e00ec77f924d305feb5f1df741}{%
+           family={Barnard},
+           familyi={B\bibinitperiod},
+           given={W.\bibnamedelimi W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{d12ab34fcf9eb8fb9425adaddc043a4d}
+      \strng{fullhash}{d12ab34fcf9eb8fb9425adaddc043a4d}
+      \strng{fullhashraw}{d12ab34fcf9eb8fb9425adaddc043a4d}
+      \strng{bibnamehash}{d12ab34fcf9eb8fb9425adaddc043a4d}
+      \strng{authorbibnamehash}{d12ab34fcf9eb8fb9425adaddc043a4d}
+      \strng{authornamehash}{d12ab34fcf9eb8fb9425adaddc043a4d}
+      \strng{authorfullhash}{d12ab34fcf9eb8fb9425adaddc043a4d}
+      \strng{authorfullhashraw}{d12ab34fcf9eb8fb9425adaddc043a4d}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Juran Institute’s Six Sigma: Breakthrough and Beyond}
+      \field{year}{2004}
+    \endentry
+    \entry{deloitte2023cpo}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=370c2482dacb3fffbd4043cfca5674fe}{%
+           family={{Deloitte}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Deloitte Insights}%
+      }
+      \strng{namehash}{370c2482dacb3fffbd4043cfca5674fe}
+      \strng{fullhash}{370c2482dacb3fffbd4043cfca5674fe}
+      \strng{fullhashraw}{370c2482dacb3fffbd4043cfca5674fe}
+      \strng{bibnamehash}{370c2482dacb3fffbd4043cfca5674fe}
+      \strng{authorbibnamehash}{370c2482dacb3fffbd4043cfca5674fe}
+      \strng{authornamehash}{370c2482dacb3fffbd4043cfca5674fe}
+      \strng{authorfullhash}{370c2482dacb3fffbd4043cfca5674fe}
+      \strng{authorfullhashraw}{370c2482dacb3fffbd4043cfca5674fe}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global Chief Procurement Officer Survey 2023}
+      \field{type}{techreport}
+      \field{year}{2023}
+    \endentry
+    \entry{droppe2023audit}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f2502ae1a6c717bd40ad498f8b8b53ed}{%
+           family={Droppe},
+           familyi={D\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f2502ae1a6c717bd40ad498f8b8b53ed}
+      \strng{fullhash}{f2502ae1a6c717bd40ad498f8b8b53ed}
+      \strng{fullhashraw}{f2502ae1a6c717bd40ad498f8b8b53ed}
+      \strng{bibnamehash}{f2502ae1a6c717bd40ad498f8b8b53ed}
+      \strng{authorbibnamehash}{f2502ae1a6c717bd40ad498f8b8b53ed}
+      \strng{authornamehash}{f2502ae1a6c717bd40ad498f8b8b53ed}
+      \strng{authorfullhash}{f2502ae1a6c717bd40ad498f8b8b53ed}
+      \strng{authorfullhashraw}{f2502ae1a6c717bd40ad498f8b8b53ed}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Procurement Innovation Review}
+      \field{number}{2}
+      \field{title}{Digital auditing in procurement: Governance and risk mitigation}
+      \field{volume}{8}
+      \field{year}{2023}
+      \field{pages}{45\bibrangedash 59}
+      \range{pages}{15}
+    \endentry
+    \entry{fawcett2008scm}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=542cce82d08728d4448a8c31ff210d6a}{%
+           family={Fawcett},
+           familyi={F\bibinitperiod},
+           given={S.\bibnamedelimi E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c15514a32e1e1fad27edafb0106aeea6}{%
+           family={Magnan},
+           familyi={M\bibinitperiod},
+           given={G.\bibnamedelimi M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b38866266f48e99a4549b67cb4635522}{%
+           family={McCarter},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{58a84a0b4dd3740afb19670071ac5562}
+      \strng{fullhash}{58a84a0b4dd3740afb19670071ac5562}
+      \strng{fullhashraw}{58a84a0b4dd3740afb19670071ac5562}
+      \strng{bibnamehash}{58a84a0b4dd3740afb19670071ac5562}
+      \strng{authorbibnamehash}{58a84a0b4dd3740afb19670071ac5562}
+      \strng{authornamehash}{58a84a0b4dd3740afb19670071ac5562}
+      \strng{authorfullhash}{58a84a0b4dd3740afb19670071ac5562}
+      \strng{authorfullhashraw}{58a84a0b4dd3740afb19670071ac5562}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Supply Chain Management: An International Journal}
+      \field{number}{1}
+      \field{title}{Benefits, barriers, and bridges to effective supply chain management}
+      \field{volume}{13}
+      \field{year}{2008}
+      \field{pages}{35\bibrangedash 48}
+      \range{pages}{14}
+    \endentry
+    \entry{gunasekaran2008hk}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4b6655400f35c39cbc28136dc0f82744}{%
+           family={Gunasekaran},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ccc86a2668b6fe580f8fa8de7fcef4e}{%
+           family={Ngai},
+           familyi={N\bibinitperiod},
+           given={E.\bibnamedelimi W.\bibnamedelimi T.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e13ea01bab073843d0f0f0f42ba8761e}
+      \strng{fullhash}{e13ea01bab073843d0f0f0f42ba8761e}
+      \strng{fullhashraw}{e13ea01bab073843d0f0f0f42ba8761e}
+      \strng{bibnamehash}{e13ea01bab073843d0f0f0f42ba8761e}
+      \strng{authorbibnamehash}{e13ea01bab073843d0f0f0f42ba8761e}
+      \strng{authornamehash}{e13ea01bab073843d0f0f0f42ba8761e}
+      \strng{authorfullhash}{e13ea01bab073843d0f0f0f42ba8761e}
+      \strng{authorfullhashraw}{e13ea01bab073843d0f0f0f42ba8761e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{International Journal of Production Economics}
+      \field{number}{1}
+      \field{title}{Adoption of e-procurement in Hong Kong: An empirical research}
+      \field{volume}{113}
+      \field{year}{2008}
+      \field{pages}{159\bibrangedash 175}
+      \range{pages}{17}
+    \endentry
+    \entry{hallikas2021data}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4948aa9980393bca1ae5ed9a6b9ad315}{%
+           family={Hallikas},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=313551541c62c9e026d1bf5765c73434}{%
+           family={Immonen},
+           familyi={I\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=863cd250571fda607453dfa1e60a4d68}{%
+           family={Brax},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b2fcd65298735a9dfeadb7e0681c5858}
+      \strng{fullhash}{b2fcd65298735a9dfeadb7e0681c5858}
+      \strng{fullhashraw}{b2fcd65298735a9dfeadb7e0681c5858}
+      \strng{bibnamehash}{b2fcd65298735a9dfeadb7e0681c5858}
+      \strng{authorbibnamehash}{b2fcd65298735a9dfeadb7e0681c5858}
+      \strng{authornamehash}{b2fcd65298735a9dfeadb7e0681c5858}
+      \strng{authorfullhash}{b2fcd65298735a9dfeadb7e0681c5858}
+      \strng{authorfullhashraw}{b2fcd65298735a9dfeadb7e0681c5858}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Enterprise Information Management}
+      \field{number}{3}
+      \field{title}{Digitalizing procurement: The impact of data analytics on supply chain performance}
+      \field{volume}{34}
+      \field{year}{2021}
+      \field{pages}{633\bibrangedash 656}
+      \range{pages}{24}
+    \endentry
+    \entry{hassan2011nz}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=66bbdb4b466d8242d40d3117a3865966}{%
+           family={Hassan},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd3506588fb33b0827b4441b3e056468}{%
+           family={Tretiakov},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=389fe37bd6d5e76717dcd7e36bf4f118}{%
+           family={Whiddett},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a5e26c757fc57ed0720dc4032d1ac716}
+      \strng{fullhash}{a5e26c757fc57ed0720dc4032d1ac716}
+      \strng{fullhashraw}{a5e26c757fc57ed0720dc4032d1ac716}
+      \strng{bibnamehash}{a5e26c757fc57ed0720dc4032d1ac716}
+      \strng{authorbibnamehash}{a5e26c757fc57ed0720dc4032d1ac716}
+      \strng{authornamehash}{a5e26c757fc57ed0720dc4032d1ac716}
+      \strng{authorfullhash}{a5e26c757fc57ed0720dc4032d1ac716}
+      \strng{authorfullhashraw}{a5e26c757fc57ed0720dc4032d1ac716}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{AMCIS Proceedings}
+      \field{title}{Extent of e-procurement usage: An empirical study of small and medium-sized New Zealand manufacturing businesses}
+      \field{year}{2011}
+      \true{nocite}
+    \endentry
+    \entry{herold2022dynamic}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9608fb9ade8df68c5dc7fd48daadaea0}{%
+           family={Herold},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82f04920b5c0e5483748447177e421eb}{%
+           family={Heller},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bedf1f2900070fdd47056218c6d21da}{%
+           family={Rozemeijer},
+           familyi={R\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fb33cbca567217eb4a516b3de922557}{%
+           family={Mahr},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{347dc8af19668370a023ac7a049af58c}
+      \strng{fullhash}{ed0593b6af28e49b777adfa9ec7a43b4}
+      \strng{fullhashraw}{ed0593b6af28e49b777adfa9ec7a43b4}
+      \strng{bibnamehash}{ed0593b6af28e49b777adfa9ec7a43b4}
+      \strng{authorbibnamehash}{ed0593b6af28e49b777adfa9ec7a43b4}
+      \strng{authornamehash}{347dc8af19668370a023ac7a049af58c}
+      \strng{authorfullhash}{ed0593b6af28e49b777adfa9ec7a43b4}
+      \strng{authorfullhashraw}{ed0593b6af28e49b777adfa9ec7a43b4}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{International Journal of Physical Distribution \& Logistics Management}
+      \field{number}{4}
+      \field{title}{Dynamic capabilities for pengadaan digital transformation: A systematic literature review}
+      \field{volume}{53}
+      \field{year}{2022}
+    \endentry
+    \entry{jsaer2024procurement}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6e5668da669e1c4bf47be77073ff8df2}{%
+           family={{JSAER}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e5668da669e1c4bf47be77073ff8df2}
+      \strng{fullhash}{6e5668da669e1c4bf47be77073ff8df2}
+      \strng{fullhashraw}{6e5668da669e1c4bf47be77073ff8df2}
+      \strng{bibnamehash}{6e5668da669e1c4bf47be77073ff8df2}
+      \strng{authorbibnamehash}{6e5668da669e1c4bf47be77073ff8df2}
+      \strng{authornamehash}{6e5668da669e1c4bf47be77073ff8df2}
+      \strng{authorfullhash}{6e5668da669e1c4bf47be77073ff8df2}
+      \strng{authorfullhashraw}{6e5668da669e1c4bf47be77073ff8df2}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Scientific and Engineering Research}
+      \field{number}{3}
+      \field{title}{Procurement 4.0 trends}
+      \field{volume}{11}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{278\bibrangedash 282}
+      \range{pages}{5}
+    \endentry
+    \entry{mckinsey2023digitization}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=96eaa81a81a29c441708d1ec4be5a27b}{%
+           family={{McKinsey \& Company}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {McKinsey}%
+      }
+      \strng{namehash}{96eaa81a81a29c441708d1ec4be5a27b}
+      \strng{fullhash}{96eaa81a81a29c441708d1ec4be5a27b}
+      \strng{fullhashraw}{96eaa81a81a29c441708d1ec4be5a27b}
+      \strng{bibnamehash}{96eaa81a81a29c441708d1ec4be5a27b}
+      \strng{authorbibnamehash}{96eaa81a81a29c441708d1ec4be5a27b}
+      \strng{authornamehash}{96eaa81a81a29c441708d1ec4be5a27b}
+      \strng{authorfullhash}{96eaa81a81a29c441708d1ec4be5a27b}
+      \strng{authorfullhashraw}{96eaa81a81a29c441708d1ec4be5a27b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The state of procurement digitization}
+      \field{type}{techreport}
+      \field{year}{2023}
+    \endentry
+    \entry{mishra2007internet}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=675a2444f9205ce9ae1a3a258c08bff3}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a01f145950d27f2cc1a176993903f9fd}{%
+           family={Konana},
+           familyi={K\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc414e5c41a9cc26a0f43c6c696481b0}{%
+           family={Barua},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7a92e84393015d2ea3d0c25b5ab5a9c1}
+      \strng{fullhash}{7a92e84393015d2ea3d0c25b5ab5a9c1}
+      \strng{fullhashraw}{7a92e84393015d2ea3d0c25b5ab5a9c1}
+      \strng{bibnamehash}{7a92e84393015d2ea3d0c25b5ab5a9c1}
+      \strng{authorbibnamehash}{7a92e84393015d2ea3d0c25b5ab5a9c1}
+      \strng{authornamehash}{7a92e84393015d2ea3d0c25b5ab5a9c1}
+      \strng{authorfullhash}{7a92e84393015d2ea3d0c25b5ab5a9c1}
+      \strng{authorfullhashraw}{7a92e84393015d2ea3d0c25b5ab5a9c1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Information Systems Research}
+      \field{number}{1}
+      \field{title}{Antecedents and consequences of Internet use in procurement}
+      \field{volume}{18}
+      \field{year}{2007}
+      \field{pages}{103\bibrangedash 120}
+      \range{pages}{18}
+    \endentry
+    \entry{ogbu2024ariba}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3d0c45006c1ceaf498a54c7d1e09c11f}{%
+           family={Ogbu},
+           familyi={O\bibinitperiod},
+           given={A.\bibnamedelimi D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca0a0232e7238dd70a3494646b0b8e09}{%
+           family={Ozowe},
+           familyi={O\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3abb5153e61d1a7a2e5b39365ab4be13}{%
+           family={Ikevuje},
+           familyi={I\bibinitperiod},
+           given={A.\bibnamedelimi H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{16ca3a6682ad92ae7385a9a418227d05}
+      \strng{fullhash}{16ca3a6682ad92ae7385a9a418227d05}
+      \strng{fullhashraw}{16ca3a6682ad92ae7385a9a418227d05}
+      \strng{bibnamehash}{16ca3a6682ad92ae7385a9a418227d05}
+      \strng{authorbibnamehash}{16ca3a6682ad92ae7385a9a418227d05}
+      \strng{authornamehash}{16ca3a6682ad92ae7385a9a418227d05}
+      \strng{authorfullhash}{16ca3a6682ad92ae7385a9a418227d05}
+      \strng{authorfullhashraw}{16ca3a6682ad92ae7385a9a418227d05}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{GSC Advanced Research and Reviews}
+      \field{number}{1}
+      \field{title}{Solving procurement inefficiencies: Innovative approaches to SAP Ariba implementation in oil and gas industry logistics}
+      \field{volume}{20}
+      \field{year}{2024}
+      \field{pages}{176\bibrangedash 187}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.30574/gscarr.2024.20.1.0260
+      \endverb
+    \endentry
+    \entry{pyzdek2003sixsigma}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8146df72d58b17f07f461237da11931b}{%
+           family={Pyzdek},
+           familyi={P\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{8146df72d58b17f07f461237da11931b}
+      \strng{fullhash}{8146df72d58b17f07f461237da11931b}
+      \strng{fullhashraw}{8146df72d58b17f07f461237da11931b}
+      \strng{bibnamehash}{8146df72d58b17f07f461237da11931b}
+      \strng{authorbibnamehash}{8146df72d58b17f07f461237da11931b}
+      \strng{authornamehash}{8146df72d58b17f07f461237da11931b}
+      \strng{authorfullhash}{8146df72d58b17f07f461237da11931b}
+      \strng{authorfullhashraw}{8146df72d58b17f07f461237da11931b}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Six Sigma Handbook}
+      \field{year}{2003}
+    \endentry
+    \entry{ricardianto2022scor}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=0612af43075112907b2e2d432009a873}{%
+           family={Ricardianto},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc82b36aa3189db590ecff86be040480}{%
+           family={Barata},
+           familyi={B\bibinitperiod},
+           given={F.\bibnamedelimi A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9271526f9c802485a6a8ac78f998261c}{%
+           family={Mardiyani},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29c0d981cdbb49e832c260d367d79f6e}{%
+           family={Setiawan},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi B.},
+           giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53e4c335b531c029b7bbdd8778a0137c}{%
+           family={Subagyo},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad2128cec66aa587efedd2bcd447a4ec}{%
+           family={Saribanon},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=defb78825b13a8881503fef5c1985fdc}{%
+           family={Endri},
+           familyi={E\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8cf51f816b6906d09d579806455caf5a}
+      \strng{fullhash}{5d97c1fb02196261defe8b1645860d6c}
+      \strng{fullhashraw}{5d97c1fb02196261defe8b1645860d6c}
+      \strng{bibnamehash}{5d97c1fb02196261defe8b1645860d6c}
+      \strng{authorbibnamehash}{5d97c1fb02196261defe8b1645860d6c}
+      \strng{authornamehash}{8cf51f816b6906d09d579806455caf5a}
+      \strng{authorfullhash}{5d97c1fb02196261defe8b1645860d6c}
+      \strng{authorfullhashraw}{5d97c1fb02196261defe8b1645860d6c}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Uncertain Supply Chain Management}
+      \field{number}{3}
+      \field{title}{Supply chain management evaluation in the oil and gas industry using the SCOR model}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{pages}{797\bibrangedash 806}
+      \range{pages}{10}
+    \endentry
+    \entry{rolas2019failure}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=aea381f1d33e57808afb7fce4c6f9e62}{%
+           family={Rolas},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=841abbe4aa17a285d973bd1846038625}{%
+           family={Toyfur},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfbeb79c831bbbd3196b281ce27f7fef}{%
+           family={Juliantina},
+           familyi={J\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9c5701410195c78400797450a2b1d573}
+      \strng{fullhash}{9c5701410195c78400797450a2b1d573}
+      \strng{fullhashraw}{9c5701410195c78400797450a2b1d573}
+      \strng{bibnamehash}{9c5701410195c78400797450a2b1d573}
+      \strng{authorbibnamehash}{9c5701410195c78400797450a2b1d573}
+      \strng{authornamehash}{9c5701410195c78400797450a2b1d573}
+      \strng{authorfullhash}{9c5701410195c78400797450a2b1d573}
+      \strng{authorfullhashraw}{9c5701410195c78400797450a2b1d573}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{International Journal of Civil Engineering and Technology}
+      \field{number}{8}
+      \field{title}{An analysis of the effect of job implementation methods in the failure of the e-procurement selection process}
+      \field{volume}{10}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{schoenherr2008auction}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c03fba05f427ecb3a684585578538e97}{%
+           family={Schoenherr},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c03fba05f427ecb3a684585578538e97}
+      \strng{fullhash}{c03fba05f427ecb3a684585578538e97}
+      \strng{fullhashraw}{c03fba05f427ecb3a684585578538e97}
+      \strng{bibnamehash}{c03fba05f427ecb3a684585578538e97}
+      \strng{authorbibnamehash}{c03fba05f427ecb3a684585578538e97}
+      \strng{authornamehash}{c03fba05f427ecb3a684585578538e97}
+      \strng{authorfullhash}{c03fba05f427ecb3a684585578538e97}
+      \strng{authorfullhashraw}{c03fba05f427ecb3a684585578538e97}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{International Journal of Operations \& Production Management}
+      \field{number}{3}
+      \field{title}{Diffusion of online reverse auctions for B2B procurement: An exploratory study}
+      \field{volume}{28}
+      \field{year}{2008}
+      \field{pages}{259\bibrangedash 278}
+      \range{pages}{20}
+    \endentry
+    \entry{simfoni2025s2p}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=be76c7e2f89b25380b475c00ed77fc72}{%
+           family={{Simfoni}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{be76c7e2f89b25380b475c00ed77fc72}
+      \strng{fullhash}{be76c7e2f89b25380b475c00ed77fc72}
+      \strng{fullhashraw}{be76c7e2f89b25380b475c00ed77fc72}
+      \strng{bibnamehash}{be76c7e2f89b25380b475c00ed77fc72}
+      \strng{authorbibnamehash}{be76c7e2f89b25380b475c00ed77fc72}
+      \strng{authornamehash}{be76c7e2f89b25380b475c00ed77fc72}
+      \strng{authorfullhash}{be76c7e2f89b25380b475c00ed77fc72}
+      \strng{authorfullhashraw}{be76c7e2f89b25380b475c00ed77fc72}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is source to pay -- A guide to source-to-pay (S2P) process}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://simfoni.com/source-to-pay/
+      \endverb
+      \verb{url}
+      \verb https://simfoni.com/source-to-pay/
+      \endverb
+    \endentry
+    \entry{sugiyono2019metode}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4b4ef9a470c1cbc3171d5618e2669fb4}{%
+           family={Sugiyono},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Alfabeta}%
+      }
+      \strng{namehash}{4b4ef9a470c1cbc3171d5618e2669fb4}
+      \strng{fullhash}{4b4ef9a470c1cbc3171d5618e2669fb4}
+      \strng{fullhashraw}{4b4ef9a470c1cbc3171d5618e2669fb4}
+      \strng{bibnamehash}{4b4ef9a470c1cbc3171d5618e2669fb4}
+      \strng{authorbibnamehash}{4b4ef9a470c1cbc3171d5618e2669fb4}
+      \strng{authornamehash}{4b4ef9a470c1cbc3171d5618e2669fb4}
+      \strng{authorfullhash}{4b4ef9a470c1cbc3171d5618e2669fb4}
+      \strng{authorfullhashraw}{4b4ef9a470c1cbc3171d5618e2669fb4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Metode penelitian kuantitatif, kualitatif, dan R\&D}
+      \field{year}{2019}
+    \endentry
+    \entry{deloitte2025genai}{online}{}{}
+      \list{organization}{1}{%
+        {Deloitte}%
+      }
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{Transforming digital procurement through generative AI: How sourcing \& procurement solutions can harness generative AI}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.deloitte.com/us/en/services/consulting/blogs/business-operations-room/digital-procurement-transformation-through-generative-ai.html
+      \endverb
+      \verb{url}
+      \verb https://www.deloitte.com/us/en/services/consulting/blogs/business-operations-room/digital-procurement-transformation-through-generative-ai.html
+      \endverb
+    \endentry
+    \entry{vaidya2006critical}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a598ab49f97728bf0c88c6fa7be1d1d4}{%
+           family={Vaidya},
+           familyi={V\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d126a67da81982142a5ccd13a8ec3980}{%
+           family={Sajeev},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi S.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4887cac642df420439767cd2eaf6330c}{%
+           family={Callender},
+           familyi={C\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{abd26cbe90adfe81286065012b56e7da}
+      \strng{fullhash}{abd26cbe90adfe81286065012b56e7da}
+      \strng{fullhashraw}{abd26cbe90adfe81286065012b56e7da}
+      \strng{bibnamehash}{abd26cbe90adfe81286065012b56e7da}
+      \strng{authorbibnamehash}{abd26cbe90adfe81286065012b56e7da}
+      \strng{authornamehash}{abd26cbe90adfe81286065012b56e7da}
+      \strng{authorfullhash}{abd26cbe90adfe81286065012b56e7da}
+      \strng{authorfullhashraw}{abd26cbe90adfe81286065012b56e7da}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Public Procurement}
+      \field{number}{1/2}
+      \field{title}{Critical factors that influence e-procurement implementation success in the public sector}
+      \field{volume}{6}
+      \field{year}{2006}
+      \true{nocite}
+      \field{pages}{70\bibrangedash 99}
+      \range{pages}{30}
+    \endentry
+    \entry{vaka2024procurement4}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cefe8093a6ff112412e11571a21b6587}{%
+           family={Vaka},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cefe8093a6ff112412e11571a21b6587}
+      \strng{fullhash}{cefe8093a6ff112412e11571a21b6587}
+      \strng{fullhashraw}{cefe8093a6ff112412e11571a21b6587}
+      \strng{bibnamehash}{cefe8093a6ff112412e11571a21b6587}
+      \strng{authorbibnamehash}{cefe8093a6ff112412e11571a21b6587}
+      \strng{authornamehash}{cefe8093a6ff112412e11571a21b6587}
+      \strng{authorfullhash}{cefe8093a6ff112412e11571a21b6587}
+      \strng{authorfullhashraw}{cefe8093a6ff112412e11571a21b6587}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Scientific and Engineering Research}
+      \field{number}{5}
+      \field{title}{Procurement 4.0: Leveraging technology for transformative processes}
+      \field{volume}{11}
+      \field{year}{2024}
+      \field{pages}{100\bibrangedash 108}
+      \range{pages}{9}
+    \endentry
+    \entry{webster2002litreview}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e4637e41a8c1b04d06a9f18fbf08a58c}{%
+           family={Webster},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7876a6f6b28be45a9931d02de679739e}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi T.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6d20e7ba0dd9a6ca274d7e3ffb6ed260}
+      \strng{fullhash}{6d20e7ba0dd9a6ca274d7e3ffb6ed260}
+      \strng{fullhashraw}{6d20e7ba0dd9a6ca274d7e3ffb6ed260}
+      \strng{bibnamehash}{6d20e7ba0dd9a6ca274d7e3ffb6ed260}
+      \strng{authorbibnamehash}{6d20e7ba0dd9a6ca274d7e3ffb6ed260}
+      \strng{authornamehash}{6d20e7ba0dd9a6ca274d7e3ffb6ed260}
+      \strng{authorfullhash}{6d20e7ba0dd9a6ca274d7e3ffb6ed260}
+      \strng{authorfullhashraw}{6d20e7ba0dd9a6ca274d7e3ffb6ed260}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{MIS Quarterly}
+      \field{number}{2}
+      \field{title}{Analyzing the past to prepare for the future: Writing a literature review}
+      \field{volume}{26}
+      \field{year}{2002}
+      \field{pages}{xiii\bibrangedash xxiii}
+      \range{pages}{11}
+    \endentry
+    \entry{worldbank2025opencontracting}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {World Bank Publications}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Open Contracting \& Procurement Transparency Report}
+      \field{type}{techreport}
+      \field{year}{2025}
+    \endentry
+    \entry{zahra2021fraud}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=92cd161c4f3a62875a7fe88cddbab765}{%
+           family={Zahra},
+           familyi={Z\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=310e70203db3f64cb9432b68942d7a09}{%
+           family={Abdullah},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a3e6d77e02c7db7da6c413de2c9026f}{%
+           family={Kahar},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=476d8e3178a43d7885724fe2e382814e}{%
+           family={Din},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3260b6ed1cf005e46725ec7e2544fbc4}{%
+           family={Nurfalah},
+           familyi={N\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{73f5c53020830c2a3c339464d8c37169}
+      \strng{fullhash}{7b14f6b88ecbe23dd3f4f845de7425ed}
+      \strng{fullhashraw}{7b14f6b88ecbe23dd3f4f845de7425ed}
+      \strng{bibnamehash}{7b14f6b88ecbe23dd3f4f845de7425ed}
+      \strng{authorbibnamehash}{7b14f6b88ecbe23dd3f4f845de7425ed}
+      \strng{authornamehash}{73f5c53020830c2a3c339464d8c37169}
+      \strng{authorfullhash}{7b14f6b88ecbe23dd3f4f845de7425ed}
+      \strng{authorfullhashraw}{7b14f6b88ecbe23dd3f4f845de7425ed}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{The Journal of Asian Finance, Economics and Business}
+      \field{number}{2}
+      \field{title}{Preventing procurement fraud in e-purchasing for Indonesian local governments}
+      \field{volume}{8}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{505\bibrangedash 511}
+      \range{pages}{7}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

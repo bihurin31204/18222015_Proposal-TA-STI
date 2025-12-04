@@ -1,0 +1,137 @@
+% ==========================================
+% BAB I PENDAHULUAN
+% ==========================================
+\chapter{PENDAHULUAN}
+\label{chap:pendahuluan}
+Bab ini menjelaskan gambaran awal dari penelitian yang dilakukan. Fokus penelitian adalah pada implementasi Sistem Pengadaan Digital sebagai bagian dari transformasi pengadaan terintegrasi di PT Kilang Pertamina Internasional (PT KPI), yang bertujuan untuk meningkatkan efektivitas proses pengadaan barang dan jasa. Pembahasan diawali dengan latar belakang yang memaparkan alasan pentingnya digitalisasi pengadaan di PT KPI. Setelah itu, disusun rumusan masalah untuk menjelaskan secara jelas permasalahan yang menjadi dasar penelitian. Berdasarkan rumusan tersebut, ditetapkan tujuan penelitian yang menunjukkan apa yang ingin dicapai. Agar pembahasan lebih terarah, dicantumkan pula batasan masalah yang menjelaskan ruang lingkup penelitian. Terakhir, dijelaskan secara singkat metodologi penelitian sebagai gambaran cara atau pendekatan yang digunakan dalam menyelesaikan penelitian ini.
+
+% --- Latar Belakang ---
+\section{Latar Belakang}
+Pengadaan Digital adalah penggunaan berbagai alat digital canggih untuk meningkatkan, mengotomatisasi, dan menyederhanakan aktivitas pengadaan dari tahap sumber hingga pembayaran. Dibandingkan dengan proses pengadaan tradisional yang masih berbasis kertas dan berjalan secara terpisah, Pengadaan Digital menghadirkan platform e-sourcing, e-catalogue, sistem manajemen kontrak, analitik data, serta kecerdasan buatan (AI) untuk mengotomatisasi alur kerja dan memberikan visibilitas secara real time. Dalam manajemen rantai pasok (SCM), pendekatan ini dikenal sebagai “Procurement 4.0”, yaitu penerapan prinsip Industry 4.0 melalui pemanfaatan big data, Internet of Things (IoT), komputasi awan, Robotic Process Automation (RPA), serta Machine Learning di seluruh proses pengadaan. Teknologi-teknologi tersebut memungkinkan proses pengadaan menjadi lebih efisien, cepat, dan berbasis data \autocite{althabatah2023industry4,vaka2024procurement4}.
+
+Perkembangan teknologi inilah yang kemudian mendorong perubahan signifikan dalam cara organisasi mengelola proses pengadaannya. Sejalan dengan kemajuan tersebut, penerapan analitik berbasis AI kini dapat memprediksi gangguan pasokan dan mengotomatisasi keputusan sourcing, sementara sensor IoT dan teknologi blockchain menghadirkan transparansi serta keterlacakan end-to-end dalam rantai pasok \autocite{accenture2022energy}. Dengan meningkatnya kemampuan teknologi, peran pengadaan modern pun berubah, tidak lagi berfokus pada pengurangan biaya semata, tetapi juga pada keberlanjutan, manajemen risiko, dan inovasi jaringan pemasok. Hal ini membuat banyak perusahaan minyak dan gas mulai mentransformasikan fungsi pengadaannya menjadi lebih cerdas dan berbasis data, menuju apa yang disebut Accenture sebagai “future ready procurement”, yakni pengadaan yang lebih lincah dan tangguh dalam menghadapi dinamika pasar global yang tidak pasti. Potensi manfaatnya juga sangat besar; analisis terbaru memperkirakan bahwa pengadaan digital di industri minyak dan gas dapat menghasilkan nilai hingga puluhan miliar dolar, atau sekitar 7 persen peningkatan pendapatan operasional pada pertengahan 2020-an. Sebagaimana ditunjukkan pada Gambar 1.1, organisasi yang telah menerapkan platform pengadaan digital melaporkan peningkatan efisiensi operasional, visibilitas, dan kolaborasi dengan pemasok hingga 30–50 persen \autocite{deloitte2023cpo}.
+
+\begin{figure}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+	\centering
+  \captionsetup{justification=centering}
+    	\includegraphics[width=0.7\textwidth]{image/grafik procurement technology.png}
+	\caption{Estimasi Peningkatan Kinerja Teknologi Pengadaan Digital \autocite{deloitte2023cpo}}
+	\label{gambar:Teknologi-Digital-Procurement}
+\end{figure}
+
+Berdasarkan survei Chief Procurement Officer (CPO) oleh Deloitte tahun 2023, “kekuatan digitalisasi” telah diakui secara luas oleh para pemimpin pengadaan di sektor energi \autocite{deloitte2023cpo}. Landasan teoritis dari dorongan digital ini dapat dijelaskan melalui perspektif Resource Based View (RBV) dalam manajemen strategis, yang menyatakan bahwa perusahaan dapat mencapai keunggulan kompetitif berkelanjutan dengan mengembangkan kapabilitas teknologi dan proses unik yang sulit ditiru oleh pesaing \autocite{bienhaus2018procurement4}. 
+
+Dalam konteks industri minyak dan gas, kebutuhan akan kapabilitas dalam mencapai keberlanjutan tersebut menjadi semakin penting, salah satu contohnya adalah yang diterapkan oleh perusahaan migas global ADNOC yang mengintegrasikan prinsip responsible sourcing dan penggunaan sistem pengadaan digital untuk menciptakan nilai ekonomi, sosial, dan lingkungan jangka panjang \autocite{adnoc2020sustain}. Fungsi pengadaan digital disini memiliki posisi strategis karena terkait keberlanjutan operasi, pemenuhan kepatuhan, serta manajemen risiko rantai pasok. OECD menempatkan pengadaan digital sebagai elemen inti digital government yang memungkinkan orkestrasi proses lintas fungsi, peningkatan kualitas layanan, dan adaptasi terhadap disrupsi rantai pasok \autocite{davis1989tam}.
+
+Kompleksitas proses pengadaan di perusahaan migas menuntut ketersediaan sistem informasi yang handal dan terintegrasi. Berbagai studi juga menegaskan bahwa inefisiensi pengadaan, terutama yang disebabkan oleh keterputusan proses dan kurangnya otomatisasi, merupakan persoalan umum di industri minyak dan gas \autocite{ogbu2024ariba}.  Namun, literatur menunjukkan bahwa banyak organisasi masih menghadapi hambatan mendasar seperti fragmentasi aplikasi, ketidakselarasan data, keterbatasan visibilitas, dan proses manual yang memanjangkan waktu siklus \autocite{fawcett2008scm, accenture2022energy}. 
+
+Pada perspektif strategis, implementasi Pengadaan Digital selaras dengan Resource-Based View (RBV) yang menekankan pentingnya kapabilitas teknologi sebagai sumber keunggulan kompetitif yang sulit ditiru \autocite{defeo2004juran}. Studi lain menunjukkan bahwa digitalisasi meningkatkan traceability, sehingga memperkuat hubungan pembeli–pemasok dan memberikan nilai strategis bagi organisasi \autocite{alabdali2022digital}. Namun, keberhasilan implementasi tidak hanya bergantung pada teknologi, melainkan juga kesiapan organisasi. Risiko seperti resistensi pengguna, kompleksitas integrasi dengan SAP dan iVendor, kesalahan migrasi data, keterbatasan sumber daya, serta potensi gangguan operasional diidentifikasi sebagai isu penting \autocite{appelbaum2012kotter,bag2020bda}. Literatur transformasi digital menunjukkan bahwa perubahan sering gagal bukan karena teknologinya, tetapi karena manajemen perubahan yang tidak terstruktur.  
+
+Kondisi tersebut tercermin pada keadaan eksisting PT KPI, yang sebelum transformasi memiliki sebanyak 26 aplikasi pengadaan yang tersebar di berbagai Refinery Unit (RU). Setiap RU menjalankan aplikasi berbeda untuk aktivitas serupa, sehingga menimbulkan duplikasi, perbedaan standar, biaya pemeliharaan yang tinggi, serta tantangan saat audit dan konsolidasi data. Selain itu, integrasi dengan sistem holding masih terbatas sehingga rantai proses belum membentuk alur digital yang end-to-end. Hal ini sejalan dengan temuan internasional bahwa fragmentasi sistem mengurangi efisiensi lintas unit dan menghambat transparansi proses pengadaan \autocite{hallikas2021data,azadegan2010benchmark}.
+
+Berdasarkan uraian mengenai kompleksitas dan usulan terkait proses pengadaan di industri minyak dan gas serta tantangan pada sistem yang terfragmentasi tersebut, terdapat urgensi yang kuat bagi PT KPI untuk mengimplementasikan Sistem Pengadaan Digital sebagai upaya meningkatkan efektivitas proses pengadaan. Fragmentasi aplikasi, rendahnya visibilitas end-to-end, duplikasi dokumen, serta lamanya alur persetujuan diidentifikasi sebagai faktor signifikan yang menghambat kinerja pengadaan dan memperbesar risiko operasional. Kondisi ini menunjukkan bahwa perbaikan sistem tidak dapat dicapai melalui optimalisasi proses manual, tetapi membutuhkan pendekatan digital yang terintegrasi.  Pendekatan digital yang terintegrasi mendukung prinsip Procurement 4.0, seperti pemanfaatan analitik, IoT, dan teknologi berbasis data untuk meningkatkan efisiensi dan keamanan rantai pasok \autocite{althabatah2023industry4,vaka2024procurement4}.
+
+Sejalan dengan hal tersebut, PT KPI melakukan transformasi yang relevan terhadap tren global dalam tata kelola pengadaan. PT KPI melakukan transformasi secara terstruktur melalui roadmap empat fase: perencanaan analisis, pengembangan inti, implementasi penyesuaian, serta evaluasi berkelanjutan. Pendekatan ini konsisten dengan literatur yang menekankan perlunya governance, standarisasi proses, konsolidasi data, kesiapan infrastruktur, dan mekanisme pemantauan serta evaluasi setiap tahap implementasi \autocite{mckinsey2023digitization,mishra2007internet}.  Selain itu juga, Integrasi antar modul PT KPI diharapkan mampu membangun kapabilitas organisasi melalui standarisasi proses, sentralisasi data, dan interoperabilitas sistem. Dalam menunjang hal tersebut, PT KPI menyiapkan mitigasi seperti pelatihan komprehensif, dokumentasi proses, uji coba bertahap, backup dan uji migrasi, serta dukungan kuat dari manajemen, yang sejalan dengan rekomendasi model perubahan Kotter \autocite{appelbaum2012kotter}.
+
+Setelah integrasi antar modul telah sesuai capaian yang diharapkan, fragmentasi sistem dan kebutuhan akan proses yang lebih efisien menjadi tujuan lanjutan dalam mengoptimalkan perencanaan sistem digitalisasi tersebut, PT KPI mengambil langkah inisiasi dalam membuat Aplikasi Pengadaan Digital yang terdiri atas modul-modul terintegrasi, yaitu DP3 Online, Monitoring Pengadaan/Digimon, Contract Online, PPL Online, Inventory and Warehouse, serta Analytics and Reporting. Aplikasi ini dirancang untuk menghilangkan duplikasi aplikasi, menyederhanakan proses lintas fungsi, menstandarisasi dokumen, memusatkan alur persetujuan, serta meningkatkan akurasi data. Integrasi dengan SAP dan iVendor memastikan konsistensi dengan sistem holding sehingga proses pengadaan mengalir secara end-to-end, dengan tujuan strategis berupa peningkatan efektivitas proses, efisiensi biaya melalui konsolidasi sistem, visibilitas real-time, serta penguatan kepatuhan. 
+
+Manfaat yang ditargetkan PT KPI konsisten dengan berbagai studi internasional. Pengadaan Digital terbukti mempercepat siklus pengadaan, menurunkan biaya transaksi dan biaya pemeliharaan aplikasi, meningkatkan kepatuhan, serta memperkuat audit trail melalui rekam jejak digital \autocite{gunasekaran2008hk,croom2007ukpublic,worldbank2025opencontracting}. 
+
+Pemilihan implementasi pengadaan digital sebagai fokus penelitian ini juga didasarkan pada kapabilitas sistem terintegrasi tersebut dalam menyediakan satu sumber kebenaran data untuk mendukung pengambilan keputusan strategis di lingkungan operasional yang kompleks. Selain itu, sistem pengadaan digital PT KPI masih berada pada tahap pengembangan, sehingga evaluasi terhadap proses, kesiapan integrasi, serta efektivitas awal menjadi sangat penting untuk memastikan bahwa arah pengembangan selaras dengan kebutuhan operasional perusahaan \autocite{appelbaum2012kotter}. Permasalahan inti yang telah diidentifikasi sebelumnya mulai dari kesiapan organisasi, ketidakterpaduan standar proses antar RU, hingga meningkatnya risiko operasional akibat proses non-terintegrasi menunjukkan bahwa transformasi digital belum sepenuhnya optimal. Observasi eksisting juga mengungkap permasalahan tambahan, yaitu ketidaksesuaian kebutuhan pengguna dengan implementasi awal, yang muncul karena beberapa fitur teknis pada tahap awal pengembangan belum sepenuhnya mendukung kebutuhan aktual, sehingga PT KPI masih harus melakukan peningkatan sistem secara bertahap.
+
+Dengan demikian, kajian terhadap implementasi sistem pengadaan digital di PT KPI menjadi relevan untuk menilai efektivitasnya, memetakan gap implementasi berdasarkan permasalahan, serta memberikan kontribusi praktis bagi penguatan tata kelola dan efisiensi rantai pasok di sektor energi nasional. Selain itu, hasil kajian ini diharapkan mampu menjadi dasar pengambilan keputusan strategis dalam roadmap digitalisasi PT KPI secara berkelanjutan.
+
+% --- Rumusan Masalah ---
+\section{Rumusan Masalah}
+Sistem pengadaan di PT KPI menghadapi berbagai kendala akibat penggunaan proses manual dan banyaknya aplikasi berbeda yang berjalan secara terpisah di tiap Refinery Unit. Fragmentasi sistem ini menyebabkan duplikasi data, lamanya proses persetujuan, rendahnya visibilitas end-to-end, serta tingginya potensi terjadinya ketidaktepatan informasi. Kondisi tersebut berdampak pada meningkatnya biaya operasional, lemahnya pengawasan proses, dan terhambatnya efektivitas pengadaan barang dan jasa di lingkungan perusahaan. Sebagai langkah perbaikan, PT KPI mengimplementasikan sistem pengadaan digital yang dirancang untuk mengintegrasikan seluruh proses pengadaan ke dalam satu platform terpadu guna meningkatkan efisiensi, akurasi, transparansi, dan kepatuhan terhadap standar pengadaan. Namun, implementasi sistem digital ini tidak terlepas dari tantangan seperti kesiapan sumber daya manusia, kebutuhan integrasi dengan sistem holding (SAP dan iVendor), risiko resistensi pengguna, serta efektivitas sistem dalam mendukung peningkatan kinerja pengadaan secara nyata. Dengan demikian, rumusan masalah dalam penelitian ini adalah: Bagaimana kondisi rancangan sistem pengadaan digital PT KPI saat ini dan sejauh mana tingkat kesiapan proses, organisasi, serta infrastruktur pendukung untuk mengimplementasikan sistem tersebut secara efektif?
+
+% \begin{enumerate}
+% \item	Pokok persoalan dari kondisi atau situasi yang ada saat ini. Dengan kata lain, jelaskan kelemahan atau kekurangan dari kondisi, situasi, atau solusi yang dijelaskan pada latar belakang. Ini merupakan pokok rumusan masalah.
+% \item	Elaborasi lebih lanjut urgensi penyelesaian masalah tersebut (mengapa penting untuk diselesaikan dan akibat yang dapat terjadi jika tidak diselesaikan).
+% \item	Usulan singkat terkait dengan solusi yang ditawarkan untuk menyelesaikan persoalan.
+% Penting untuk diperhatikan bahwa persoalan yang dideskripsikan pada subbab ini akan dipertanggungjawabkan di bab Evaluasi (apakah terselesaikan atau tidak).
+% \end{enumerate}
+
+% --- Tujuan ---
+\section{Tujuan}
+Tujuan utama dari penelitian ini adalah untuk menganalisis implementasi Sistem Pengadaan Digital sebagai bagian dari transformasi pengadaan terintegrasi di PT KPI, serta menilai kontribusinya terhadap peningkatan efektivitas proses pengadaan barang dan jasa. Penelitian ini diharapkan dapat memberikan gambaran menyeluruh mengenai sejauh mana implementasi Sistem Pengadaan Digital mampu meningkatkan efektivitas pengadaan di PT KPI serta menyediakan rekomendasi perbaikan berkelanjutan.
+
+% --- Batasan Masalah ---
+\section{Batasan Masalah}
+Batasan masalah dalam penelitian ini adalah sebagai berikut:
+\begin{enumerate}
+\item	Penelitian ini tidak membahas seluruh faktor eksternal yang berpotensi memengaruhi efektivitas pengadaan, seperti kebijakan pemerintah, pasar global, harga komoditas migas, atau perubahan regulasi pengadaan tingkat nasional. Fokus penelitian ditujukan pada proses dan kondisi internal yang berkaitan langsung dengan implementasi pengadaan digital di PT KPI.
+\item	Penelitian ini tidak menilai aspek legal, etis, maupun kebijakan korporasi secara menyeluruh, termasuk detail kontraktual antara PT KPI dan vendor pengembang aplikasi. Analisis dilakukan hanya pada sejauh mana sistem pengadaan digital berkontribusi terhadap peningkatan efektivitas proses pengadaan berdasarkan modul, alur kerja, integrasi, serta penggunaannya di lingkungan PT KPI.
+\item	Penelitian ini tidak mengevaluasi efektivitas setiap modul pengadaan digital secara teknis dan mendalam, seperti aspek pemrograman, arsitektur server, atau keamanan sistem. Fokus penelitian hanya pada fungsi utama modul dalam mendukung efektivitas pengadaan.
+\item	Penelitian ini tidak menilai performa sistem pengadaan digital terhadap seluruh Refinery Unit secara individual, tetapi lebih pada evaluasi umum implementasi sistem secara organisasi berdasarkan dokumen resmi PT KPI, wawancara, dan data pendukung yang tersedia.
+\end{enumerate}
+
+Batasan ini ditetapkan agar penelitian lebih terarah dan fokus pada tujuan utama, yaitu menganalisis implementasi Sistem pengadaan digital sebagai transformasi pengadaan terintegrasi dan mengevaluasi kontribusinya dalam meningkatkan efektivitas pengadaan di PT Kilang Pertamina Internasional.
+
+% --- Metodologi Pengerjaan TA ---
+\section{Metodologi}
+Metodologi penelitian ini dirancang untuk mendukung penyusunan laporan yang komprehensif mengenai implementasi Sistem Pengadaan Digital terintegrasi di PT KPI. Penelitian ini menggunakan pendekatan kualitatif–deskriptif sebagaimana dijelaskan oleh \textcite{creswell2014design} dan \textcite{sugiyono2019metode}, yang memungkinkan peneliti memahami fenomena secara mendalam berdasarkan kondisi nyata organisasi. Pendekatan ini dipadukan dengan analisis dokumen \textcite{bowen2009document}, studi literatur \textcite{webster2002litreview}, serta evaluasi proses bisnis untuk memastikan hasil penelitian yang akurat, sistematis, dan relevan dengan konteks operasional PT KPI. Berikut tahapan metodologi yang digunakan:
+\begin{enumerate}
+\item	Investigasi dan Pengumpulan Fakta
+
+Tahap ini bertujuan untuk mengidentifikasi permasalahan utama dan membangun konteks mengenai kondisi pengadaan di PT KPI sebelum dan sesudah digitalisasi. Langkah-langkah yang dilakukan meliputi:
+
+a. Studi dokumentasi terhadap materi resmi PT KPI, meliputi dokumen Business Objective, Existing Condition, Project Scope, Cost–Benefit Analysis, Risk and Mitigation, Pre-Requisites, dan Roadmap and Planning. 
+
+b. Kajian operasional pengadaan PT KPI berdasarkan informasi organisasi, modul aplikasi yang digunakan (DP3 Online, Contract Online, Digimon, Inventory and Warehouse, Analytics and Reporting), serta integrasinya dengan sistem holding (SAP dan iVendor).
+
+c. Wawancara dengan perwakilan Divisi IT Pertamina yang memiliki tanggung jawab pada pengadaan barang dan jasa. Wawancara ini dilakukan untuk menggali informasi primer terkait proses pengadaan eksisting, tantangan implementasi, kesiapan sistem dan organisasi, serta masukan mengenai efektivitas awal sistem pengadaan digital.
+
+d. Analisis permasalahan inti dengan mengidentifikasi hambatan proses seperti duplikasi aplikasi, keterlambatan approval, ketidakterpaduan data, risiko human error, dan tingginya biaya pemeliharaan yang muncul sebelum implementasi sistem pengadaan digital.
+
+\item	Pencarian, Pengelompokan, dan Seleksi Literatur
+
+Tahap ini bertujuan mengumpulkan referensi akademik dan industri yang relevan untuk mendukung pembahasan pada Bab II. Literatur yang dikaji meliputi teori pengadaan digital, e-procurement, transformasi digital, Procurement 4.0, RBV, serta dinamika pengadaan di sektor minyak dan gas. Langkah-langkah yang dilakukan meliputi:
+
+a. Pencarian literatur melalui platform akademik seperti Google Scholar, ScienceDirect, ResearchGate, DOAJ, serta laporan lembaga internasional seperti Accenture, McKinsey, OECD, dan World Bank.
+
+b. Pengelompokan literatur berdasarkan tema, seperti efektivitas pengadaan digital, integrasi sistem, dynamic capabilities, change management, tantangan implementasi teknologi, serta manfaat digitalisasi dalam meningkatkan kinerja pengadaan.
+
+c. Seleksi literatur untuk memastikan hanya referensi ilmiah yang relevan dan kredibel yang digunakan, serta pencatatan metadata sumber untuk memudahkan penyusunan kajian teoritis.
+
+d. Sintesis literatur untuk membangun kerangka teori, mengidentifikasi gap, serta menyusun landasan konseptual terkait efektivitas sistem pengadaan digital yang akan digunakan dalam analisis penelitian.
+
+\item Data Empiris
+
+Data empiris dalam penelitian ini diperoleh dari dokumen resmi PT KPI yang menjelaskan proses pengadaan, tantangan eksisting, serta perkembangan sistem pengadaan digital yang masih berada pada tahap pengembangan. Data yang dianalisis mencakup:
+
+a. Jumlah aplikasi pengadaan di setiap RU sebelum digitalisasi (26  aplikasi).
+
+b. Modul-modul pengadaan digital yang diterapkan dan fungsinya.
+
+c. Alur pengadaan pada sistem baru dan perbedaannya dengan sistem lama.
+
+d. Informasi terkait efisiensi waktu, penyederhanaan proses, pengurangan duplikasi aplikasi, dan peningkatan visibilitas.
+
+e. Data risiko, mitigasi, serta kebutuhan prasyarat implementasi yang terdapat pada dokumen resmi PT KPI.
+
+Data ini digunakan untuk mengevaluasi dampak sistem pengadaan digital terhadap efektivitas proses pengadaan.
+
+\item Konseptualisasi Model
+
+Tahap ini bertujuan menyusun model analisis sistem pengadaan digital berdasarkan kerangka teoritis. Kerangka ini merujuk pada teori RBV (kapabilitas teknologi sebagai keunggulan kompetitif) dan prinsip Procurement 4.0. Konsep implementasi dievaluasi melalui:
+
+a. Integrasi modul pengadaan digital terhadap alur pengadaan end-to-end.
+
+b. Kesesuaian proses digital dengan prinsip efisiensi, akurasi, traceability, dan kepatuhan.
+
+c. Evaluasi potensi manfaat terhadap efektivitas pengadaan berdasarkan literatur dan dokumen PT KPI.
+
+\item Analisis Implementasi
+
+Analisis implementasi dalam penelitian ini dilakukan dengan menggunakan kerangka Six Sigma melalui pendekatan DMAIC (Define – Measure – Analyze – Improve – Control) sebagai metodologi penelitian utama. Pendekatan DMAIC digunakan untuk menuntun seluruh proses penelitian, mulai dari perumusan masalah, pengumpulan data, analisis akar penyebab, hingga perancangan solusi dan penyusunan mekanisme pengendalian. Pada tahap Define, penelitian menetapkan ruang lingkup, permasalahan inti, serta kebutuhan analisis berdasarkan kondisi pengadaan digital PT KPI. Tahap Measure digunakan untuk mengumpulkan data proses melalui studi dokumen, wawancara, dan observasi untuk memperoleh baseline kinerja dan kondisi eksisting. Selanjutnya, tahap Analyze difokuskan pada penelusuran akar penyebab ketidakefisienan dan gap implementasi sistem. Pada tahap Improve, penelitian merumuskan rancangan solusi terintegrasi berdasarkan hasil analisis. Tahap Control kemudian digunakan untuk menyusun mekanisme kontrol, indikator keberhasilan, dan rencana keberlanjutan implementasi.
+
+\item Identifikasi Hambatan dan Risiko
+
+Pada tahap ini dilakukan analisis mendalam terhadap berbagai hambatan dan risiko yang berpotensi memengaruhi keberhasilan implementasi Sistem Pengadaan Digital di PT KPI. Identifikasi risiko dilakukan berdasarkan dokumen internal PT KPI, hasil wawancara, serta temuan literatur internasional mengenai tantangan transformasi digital. Risiko yang muncul meliputi risiko teknis seperti keterbatasan integrasi dengan SAP dan iVendor, ketidaksesuaian arsitektur sistem, kesalahan migrasi data, serta potensi ketidakstabilan sistem selama tahap uji coba. Selain risiko teknis, ditemukan pula risiko organisasi berupa resistensi pengguna, rendahnya literasi digital, perubahan peran dan alur kerja, serta kesenjangan kapasitas sumber daya manusia yang dapat memengaruhi penerimaan sistem baru. Risiko proses juga menjadi perhatian, termasuk ketergantungan pada proses manual yang masih berjalan paralel, ketidaktepatan standar dokumen antar RU, serta potensi gangguan operasional selama masa transisi. Untuk memastikan bahwa risiko-risiko tersebut dianalisis secara komprehensif, penelitian ini menggunakan model change management, khususnya kerangka \textcite{appelbaum2012kotter}, sebagai acuan dalam menilai kesiapan organisasi terhadap perubahan dan menilai sejauh mana PT KPI telah membangun urgensi perubahan, menciptakan guiding coalition, mengembangkan visi transformasi, serta menyiapkan proses pelatihan, komunikasi, dan mekanisme kontrol. 
+
+\item Sintesis dan Formulasi Temuan
+
+Tahap akhir penelitian menyusun kesimpulan dan rekomendasi berdasarkan seluruh hasil analisis. Temuan penelitian dirumuskan untuk menilai efektivitas implementasi sistem pengadaan digital di PT KPI, mengidentifikasi gap dan area yang masih perlu perbaikan, dan memberikan rekomendasi strategis untuk peningkatan berkelanjutan, termasuk peluang pemanfaatan analitik dan AI di masa depan.
+
+\end{enumerate}
